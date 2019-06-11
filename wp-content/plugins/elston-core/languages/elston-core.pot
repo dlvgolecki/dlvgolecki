@@ -1,0 +1,2274 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Elston Core\n"
+"POT-Creation-Date: 2018-11-03 16:47+0530\n"
+"PO-Revision-Date: 2018-11-03 16:47+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: elston-core.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/custom-post-type.php:22 inc/custom-post-type.php:110
+#: inc/custom-post-type.php:157
+#, php-format
+msgid "%s Post"
+msgstr ""
+
+#: inc/custom-post-type.php:23
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: inc/custom-post-type.php:24 inc/custom-post-type.php:112
+#: inc/custom-post-type.php:159 inc/custom-shortcodes/theme-shortcodes.php:152
+#: inc/custom-shortcodes/theme-shortcodes.php:203
+#: inc/custom-shortcodes/theme-shortcodes.php:524
+msgid "Add New"
+msgstr ""
+
+#: inc/custom-post-type.php:25 inc/custom-post-type.php:113
+#: inc/custom-post-type.php:160
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: inc/custom-post-type.php:26 inc/custom-post-type.php:114
+#: inc/custom-post-type.php:161
+msgid "Edit"
+msgstr ""
+
+#: inc/custom-post-type.php:27 inc/custom-post-type.php:115
+#: inc/custom-post-type.php:162
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/custom-post-type.php:28 inc/custom-post-type.php:116
+#: inc/custom-post-type.php:163
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: inc/custom-post-type.php:29 inc/custom-post-type.php:117
+#: inc/custom-post-type.php:164
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: inc/custom-post-type.php:30 inc/custom-post-type.php:118
+#: inc/custom-post-type.php:165
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: inc/custom-post-type.php:31 inc/custom-post-type.php:119
+#: inc/custom-post-type.php:166
+msgid "Nothing found in the Database."
+msgstr ""
+
+#: inc/custom-post-type.php:32 inc/custom-post-type.php:120
+#: inc/custom-post-type.php:167
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: inc/custom-post-type.php:77
+#, php-format
+msgid "%s Categories"
+msgstr ""
+
+#: inc/custom-post-type.php:78
+#, php-format
+msgid "%s Category"
+msgstr ""
+
+#: inc/custom-post-type.php:79
+#, php-format
+msgid "Search %s Categories"
+msgstr ""
+
+#: inc/custom-post-type.php:80
+#, php-format
+msgid "All %s Categories"
+msgstr ""
+
+#: inc/custom-post-type.php:81
+#, php-format
+msgid "Parent %s Category"
+msgstr ""
+
+#: inc/custom-post-type.php:82
+#, php-format
+msgid "Parent %s Category:"
+msgstr ""
+
+#: inc/custom-post-type.php:83
+#, php-format
+msgid "Edit %s Category"
+msgstr ""
+
+#: inc/custom-post-type.php:84
+#, php-format
+msgid "Update %s Category"
+msgstr ""
+
+#: inc/custom-post-type.php:85
+#, php-format
+msgid "Add New %s Category"
+msgstr ""
+
+#: inc/custom-post-type.php:86
+#, php-format
+msgid "New %s Category Name"
+msgstr ""
+
+#: inc/custom-post-type.php:103
+msgid "Testimonials"
+msgstr ""
+
+#: inc/custom-post-type.php:111 inc/custom-post-type.php:158
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/custom-post-type.php:150
+msgid "Teams"
+msgstr ""
+
+#: inc/custom-post-type.php:199
+msgid "Company"
+msgstr ""
+
+#: inc/custom-post-type.php:249
+#, php-format
+msgid "Show All %s"
+msgstr ""
+
+#: inc/custom-post-type.php:279 inc/custom-post-type.php:342
+#: inc/custom-post-type.php:385 inc/custom-shortcodes/theme-shortcodes.php:189
+#: inc/custom-shortcodes/theme-shortcodes.php:572
+#: visual-composer/shortcodes/about/about-options.php:17
+#: visual-composer/shortcodes/blog/blog-options.php:78
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:17
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:126
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:182
+#: visual-composer/shortcodes/portfolio_image/portfolio_image-options.php:29
+#: visual-composer/shortcodes/service_info/service_info-options.php:17
+#: visual-composer/shortcodes/social_share/social_share-options.php:17
+#: visual-composer/shortcodes/target_info/target_info-options.php:17
+#: visual-composer/shortcodes/team/team-options.php:44
+#: visual-composer/shortcodes/testimonial/testimonial-options.php:46
+#: visual-composer/shortcodes/title_block/title_block-options.php:17
+msgid "Title"
+msgstr ""
+
+#: inc/custom-post-type.php:280 inc/custom-post-type.php:343
+#: inc/custom-post-type.php:386 inc/custom-shortcodes/theme-shortcodes.php:218
+msgid "Image"
+msgstr ""
+
+#: inc/custom-post-type.php:281
+msgid "Categories"
+msgstr ""
+
+#: inc/custom-post-type.php:282
+#: visual-composer/shortcodes/blog/blog-options.php:62
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:105
+#: visual-composer/shortcodes/team/team-options.php:27
+#: visual-composer/shortcodes/testimonial/testimonial-options.php:27
+msgid "Order"
+msgstr ""
+
+#: inc/custom-post-type.php:283 inc/custom-post-type.php:345
+#: inc/custom-post-type.php:388
+#: visual-composer/shortcodes/blog/blog-options.php:54
+#: visual-composer/shortcodes/blog/blog-options.php:79
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:127
+#: visual-composer/shortcodes/team/team-options.php:45
+#: visual-composer/shortcodes/testimonial/testimonial-options.php:47
+msgid "Date"
+msgstr ""
+
+#: inc/custom-post-type.php:341
+#: visual-composer/shortcodes/blog/blog-options.php:76
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:124
+#: visual-composer/shortcodes/team/team-options.php:43
+#: visual-composer/shortcodes/testimonial/testimonial-options.php:45
+msgid "ID"
+msgstr ""
+
+#: inc/custom-post-type.php:344 inc/custom-shortcodes/theme-shortcodes.php:614
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:130
+msgid "Client Name"
+msgstr ""
+
+#: inc/custom-post-type.php:387
+msgid "Job Position"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:15
+msgid "Sidebar Shortcodes"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:21
+#: inc/custom-shortcodes/theme-shortcodes.php:37
+msgid "Email Address"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:27
+#: inc/custom-shortcodes/theme-shortcodes.php:59
+#: inc/custom-shortcodes/theme-shortcodes.php:117
+#: inc/custom-shortcodes/theme-shortcodes.php:168
+#: inc/custom-shortcodes/theme-shortcodes.php:209
+#: inc/custom-shortcodes/theme-shortcodes.php:286
+#: inc/custom-shortcodes/theme-shortcodes.php:406
+#: inc/custom-shortcodes/theme-shortcodes.php:484
+#: inc/custom-shortcodes/theme-shortcodes.php:530
+#: inc/custom-shortcodes/theme-shortcodes.php:602
+msgid "Custom Class"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:32
+msgid "Before Email Address Text"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:42
+msgid "Email Address to Link Up"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:53
+#: inc/custom-shortcodes/theme-shortcodes.php:69
+msgid "Phone No"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:64
+msgid "Before Phone No Text"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:74
+msgid "Phone No to Link Up"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:87
+msgid "Content Shortcodes"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:93
+msgid "Spacer"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:99
+#: visual-composer/shortcodes/gmap/gmap-options.php:94
+msgid "Height"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:112
+msgid "Social Share Icon"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:122
+msgid "Icon Position"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:133
+msgid "Custom Margin Top"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:138
+msgid "Custom Margin Bottom"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:149
+msgid "Useful Links"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:158
+msgid "Column Width"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:160
+msgid "One Column"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:161
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:35
+msgid "Two Column"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:162
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:36
+msgid "Three Column"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:177
+#: inc/custom-shortcodes/theme-shortcodes.php:226
+#: inc/custom-shortcodes/theme-shortcodes.php:271
+#: inc/custom-shortcodes/theme-shortcodes.php:391
+#: visual-composer/shortcodes/about/about-options.php:79
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:46
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:92
+msgid "Link"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:182
+#: inc/custom-shortcodes/theme-shortcodes.php:279
+#: inc/custom-shortcodes/theme-shortcodes.php:399
+#: visual-composer/shortcodes/about/about-options.php:68
+#: visual-composer/shortcodes/button/button-options.php:48
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:35
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:101
+#: visual-composer/shortcodes/social_list_icons/social_list_icons-options.php:40
+msgid "Open New Tab?"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:183
+#: inc/custom-shortcodes/theme-shortcodes.php:280
+#: inc/custom-shortcodes/theme-shortcodes.php:400
+#: visual-composer/shortcodes/about/about-options.php:72
+#: visual-composer/shortcodes/button/button-options.php:52
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:39
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:189
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:105
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:222
+#: visual-composer/shortcodes/social_list_icons/social_list_icons-options.php:44
+msgid "Yes"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:184
+#: inc/custom-shortcodes/theme-shortcodes.php:281
+#: inc/custom-shortcodes/theme-shortcodes.php:401
+#: visual-composer/shortcodes/about/about-options.php:73
+#: visual-composer/shortcodes/button/button-options.php:53
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:40
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:188
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:106
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:223
+#: visual-composer/shortcodes/social_list_icons/social_list_icons-options.php:45
+msgid "No"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:200
+msgid "Simple Image List"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:232
+msgid "Open link to new tab?"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:243
+msgid "Simple Link"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:249
+msgid "Link Style"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:251
+msgid "Link Underline"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:252
+msgid "Link Arrow (Right)"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:253
+msgid "Link Arrow (Left)"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:259
+msgid "Icon"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:266
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:26
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:112
+msgid "Link Text"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:293
+#: inc/custom-shortcodes/theme-shortcodes.php:413
+msgid "Normal Mode"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:298
+#: inc/custom-shortcodes/theme-shortcodes.php:418
+#: inc/custom-shortcodes/theme-shortcodes.php:542
+#: visual-composer/shortcodes/banner/banner-options.php:57
+#: visual-composer/shortcodes/button/button-options.php:85
+msgid "Text Color"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:304
+#: inc/custom-shortcodes/theme-shortcodes.php:424
+#: inc/custom-shortcodes/theme-shortcodes.php:499
+msgid "Border Color"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:312
+#: inc/custom-shortcodes/theme-shortcodes.php:431
+msgid "Hover Mode"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:317
+#: inc/custom-shortcodes/theme-shortcodes.php:436
+#: visual-composer/shortcodes/button/button-options.php:93
+msgid "Text Hover Color"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:323
+#: inc/custom-shortcodes/theme-shortcodes.php:442
+#: visual-composer/shortcodes/button/button-options.php:109
+msgid "Border Hover Color"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:332
+#: inc/custom-shortcodes/theme-shortcodes.php:456
+msgid "Font Sizes"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:337
+#: inc/custom-shortcodes/theme-shortcodes.php:461
+#: inc/custom-shortcodes/theme-shortcodes.php:479
+#: inc/custom-shortcodes/theme-shortcodes.php:556
+#: visual-composer/shortcodes/about/about-options.php:170
+#: visual-composer/shortcodes/button/button-options.php:117
+#: visual-composer/shortcodes/button/button-options.php:127
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:137
+#: visual-composer/shortcodes/gmap/gmap-options.php:210
+msgid "Text Size"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:350
+msgid "Simple Button"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:356
+#: visual-composer/shortcodes/about/about-options.php:101
+#: visual-composer/shortcodes/button/button-options.php:58
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:68
+msgid "Button Type"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:358
+msgid "Button One"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:359
+msgid "Button Two"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:366
+#: visual-composer/shortcodes/about/about-options.php:113
+#: visual-composer/shortcodes/button/button-options.php:70
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:80
+msgid "Button Style"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:368
+#: visual-composer/shortcodes/about/about-options.php:117
+#: visual-composer/shortcodes/button/button-options.php:74
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:84
+msgid "Rounded"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:369
+msgid "Squired"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:376
+#: visual-composer/shortcodes/about/about-options.php:88
+#: visual-composer/shortcodes/button/button-options.php:18
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:55
+msgid "Button Size"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:378
+#: visual-composer/shortcodes/about/about-options.php:92
+#: visual-composer/shortcodes/button/button-options.php:22
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:59
+msgid "Medium"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:379
+#: visual-composer/shortcodes/about/about-options.php:93
+#: visual-composer/shortcodes/button/button-options.php:23
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:60
+msgid "Large"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:386
+#: visual-composer/shortcodes/button/button-options.php:31
+msgid "Button Text"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:448
+#: visual-composer/shortcodes/button/button-options.php:101
+msgid "Background Hover Color"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:474
+msgid "Blockquote"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:489
+msgid "Content Color"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:494
+msgid "Left Border Color"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:504
+msgid "Background Color"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:510
+#: inc/import/importer/radium-importer.php:252
+#: visual-composer/shortcodes/gmap/gmap-options.php:198
+msgid "Content"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:521
+msgid "Address Lists"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:537
+msgid "Colors"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:548
+msgid "Title Color"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:562
+msgid "Title Size"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:577
+#: visual-composer/shortcodes/banner/banner-options.php:34
+msgid "Text"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:590
+msgid "Testimonial Shortcodes"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:596
+msgid "Single Testimonial"
+msgstr ""
+
+#: inc/custom-shortcodes/theme-shortcodes.php:608
+msgid "Testimonial Text"
+msgstr ""
+
+#: inc/import/importer/parsers.php:42 inc/import/importer/parsers.php:63
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: inc/import/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: inc/import/importer/parsers.php:67 inc/import/importer/parsers.php:72
+#: inc/import/importer/parsers.php:262 inc/import/importer/parsers.php:451
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:209
+msgid "Import Again"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:213
+#: inc/import/importer/radium-importer.php:227
+msgid "Import Demo Data"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:239
+msgid " - One Click Install"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:240
+msgid "Install recommended plugins first!"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:247
+msgid "Import Type"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:248
+msgid "If you would like to import all or specific content, select here."
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:251
+msgid "All"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:253
+msgid "Widget"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:254
+msgid "Theme Option"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:266
+msgid "Done!"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:272
+msgid "Demo already imported!"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:293
+msgid "Important notes:"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:298
+msgid "Please note, this import process will take time. So, please be patient."
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:299
+msgid ""
+"Please make sure you've installed recommended plugins before you import this "
+"content."
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:300
+msgid ""
+"All images are demo purposes only. Images are not included in this import "
+"content."
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:309
+msgid "Don't Edit Parent Theme Files:"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:312
+msgid ""
+"Don't edit any files from parent theme! Use only a <strong>Child Theme</"
+"strong> files for your customizations!"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:313
+msgid ""
+"If you get future updates from our theme, you'll lose edited customization "
+"from your parent theme."
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:320
+msgid "Need Support?"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:324
+msgid ""
+"Have any doubts regarding this installation or any other issues? Please feel "
+"free to open a ticket in our support center."
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:325
+msgid "Docs"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:326
+msgid "Support"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:327
+msgid "Item Page"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:536
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:593
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:665
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:687
+msgid "Site does not support widget"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:710
+msgid "Widget already exists"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:759
+msgid "Imported"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:762
+msgid "Imported to Inactive"
+msgstr ""
+
+#: inc/import/importer/radium-importer.php:769
+msgid "No Title"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:134
+#: inc/import/importer/wordpress-importer.php:143
+#: inc/import/importer/wordpress-importer.php:194
+#: inc/import/importer/wordpress-importer.php:198
+#: inc/import/importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:423
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:461
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:505
+#: inc/import/importer/wordpress-importer.php:631
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:527
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:548
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:603
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:749
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:756
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:819
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:832
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:876
+msgid "Remote server did not respond"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:882
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:889
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:894
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:900
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:999
+msgid "Import WordPress"
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:1006
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:1021
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: inc/import/importer/wordpress-importer.php:1022
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: visual-composer/lib/lib.php:10
+msgid "by VictorThemes"
+msgstr ""
+
+#: visual-composer/lib/lib.php:17
+msgid "Extra class name"
+msgstr ""
+
+#: visual-composer/lib/lib.php:20
+msgid "Custom styled class name."
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:18
+msgid "Portfolio - Masonry"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:30
+msgid "Portfolio - Wide"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:42
+msgid "Portfolio - Home"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:54
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail.php:52
+msgid "Services"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:71
+msgid "Journal Modern"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:83
+msgid "Contact"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:103
+msgid "About Studio"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:120
+msgid "About Me"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:136
+msgid "Single Portfolio - Right Full Width"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:150
+msgid "Single Portfolio - Left Full Width"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:164
+msgid "Single Portfolio - Right Boxed"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:178
+msgid "Single Portfolio - Left Boxed"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:192
+msgid "Single Portfolio - Full Width - Six"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:214
+msgid "Single Portfolio - Full Width - Five"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:232
+msgid "Single Portfolio - Full Width - Four"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:244
+msgid "Single Portfolio - Full Width - Three"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:262
+msgid "Single Portfolio - Full Width - Two"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:274
+msgid "Single Portfolio - Full Width - One"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:290
+msgid "Single Post One"
+msgstr ""
+
+#: visual-composer/pre_pages/pre-pages.php:322
+msgid "Single Post Two"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:9
+msgid "About"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:11
+msgid "About Information Area/Block"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:20
+msgid "About title."
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:24
+msgid "Sub Title"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:27
+msgid "About Subtitle."
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:31
+msgid "Upload Image"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:34
+msgid "Upload HD Image more than : 930x1050 size."
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:39
+msgid "Image on Left/Right?"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:41
+msgid "Select Image Position"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:42
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:236
+#: visual-composer/shortcodes/social_share/social_share-options.php:29
+msgid "Left"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:43
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:237
+#: visual-composer/shortcodes/social_share/social_share-options.php:30
+msgid "Right"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:47
+msgid "Select about image postion on left or right"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:52
+msgid "About Details Information"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:59
+msgid "Button Link Text"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:62
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:29
+msgid "Enter button text."
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:82
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:49
+msgid "Enter link of button."
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:90
+#: visual-composer/shortcodes/about/about-options.php:103
+#: visual-composer/shortcodes/button/button-options.php:60
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:57
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:70
+msgid "Select Button Type"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:91
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:58
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:202
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:51
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:234
+#: visual-composer/shortcodes/social_share/social_share-options.php:27
+#: visual-composer/vc-setup.php:37
+msgid "Default"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:104
+#: visual-composer/shortcodes/button/button-options.php:61
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:71
+msgid "Button With Background"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:105
+#: visual-composer/shortcodes/button/button-options.php:62
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:72
+msgid "Button With Border"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:115
+#: visual-composer/shortcodes/button/button-options.php:72
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:82
+msgid "Select Button Style"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:116
+#: visual-composer/shortcodes/button/button-options.php:73
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:83
+msgid "Squred"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:128
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:95
+msgid "Button Text Color"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:131
+#: visual-composer/shortcodes/about/about-options.php:139
+#: visual-composer/shortcodes/about/about-options.php:147
+#: visual-composer/shortcodes/about/about-options.php:155
+#: visual-composer/shortcodes/about/about-options.php:164
+#: visual-composer/shortcodes/banner/banner-options.php:60
+#: visual-composer/shortcodes/button/button-options.php:88
+#: visual-composer/shortcodes/button/button-options.php:96
+#: visual-composer/shortcodes/button/button-options.php:104
+#: visual-composer/shortcodes/button/button-options.php:112
+#: visual-composer/shortcodes/button/button-options.php:121
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:98
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:106
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:114
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:122
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:131
+#: visual-composer/shortcodes/social_list_icons/social_list_icons-options.php:55
+#: visual-composer/shortcodes/social_list_icons/social_list_icons-options.php:63
+msgid "Styling"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:136
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:103
+msgid "Button Text Hover Color"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:144
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:111
+msgid "Button Background Hover Color"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:152
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:119
+msgid "Button Border Hover Color"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:160
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:127
+msgid "Button Text Size"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:163
+#: visual-composer/shortcodes/button/button-options.php:120
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:130
+msgid "Enter button text font size. [Eg: 14px]"
+msgstr ""
+
+#: visual-composer/shortcodes/about/about-options.php:172
+#: visual-composer/shortcodes/button/button-options.php:129
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:139
+#: visual-composer/shortcodes/gmap/gmap-options.php:212
+msgid "Design"
+msgstr ""
+
+#: visual-composer/shortcodes/banner/banner-options.php:9
+msgid "Banner"
+msgstr ""
+
+#: visual-composer/shortcodes/banner/banner-options.php:11
+msgid "Banner Area/Block"
+msgstr ""
+
+#: visual-composer/shortcodes/banner/banner-options.php:18
+msgid "Banner Block Type"
+msgstr ""
+
+#: visual-composer/shortcodes/banner/banner-options.php:20
+#: visual-composer/shortcodes/gmap/gmap-options.php:64
+#: visual-composer/shortcodes/service_info/service_info-options.php:25
+#: visual-composer/shortcodes/service_info/service_info-options.php:27
+msgid "Select Style"
+msgstr ""
+
+#: visual-composer/shortcodes/banner/banner-options.php:21
+msgid "Fixed"
+msgstr ""
+
+#: visual-composer/shortcodes/banner/banner-options.php:22
+msgid "Parallax"
+msgstr ""
+
+#: visual-composer/shortcodes/banner/banner-options.php:26
+#: visual-composer/shortcodes/service_info/service_info-options.php:33
+msgid "Select banner block style type ."
+msgstr ""
+
+#: visual-composer/shortcodes/banner/banner-options.php:31
+msgid "Parallax Style"
+msgstr ""
+
+#: visual-composer/shortcodes/banner/banner-options.php:33
+msgid "Select Parallax Style"
+msgstr ""
+
+#: visual-composer/shortcodes/banner/banner-options.php:35
+msgid "Section"
+msgstr ""
+
+#: visual-composer/shortcodes/banner/banner-options.php:38
+msgid "Select parallax style type ."
+msgstr ""
+
+#: visual-composer/shortcodes/banner/banner-options.php:49
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:87
+msgid "Description."
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:9
+msgid "Blog"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:11
+msgid "Blog Styles"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:18
+msgid "Blog Style"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:20
+msgid "Select Blog Style"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:21
+msgid "Grid"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:22
+msgid "Modern"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:26
+msgid "Select your blog style."
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:30
+#: visual-composer/shortcodes/clients/clients-options.php:26
+#: visual-composer/shortcodes/team/team-options.php:18
+msgid "Limit"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:34
+#: visual-composer/shortcodes/clients/clients-options.php:29
+#: visual-composer/shortcodes/team/team-options.php:22
+msgid "Enter the number of items to show."
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:39
+msgid "Meta's to Hide"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:46
+msgid "Category"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:64
+msgid "Select Blog Order"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:65
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:108
+#: visual-composer/shortcodes/team/team-options.php:30
+#: visual-composer/shortcodes/testimonial/testimonial-options.php:30
+msgid "Asending"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:66
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:109
+#: visual-composer/shortcodes/team/team-options.php:31
+#: visual-composer/shortcodes/testimonial/testimonial-options.php:31
+msgid "Desending"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:73
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:121
+#: visual-composer/shortcodes/team/team-options.php:40
+#: visual-composer/shortcodes/testimonial/testimonial-options.php:42
+msgid "Order By"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:75
+#: visual-composer/shortcodes/blog/blog-options.php:107
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:123
+#: visual-composer/shortcodes/team/team-options.php:42
+#: visual-composer/shortcodes/testimonial/testimonial-options.php:44
+msgid "None"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:77
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:125
+msgid "Author"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:86
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:138
+msgid "Show only certain categories?"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:89
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:141
+msgid "Enter category SLUGS (comma separated) you want to display."
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:93
+msgid "Read More Text"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:96
+msgid "Enter read more button text."
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:104
+msgid "Pagination"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:108
+msgid "Number Pagination"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:109
+msgid "Ajax Pagination"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:114
+msgid "Pagination More Text"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:117
+msgid "Enter ajax pagination button/link text."
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:125
+msgid "Loading Text"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:128
+msgid "Enter ajax pagination text while loading data."
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:137
+msgid "End Text"
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog-options.php:140
+msgid "Enter ajax pagination text when no data remains."
+msgstr ""
+
+#: visual-composer/shortcodes/blog/blog.php:43
+msgid "Read More"
+msgstr ""
+
+#: visual-composer/shortcodes/button/button-options.php:9
+msgid "Button"
+msgstr ""
+
+#: visual-composer/shortcodes/button/button-options.php:11
+msgid "Button Styles"
+msgstr ""
+
+#: visual-composer/shortcodes/button/button-options.php:20
+msgid "Select Button Size"
+msgstr ""
+
+#: visual-composer/shortcodes/button/button-options.php:21
+msgid "Small"
+msgstr ""
+
+#: visual-composer/shortcodes/button/button-options.php:27
+msgid "Select button size"
+msgstr ""
+
+#: visual-composer/shortcodes/button/button-options.php:35
+msgid "Enter your button text."
+msgstr ""
+
+#: visual-composer/shortcodes/button/button-options.php:40
+msgid "Button Link"
+msgstr ""
+
+#: visual-composer/shortcodes/button/button-options.php:43
+msgid "Enter your button link."
+msgstr ""
+
+#: visual-composer/shortcodes/clients/clients-options.php:9
+msgid "Clients"
+msgstr ""
+
+#: visual-composer/shortcodes/clients/clients-options.php:11
+msgid "Clients Image Slider Area/Block"
+msgstr ""
+
+#: visual-composer/shortcodes/clients/clients-options.php:18
+msgid "Clients Images"
+msgstr ""
+
+#: visual-composer/shortcodes/clients/clients-options.php:21
+msgid "Upload Clients Images."
+msgstr ""
+
+#: visual-composer/shortcodes/clients/clients-options.php:35
+msgid "Item Loop?"
+msgstr ""
+
+#: visual-composer/shortcodes/clients/clients-options.php:37
+msgid "False"
+msgstr ""
+
+#: visual-composer/shortcodes/clients/clients-options.php:38
+msgid "True"
+msgstr ""
+
+#: visual-composer/shortcodes/clients/clients-options.php:41
+msgid "True will be repeted items on scroll."
+msgstr ""
+
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:9
+msgid "Contact Banner"
+msgstr ""
+
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:11
+msgid "Contact Banner Area/Block"
+msgstr ""
+
+#: visual-composer/shortcodes/contact_banner/contact_banner-options.php:21
+msgid "Contact banner title."
+msgstr ""
+
+#: visual-composer/shortcodes/contact_list/contact_list-options.php:9
+msgid "Contact List"
+msgstr ""
+
+#: visual-composer/shortcodes/contact_list/contact_list-options.php:11
+msgid "Contact Info Block"
+msgstr ""
+
+#: visual-composer/shortcodes/contact_list/contact_list-options.php:17
+msgid "Title of Contact Info"
+msgstr ""
+
+#: visual-composer/shortcodes/contact_list/contact_list-options.php:24
+msgid "Details Contact Info"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:9
+msgid "Google Map"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:11
+msgid "Google Map Styles"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:18
+msgid "API KEY"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:25
+msgid "Enter Map ID"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:28
+msgid ""
+"Enter google map ID. If you're using this in <strong>Map Tab</strong> "
+"shortcode, enter unique ID for each map tabs. Else leave it as blank. "
+"<strong>Note : This should same as Tab ID in Map Tabs shortcode.</strong>"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:33
+msgid "Enter your Google Map API Key"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:36
+msgid ""
+"New Google Maps usage policy dictates that everyone using the maps should "
+"register for a free API key. <br />Please create a key for \"Google Static "
+"Maps API\" and \"Google Maps Embed API\" using the <a href=\"https://console."
+"developers.google.com/project\" target=\"_blank\">Google Developers Console</"
+"a>.<br /> Or follow this step links : <br /><a href=\"https://console."
+"developers.google.com/flows/enableapi?"
+"apiid=maps_embed_backend&keyType=CLIENT_SIDE&reusekey=true\" target=\"_blank"
+"\">1. Step One</a> <br /><a href=\"https://console.developers.google.com/"
+"flows/enableapi?apiid=static_maps_backend&keyType=CLIENT_SIDE&reusekey=true"
+"\" target=\"_blank\">2. Step Two</a><br /> If you still receive errors, "
+"please check following link : <a href=\"https://churchthemes.com/2016/07/15/"
+"page-didnt-load-google-maps-correctly/\" target=\"_blank\">How to Fix?</a>"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:41
+msgid "Map Settings"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:48
+msgid "Google Map Type"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:50
+msgid "Select Type"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:51
+msgid "ROADMAP"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:52
+msgid "SATELLITE"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:53
+msgid "HYBRID"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:54
+msgid "TERRAIN"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:58
+msgid "Select your google map type."
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:62
+msgid "Google Map Style"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:65
+msgid "Gray Scale"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:66
+msgid "Mid Night"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:67
+msgid "Blue Water"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:68
+msgid "Light Dream"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:69
+msgid "Pale Dawn"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:70
+msgid "Apple Maps-esque"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:71
+msgid "Blue Essence"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:72
+msgid "Unsaturated Browns"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:73
+msgid "Paper"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:74
+msgid "Midnight Commander"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:75
+msgid "Light Monochrome"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:76
+msgid "Flat Map"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:77
+msgid "Retro"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:78
+msgid "becomeadinosaur"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:79
+msgid "Neutral Blue"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:80
+msgid "Subtle Grayscale"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:81
+msgid "Ultra Light with Labels"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:82
+msgid "Shades of Grey"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:86
+msgid "Select your google map style."
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:97
+msgid ""
+"Enter the px value for map height. This will not work if you add this "
+"shortcode into the Map Tab shortcode."
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:102
+msgid "Common Marker"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:105
+msgid "Upload your custom marker."
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:110
+msgid "Zoom"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:113
+msgid "Enter zoom as numeric value. [Eg : 18]"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:118
+msgid "Enable & Disable"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:125
+msgid "Scroll Wheel"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:133
+msgid "Street View Control"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:141
+msgid "Map Type Control"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:151
+msgid "Map Pins"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:159
+msgid "Map Locations"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:166
+msgid "Latitude"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:170
+msgid ""
+"Find Latitude : <a href=\"http://www.latlong.net/\" target=\"_blank"
+"\">latlong.net</a>"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:175
+msgid "Longitude"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:179
+msgid ""
+"Find Longitude : <a href=\"http://www.latlong.net/\" target=\"_blank"
+"\">latlong.net</a>"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:184
+msgid "Custom Marker"
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:186
+msgid ""
+"Upload your unique map marker if your want to differentiate from others."
+msgstr ""
+
+#: visual-composer/shortcodes/gmap/gmap-options.php:191
+msgid "Heading"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:9
+msgid "Portfolio"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:11
+msgid "Portfolio Area/Block"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:18
+msgid "Portfolio Style"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:20
+msgid "Grid (Default)"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:21
+msgid "Grid With Masonry"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:22
+msgid "Wide Full Screen"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:27
+msgid "Select Portfolio Style."
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:32
+msgid "Grid Column"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:34
+msgid "Select Column"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:37
+msgid "Four Column"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:38
+msgid "Five Column"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:51
+msgid "Top Banner Title"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:62
+msgid "Top Banner Sub Title"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:73
+msgid "Banner Link"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:84
+msgid "Banner Link Text"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:95
+msgid "Banner Background Image"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:107
+#: visual-composer/shortcodes/team/team-options.php:29
+#: visual-composer/shortcodes/testimonial/testimonial-options.php:29
+#: visual-composer/shortcodes/testimonial/testimonial-options.php:36
+msgid "Select Order"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:150
+msgid "Select Category To Show Posts In Slider"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:153
+msgid "Selected category posts will be shown in full page slider"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:162
+msgid "Hover Style"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:164
+msgid "Regular"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:165
+msgid "Direction"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:166
+msgid "Direction Inverse"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:167
+msgid "Expand"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:168
+msgid "Replace"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:169
+msgid "Shifting"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:170
+msgid "Sweep"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:174
+msgid "Select Portfolio Hover Style."
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:184
+msgid "Show Pagination?"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:186
+msgid "Enable/Disable Pagination for Portfolio Items."
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:200
+msgid "Pagination Style"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:203
+msgid "Ajax"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:206
+msgid "Select Portfolio Pagination Style."
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:216
+msgid "Show Post"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio-options.php:218
+msgid "Show Max No of Portfolio Items in a Page."
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio/portfolio.php:46
+#: visual-composer/shortcodes/portfolio/portfolio.php:48
+msgid "View case studies"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:9
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:11
+msgid "Portfolio Details"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:18
+msgid "Portfolio Details Block Type"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:20
+msgid "Version One - Text Center Boxed"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:21
+msgid "Version Two - Text Left Boxed"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:22
+msgid "Version Three - Details Sidebar Left"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:23
+msgid "Version Four - Details Sidebar Right"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:24
+msgid "Version Five - Full Width Slider"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:25
+msgid "Version Six - Left Info and Right Content"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:29
+#: visual-composer/shortcodes/portfolio_image/portfolio_image-options.php:25
+msgid "Select Portfolio Details Block Type."
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:34
+msgid "Sidebar Floting Style"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:36
+msgid "Sticky"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:37
+msgid "Floting"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:40
+msgid "Select Sidebar Floting Style."
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:49
+msgid "Portfolio Title"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:52
+msgid "Custom"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:56
+msgid "Select Default or Custom Heading."
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:61
+msgid "Type Text"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:64
+msgid "Enter the text to show."
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:73
+msgid "Sub Heading"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:76
+msgid "Enter sub heading."
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:95
+msgid "Project link."
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:115
+msgid "Enter link text."
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:121
+msgid "Link Before Text"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:124
+msgid "Enter before link text."
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:133
+msgid "Enter client name."
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:143
+msgid "Client Link"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:146
+msgid "Enter client link."
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:156
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail.php:53
+msgid "Year"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:159
+msgid "Enter year Ex: 2016."
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:171
+msgid "Portfolio Detail List"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:188
+msgid "Text One"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:195
+msgid "Text One Link"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:202
+msgid "Text Two"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:209
+msgid "Text Two Link"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:218
+msgid "Social Share Active?"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:232
+#: visual-composer/shortcodes/social_share/social_share-options.php:25
+msgid "Share Alignment"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:235
+#: visual-composer/shortcodes/social_share/social_share-options.php:28
+msgid "Center"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail-options.php:241
+#: visual-composer/shortcodes/social_share/social_share-options.php:34
+msgid "Select Share Alignment."
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_detail/portfolio_detail.php:51
+msgid "Client"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_image/portfolio_image-options.php:9
+#: visual-composer/shortcodes/portfolio_image/portfolio_image-options.php:17
+#: visual-composer/shortcodes/portfolio_image/portfolio_image-options.php:19
+msgid "Portfolio Image"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_image/portfolio_image-options.php:11
+msgid "Portfolio Image Selection"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_image/portfolio_image-options.php:20
+msgid "Portfolio Gallery Image"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_image/portfolio_image-options.php:21
+msgid "Portfolio Image No Wrap"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_image/portfolio_image-options.php:33
+msgid "Image Title."
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_image/portfolio_image-options.php:41
+msgid "Select Image"
+msgstr ""
+
+#: visual-composer/shortcodes/portfolio_image/portfolio_image-options.php:44
+msgid "Upload HD Image."
+msgstr ""
+
+#: visual-composer/shortcodes/service_info/service_info-options.php:9
+msgid "Service Info"
+msgstr ""
+
+#: visual-composer/shortcodes/service_info/service_info-options.php:11
+msgid "Service Info for service grid area"
+msgstr ""
+
+#: visual-composer/shortcodes/service_info/service_info-options.php:21
+msgid "Service Title."
+msgstr ""
+
+#: visual-composer/shortcodes/service_info/service_info-options.php:28
+msgid "Single"
+msgstr ""
+
+#: visual-composer/shortcodes/service_info/service_info-options.php:29
+msgid "Group"
+msgstr ""
+
+#: visual-composer/shortcodes/service_info/service_info-options.php:37
+#: visual-composer/shortcodes/social_list_icons/social_list_icons-options.php:25
+msgid "Select Icon"
+msgstr ""
+
+#: visual-composer/shortcodes/service_info/service_info-options.php:40
+msgid "Select icon if you want."
+msgstr ""
+
+#: visual-composer/shortcodes/service_info/service_info-options.php:44
+#: visual-composer/shortcodes/target_info/target_info-options.php:25
+msgid "Description"
+msgstr ""
+
+#: visual-composer/shortcodes/service_info/service_info-options.php:47
+msgid "Details About the Service."
+msgstr ""
+
+#: visual-composer/shortcodes/social_list_icons/social_list_icons-options.php:9
+msgid "Social Lists"
+msgstr ""
+
+#: visual-composer/shortcodes/social_list_icons/social_list_icons-options.php:11
+msgid "Social List Icons Area/Block"
+msgstr ""
+
+#: visual-composer/shortcodes/social_list_icons/social_list_icons-options.php:18
+msgid "Social Profile Lists"
+msgstr ""
+
+#: visual-composer/shortcodes/social_list_icons/social_list_icons-options.php:31
+msgid "Social Profile Link"
+msgstr ""
+
+#: visual-composer/shortcodes/social_list_icons/social_list_icons-options.php:51
+msgid "Icon Color"
+msgstr ""
+
+#: visual-composer/shortcodes/social_list_icons/social_list_icons-options.php:60
+msgid "Icon Hover Color"
+msgstr ""
+
+#: visual-composer/shortcodes/social_share/social_share-options.php:9
+msgid "Social Share"
+msgstr ""
+
+#: visual-composer/shortcodes/social_share/social_share-options.php:11
+msgid "Social Share Icons Area/Block"
+msgstr ""
+
+#: visual-composer/shortcodes/social_share/social_share-options.php:21
+#: visual-composer/shortcodes/target_info/target_info-options.php:21
+msgid "Social Share Title."
+msgstr ""
+
+#: visual-composer/shortcodes/social_share/social_share.php:16
+#: visual-composer/shortcodes/social_share/social_share.php:18
+msgid "Share"
+msgstr ""
+
+#: visual-composer/shortcodes/tabs/tabs-options.php:15
+msgid "Tabs"
+msgstr ""
+
+#: visual-composer/shortcodes/tabs/tabs-options.php:19
+msgid "Tabs Style"
+msgstr ""
+
+#: visual-composer/shortcodes/tabs/tabs-options.php:24
+msgid "Active Tab"
+msgstr ""
+
+#: visual-composer/shortcodes/tabs/tabs-options.php:26
+msgid "Which tab you want to be active on load. [Eg. 1 or 2 or 3]"
+msgstr ""
+
+#: visual-composer/shortcodes/tabs/tabs-options.php:40
+msgid "Tab"
+msgstr ""
+
+#: visual-composer/shortcodes/tabs/tabs-options.php:49
+msgid "Tab Unique ID"
+msgstr ""
+
+#: visual-composer/shortcodes/tabs/tabs-options.php:54
+msgid "Tab Title"
+msgstr ""
+
+#: visual-composer/shortcodes/tabs/tabs-options.php:59
+msgid "Tab Icon"
+msgstr ""
+
+#: visual-composer/shortcodes/target_info/target_info-options.php:9
+msgid "Target Info"
+msgstr ""
+
+#: visual-composer/shortcodes/target_info/target_info-options.php:11
+msgid "Target Info for Portfolio"
+msgstr ""
+
+#: visual-composer/shortcodes/target_info/target_info-options.php:29
+msgid "Details About the Item."
+msgstr ""
+
+#: visual-composer/shortcodes/team/team-options.php:9
+msgid "Team Member"
+msgstr ""
+
+#: visual-composer/shortcodes/team/team-options.php:11
+msgid "Team Area/Block"
+msgstr ""
+
+#: visual-composer/shortcodes/team/team-options.php:54
+#: visual-composer/shortcodes/testimonial/testimonial-options.php:57
+msgid "Show Member by ID?"
+msgstr ""
+
+#: visual-composer/shortcodes/team/team-options.php:58
+#: visual-composer/shortcodes/testimonial/testimonial-options.php:61
+msgid "Enter comma seperated team member ID to show in a page. Ex: 1,3,5,6"
+msgstr ""
+
+#: visual-composer/shortcodes/testimonial/testimonial-options.php:9
+msgid "Testimonial"
+msgstr ""
+
+#: visual-composer/shortcodes/testimonial/testimonial-options.php:11
+msgid "Testimonial Slider"
+msgstr ""
+
+#: visual-composer/shortcodes/testimonial/testimonial-options.php:17
+msgid "How Much Testimonial will show?"
+msgstr ""
+
+#: visual-composer/shortcodes/testimonial/testimonial-options.php:21
+msgid "Enter number only."
+msgstr ""
+
+#: visual-composer/shortcodes/testimonial/testimonial-options.php:51
+msgid "Select Order By"
+msgstr ""
+
+#: visual-composer/shortcodes/testimonial/testimonial.php:81
+msgid "No Testimonial Found"
+msgstr ""
+
+#: visual-composer/shortcodes/title_block/title_block-options.php:9
+msgid "Title Block"
+msgstr ""
+
+#: visual-composer/shortcodes/title_block/title_block-options.php:11
+msgid "Title Block Area"
+msgstr ""
+
+#: visual-composer/shortcodes/title_block/title_block-options.php:21
+msgid "Text Block Title."
+msgstr ""
+
+#: visual-composer/shortcodes/title_block/title_block-options.php:25
+msgid "Short Description"
+msgstr ""
+
+#: visual-composer/shortcodes/title_block/title_block-options.php:29
+msgid "Text Block Short Description."
+msgstr ""
+
+#: visual-composer/vc-setup.php:38
+msgid "Text Left"
+msgstr ""
+
+#: visual-composer/vc-setup.php:39
+msgid "Text Right"
+msgstr ""
+
+#: visual-composer/vc-setup.php:40
+msgid "Text Center"
+msgstr ""
+
+#: visual-composer/vc-setup.php:42
+msgid "Text Alignment"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Elston Core"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://victorthemes.com/themes/elston"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Plugin to contain shortcodes and custom post types of this theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "VictorThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://victorthemes.com/"
+msgstr ""
