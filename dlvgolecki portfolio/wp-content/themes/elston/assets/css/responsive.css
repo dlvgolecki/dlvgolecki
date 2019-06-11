@@ -1,0 +1,1752 @@
+/**
+ * Elston Responsive Stylings
+*/
+
+/* Desktop Small Size */
+@media screen and (max-width:1600px) {
+  /* About Me Page */
+  .about-text {
+    padding: 6% 10%;
+  }
+  .elstn-heading-wrap .elstn-sub-heading {
+    margin-bottom: 20px;
+  }
+  .about-text p {
+    margin-bottom: 15px;
+  }
+  .contact-button {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width:1345px) {
+  /* Normal */
+  .gallery-version2 div.mfp-auto-cursor div.mfp-content {
+    min-height: 100%;
+  }
+  /* About Me Page */
+  .about-text {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    padding: 5%;
+  }
+  .elstn-heading-wrap h1 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .elstn-heading-wrap h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .elstn-heading-wrap h3 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .elstn-heading-wrap .elstn-sub-heading {
+    margin-bottom: 10px;
+  }
+  .about-text h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .about-text p {
+    margin-bottom: 10px;
+    line-height: 24px !important;
+  }
+  .contact-button {
+    padding-top: 25px;
+  }
+  /* Single Portfolio (7) Page */
+  .elstn-portfolio-detail.version2 .elstn-detail-container {
+    padding-left: 40px;
+  }
+  /* Single Portfolio (8) Page */
+  .elstn-portfolio-detail.version2 #primary .elstn-detail-container {
+    padding-right: 40px;
+  }
+  /* Single Portfolio (9) Page */
+  .elstn-portfolio-detail.version2.version3 .elstn-detail-container {
+    padding-left: 30px;
+  }
+  /* Single Portfolio (10) Page */
+  .elstn-portfolio-detail.version2.version3 #primary .elstn-detail-container {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width:1279px) {
+/* Normal */
+  .elstn-sidebar {
+    left: -320px;
+  }
+  .elstn-wrapper {
+    padding-left: 0;
+  }
+  .elstn-toggle-btn {
+    display: block;
+  }
+  .elstn-wrap-inner.open {
+    left: 320px;
+  }
+  .elstn-sidebar.open.static-width {
+    left: -320px;
+  }
+  .elstn-search-wrap {
+    left: 0;
+  }
+  .search-container {
+    width: 100%;
+  }
+  .elstn-top-banner {
+    height: 550px;
+  }
+  .elstn-wrapper .banner-caption h1 {
+    margin-bottom: 5px;
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .banner-caption {
+    padding: 20px 50px;
+  }
+  .elstn-masonry .item {
+    width: 33.3333%;
+  }
+  .elstn-masonry .item.item-half {
+    width: 33.3333%;
+  }
+  .post-item {
+    width: 100%;
+  }
+  .elstn-more-post .post-container {
+    width: 100%;
+    padding: 50px;
+  }
+  .elstn-more-post .post-item.next-post {
+    border-left: none;
+    border-top: 1px solid #e8e8e8;
+  }
+  .elstn-more-post .post-item.next-post .post-container {
+    padding: 50px;
+  }
+  .elstn-detail-wrap {
+    padding: 20px 0 60px;
+  }
+  .elstn-detail-wrap .elstn-heading-wrap h2 {
+    font-size: 45px;
+  }
+  div.elstn-default-slider div.owl-nav div.owl-prev {
+    left: -30px;
+  }
+  div.elstn-default-slider div.owl-nav div.owl-next {
+    right: -30px;
+  }
+  .elstn-footer {
+    padding: 50px 0;
+  }
+  /* Elston About Me Page CSS */
+  .about-wrapper {
+    height: auto;
+    min-height: 10px;
+  }
+  .about-wrapper .col-md-6 {
+    width: 100%;
+    height: auto;
+  }
+  .about-wrapper .about-picture {
+    min-height: 800px;
+  }
+  .about-wrapper-image,
+  .about-wrapper-image .elston-content-area,
+  .about-wrapper-image .elston-content-area > .vc_row,
+  .about-wrapper-image .elston-content-area > .vc_row > .wpb_column,
+  .about-wrapper-image .elston-content-area > .vc_row > .wpb_column > .vc_column-inner,
+  .about-wrapper-image .elston-content-area > .vc_row > .wpb_column > .vc_column-inner > .wpb_wrapper {height: auto;}
+  /* Elston About Studio Page CSS */
+  .elstn-about-wrap {
+    padding: 80px 0 30px;
+  }
+  .tab-pane {
+    padding: 20px;
+  }
+  .elstn-services {
+    padding: 80px 0 40px;
+  }
+  .elstn-services .row {
+    margin: 0;
+  }
+  .elstn-services .col-md-6 {
+    padding: 0 20px;
+  }
+  .mate-contact-link {
+    top: 25px;
+    left: 25px;
+  }
+  .mate-name {
+    bottom: 25px;
+    left: 25px;
+  }
+  .mate-name span {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .mate-name .clearfix {
+    font-size: 12px;
+  }
+  .elstn-clients {
+    padding: 80px 0;
+  }
+  .elstn-contact-banner {
+    padding: 80px 0 100px;
+  }
+  /* Elston Services Page (2) CSS */
+  .elstn-top-banner.white-color .banner-caption h1 {
+    margin-bottom: 5px;
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .elstn-services.version2 {
+    padding: 80px 0 40px;
+  }
+  .elstn-services.version2 .service-info {
+    padding: 30px;
+  }
+  .elstn-services.version2 .service-info .et-icon {
+    margin-bottom: 20px;
+  }
+  /* Elston Blog Classic Page CSS */
+  .item:last-child .blog-item {
+    margin-bottom: 0;
+  }
+  .blog-item {
+    margin: 0 10px 20px;
+  }
+  .blog-info {
+    padding: 30px 30px 20px;
+  }
+  .elstn-load-more, .elstn-load-more.space2 {
+    padding: 30px 0;
+  }
+  /* Elston Blog Single Page CSS */
+  .elstn-blog-banner {
+    height: 550px;
+  }
+  .elstn-blog-detail {
+    padding-top: 70px;
+  }
+  .comments-section {
+    padding: 70px 0 30px;
+    margin-top: 70px;
+  }
+  .elstn-comments-area .comment-main-area {
+    margin-bottom: 40px;
+  }
+  .elstn-comment-form {
+    padding: 70px 0;
+  }
+  /* Elston Blog Single Page (2) CSS */
+  .elstn-video-wrap {
+    padding: 20px 0 50px;
+  }
+  /* Elston Contact Page CSS */
+  .elstn-contact-wrapper .elstn-top-title {
+    padding: 81px 0 67px;
+  }
+  .elstn-custom-map {
+    height: 450px;
+  }
+  .elstn-contact-info {
+    padding: 80px 0 70px;
+  }
+  /* Elston Single Portfolio (2) Page CSS */
+  .elstn-portfolio-banner {
+    height: 550px;
+  }
+  /* Elston Single Portfolio (3) Page CSS */
+  .elstn-project-wrap {
+    z-index: 10;
+  }
+  .portfolio-title {
+    bottom: 80px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .elstn-project-wrap .portfolio-title {
+    padding: 0 0 14px;
+    text-align: left;
+  }
+  /* Elston Single Portfolio (4) Page CSS */
+  .gallery-version2 div.mfp-auto-cursor div.mfp-content {
+    min-width: 800px;
+    min-height: 600px;
+  }
+  .elstn-portfolio-detail.spacer2 .elstn-detail-wrap {
+    padding-top: 20px;
+  }
+  .elstn-portfolio-detail.spacer2 .elstn-more-project {
+    padding-top: 100px;
+  }
+  .elstn-products-wrap {
+    padding: 40px 0;
+  }
+  .elstn-products-wrap h3 {
+    margin-bottom: 60px;
+  }
+  /* Elston Single Portfolio (5) Page CSS */
+  .elstn-portfolio-detail .target-info .elstn-testimonials {
+    padding: 0;
+  }
+  .elstn-portfolio-detail .target-info .elstn-testimonials .testimonial-owner {
+    padding-top: 0;
+  }
+  .elstn-detail-wrap.version2 {
+    padding: 40px 0 50px;
+  }
+  .elstn-targets {
+    margin-bottom: 40px;
+  }
+  .target-info {
+    padding: 40px;
+  }
+  .target-info p:last-child {
+    margin: 0;
+  }
+  /* Elston Single Portfolio (6) Page CSS */
+  .elstn-detail-wrap.version2.spacer2 {
+    padding-top: 10px;
+  }
+  /* Elston Single Portfolio (7) Page CSS */
+  .sidebar-container {
+    width: 100%;
+  }
+  .elstn-portfolio-detail.version2 .elstn-detail-container {
+    width: 100%;
+    padding-left: 30px;
+  }
+  .elstn-portfolio-detail.version2 .elstn-detail-container .elstn-heading-wrap h2 {
+    margin-bottom: 5px;
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .elstn-portfolio-detail.version2 .elstn-detail-container p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .elstn-portfolio-detail.version2 .elstn-detail-container ul {
+    padding-top: 5px;
+  }
+  .elstn-portfolio-detail.version2 .elstn-detail-container ul li {
+    padding-bottom: 8px;
+  }
+  .elstn-portfolio-detail.version2 .elstn-detail-container .action-link {
+    padding-top: 10px;
+  }
+  .elstn-portfolio-detail.version2 .elstn-share-link {
+    margin-top: 20px;
+  }
+  .elstn-detail-container .elstn-heading-wrap .elstn-sub-heading {
+    margin-bottom: 10px;
+    line-height: normal;
+  }
+  /* Elston Single Portfolio (8) Page CSS */
+  .elstn-portfolio-detail.version2 #primary .elstn-detail-container {
+    padding-right: 30px;
+  }
+  /* Elston Single Portfolio (9) Page CSS */
+  .elstn-portfolio-detail.version2.version3 .elstn-detail-container {
+    padding-right: 30px;
+  }
+  .elstn-portfolio-detail.version2.version3 .theiaStickySidebar {
+    position: static !important;
+  }
+  /* Elston Single Portfolio (10) Page CSS */
+  .elstn-portfolio-detail.version2.version3 #primary .elstn-detail-container {
+    padding: 70px 30px 0;
+  }
+  /* Elston Single Portfolio (13) Page CSS */
+  .elstn-detail-container.version2 {
+    padding: 40px 0;
+  }
+  .elstn-video-wrap.version2 iframe {
+    height: 430px;
+  }
+  .elstn-work-wrap {
+    padding: 40px 0;
+  }
+  .elstn-work-wrap .row {
+    margin: 0 -10px;
+  }
+  .elstn-work-wrap .col-md-4 {
+    padding: 0 15px;
+  }
+  /* Elston Single Portfolio (14) Page CSS */
+  .elstn-detail-wrap.spacer3 {
+    padding-top: 40px;
+  }
+  .elstn-projects-slider {
+    padding: 80px 0 130px;
+    margin-top: 45px;
+  }
+  .elstn-projects-slider .item {
+    padding: 0 15px;
+  }
+  div.elstn-project-slider div.owl-dots {bottom: 64px;}
+  .elstn-portfolio-detail.version2 .container .floatside-left-aligned .elstn-detail-container {padding: 13px 40px 0 20px;}
+  .elstn-portfolio-detail.version2 .container .floatside-left-aligned #primary .elstn-detail-container {padding: 70px 30px 0 30px;}
+  .elstn-portfolio-detail.version2.version3 .floatside-left-aligned .elstn-detail-container {padding: 80px 60px 0 60px;}
+  div.mfp-close,
+  .mfp-img-mobile .mfp-close {
+    position: absolute;
+    right: 28px;
+    top: 30px;
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width:1199px) {
+/* Normal CSS */
+  .wrapper {
+    width: 970px !important;
+  }
+  .container .wrapper {
+    width: auto !important;
+  }
+  /* Elston Services Page (2) CSS */
+  .elstn-services.version2 .col-md-6 {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+  }
+  .elstn-services.version2 .service-item {
+    padding-bottom: 30px;
+  }
+  /* Elston Single Portfolio (5) Page CSS */
+  .target-list {
+    margin-bottom: 30px;
+  }
+  .elstn-targets .col-md-6 {
+    width: 100%;
+    height: auto;
+  }
+  .elstn-portfolio-detail.version2 .container .floatside-right-aligned .elstn-detail-container {padding: 13px 0 0 30px;}
+}
+
+@media screen and (max-width:1023px) {
+  /* Elston Normal CSS */
+  .row {
+    margin: 0 !important;
+  }
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    width: 100%;
+    padding: 0;
+  }
+  .elstn-services {
+    text-align: center;
+  }
+  .elstn-top-title, .elstn-blogs.version2 .elstn-top-title {
+    padding: 60px 30px;
+  }
+  .blog-text {
+    margin-bottom: 15px;
+  }
+  /* Elston About Studio Page CSS */
+  .elstn-services .col-md-6 {
+    padding: 0;
+  }
+  .service-item .pull-left {
+    width: 100%;
+  }
+  .service-info {
+    clear: both;
+    padding: 10px 0 0;
+  }
+  .testimonial-bg {
+    height: 380px;
+  }
+  /* Elston Blog Modern Page CSS */
+  .elstn-blogs.version2 .blog-info {
+    padding: 80px 30px;
+  }
+  /* Elston Blog Single Page CSS */
+  .elstn-blog-detail {
+    padding-top: 40px;
+  }
+  .elstn-blog-detail .blog-name {
+    padding-bottom: 15px;
+    font-size: 24px;
+  }
+  .elstn-blog-detail .theiaStickySidebar {
+    position: static !important;
+  }
+  .elstn-blog-detail h4 {
+    padding: 5px 0;
+  }
+  .elstn-blog-detail h5 {
+    padding: 4px 0;
+  }
+  .elstn-blog-detail img {
+    margin: 15px 0 20px;
+  }
+  .elstn-blog-detail .author-picture img {margin-bottom: 0;}
+  .blog-author {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .share-post ul {
+    padding: 30px 40px;
+  }
+  .blog-quote {
+    margin: 40px 0 40px 40px;
+  }
+  .bullets {
+    padding: 10px 0 15px 40px;
+  }
+  .comments-section {
+    padding: 40px 0 20px;
+    margin-top: 40px;
+  }
+  .elstn-comments-area .comments-title {
+    margin-bottom: 20px;
+  }
+  .elstn-comments-area .comment-wrapper {
+    padding-bottom: 10px;
+  }
+  .elstn-comments-area .comment-main-area {
+    margin-bottom: 30px;
+  }
+  .elstn-comment-form {
+    padding: 40px 0;
+  }
+  .comment-reply-title {
+    margin-bottom: 25px;
+  }
+  /* Elston Blog Single Page (2) CSS */
+  .elstn-blog-detail.version2 .blog-name {
+    padding-bottom: 10px;
+  }
+  .elstn-video-wrap {
+    padding: 10px 0 30px;
+  }
+  .comments-section.no-comments {
+    padding: 40px 0;
+  }
+  /* Elston Contact Page CSS */
+  .elstn-contact-wrapper .elstn-top-title {
+    padding: 60px 30px;
+  }
+  .elstn-custom-map {
+    height: 400px;
+  }
+  .contact-list {
+    float: left;
+    padding-bottom: 20px;
+  }
+  .contact-form h3 {
+    overflow: hidden;
+    clear: both;
+  }
+  .contact-form .col-md-6, .contact-form .col-md-12 {
+    padding: 0 0 20px;
+  }
+  /* Elston Portfolio Wide Page CSS */
+  .animation-arrow {
+    margin-top: 50px;
+  }
+  /* Elston Single Portfolio (1) Page CSS */
+  .elstn-detail-container ul {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  .elstn-detail-container h2 {
+    font-size: 36px;
+  }
+  .deatil-item {
+    padding-bottom: 10px;
+  }
+  .deatil-item h4 {
+    margin-bottom: 5px;
+  }
+  /* Elston Single Portfolio (3) Page CSS */
+  .elstn-project-wrap {
+    padding: 50px;
+  }
+  .elstn-project-wrap .elstn-share-link {
+    position: static;
+  }
+  .details-inner {
+    padding: 25px 0 0;
+    margin-top: 25px;
+    border-left: none;
+    border-top: 1px dashed #aaaaaa;
+  }
+  .details-wrapper p {
+    margin-bottom: 15px;
+  }
+  .details-wrapper .action-link {
+    padding: 25px 0 45px;
+  }
+  /* Elston Single Portfolio (4) Page CSS */
+  .elstn-portfolio-detail.spacer2 .elstn-more-project {
+    padding-top: 60px;
+  }
+  .elstn-products-wrap {
+    padding: 30px 0;
+  }
+  .elstn-products-wrap h3 {
+    margin-bottom: 30px;
+  }
+  .elstn-products-wrap img {
+    margin-bottom: 30px;
+  }
+  /* Elston Single Portfolio (6) Page CSS */
+  .elstn-detail-wrap.version2.spacer2 {
+    padding-top: 10px;
+  }
+  .elstn-gallery-wrap {
+    padding-bottom: 10px;
+  }
+  .elstn-gallery-wrap .col-md-6, .elstn-gallery-wrap .col-md-5 {
+    padding: 0;
+  }
+  .gallery-item {
+    margin-bottom: 30px;
+  }
+  /* Elston Single Portfolio (7) Page CSS */
+  .elstn-portfolio-detail.version2 .elstn-portfolio-picture {
+    padding-bottom: 30px;
+  }
+  .elstn-portfolio-detail.version2 .elstn-detail-container {
+    padding: 0;
+  }
+  .elstn-portfolio-detail.version2 .elstn-share-link {
+    margin-bottom: 0;
+  }
+  .elstn-floting-wrap {
+    margin: 0 !important;
+  }
+  /* Elston Single Portfolio (8) Page CSS */
+  .elstn-portfolio-detail.version2 #primary .elstn-detail-container {
+    padding: 0 0 30px;
+  }
+  /* Elston Single Portfolio (9) Page CSS */
+  .elstn-portfolio-detail.version2.version3 .elstn-more-project {
+    padding-top: 50px;
+  }
+  /* Elston Single Portfolio (13) Page CSS */
+  .elstn-work-wrap .col-md-4 {
+    padding: 0;
+  }
+  .elstn-work-wrap h4 {
+    margin-bottom: 0;
+    line-height: 28px;
+  }
+  .elstn-portfolio-detail.version2.version3 .floatside-left-aligned .elstn-detail-container {padding: 80px 30px 0 40px;}
+}
+
+/* Tab Starting */
+@media screen and (max-width:991px) {
+  /* Elston Normal CSS */
+  .container {
+    padding: 0 10px;
+  }
+  .container .wrapper {
+    padding: 0;
+    margin: 0;
+  }
+  .wrapper {
+    width: 750px !important;
+    padding: 0 10px;
+  }
+  .wrapper.elstn-services-group {padding: 120px 0 65px;}
+  .elstn-wrapper .banner-caption br {
+    display: none;
+  }
+  .elstn-masonry .item {
+    width: 33.3333%;
+  }
+  .elstn-masonry .item.item-half {
+    width: 33.3333%;
+  }
+  .elstn-detail-container {
+    padding: 30px 0 40px;
+  }
+  .elstn-testimonials, .elstn-portfolio-detail .elstn-testimonials {
+    padding: 30px 0 60px;
+  }
+  .elstn-testimonials.testimonial-bg {
+    padding: 40px 0;
+  }
+  .elstn-share-link {
+    margin: 10px 0;
+  }
+  .elstn-more-project {
+    padding: 40px 0;
+  }
+  .elstn-more-project.spacer2 {
+    padding: 40px 0;
+  }
+  .elstn-detail-wrap .elstn-heading-wrap h2 {
+    font-size: 40px;
+  }
+  .elstn-detail-wrap .elstn-heading-wrap span {
+    margin-bottom: 10px;
+    line-height: 26px;
+  }
+  /* Elston About Studio Page CSS */
+  .mate-list {
+    width: 33.3333%;
+  }
+  /* Elston Single Portfolio (1) Page CSS */
+  .elstn-portfolio-detail .elstn-testimonials p {
+    font-size: 16px;
+    line-height: 34px;
+  }
+  .elstn-portfolio-detail .elstn-testimonials .testimonial-owner {
+    padding-top: 10px;
+  }
+  /* Elston Single Portfolio (2) Page CSS */
+  .elstn-share-link.spacer2 {
+    margin-top: 10px;
+  }
+  /* Elston Single Portfolio (4) Page CSS */
+  .gallery-version2 div.mfp-auto-cursor div.mfp-content {
+    min-width: 750px;
+    min-height: 550px;
+  }
+  /* Elston Single Portfolio (5) Page CSS */
+  .elstn-portfolio-detail .target-info .elstn-testimonials p {
+    line-height: 30px;
+  }
+  .elstn-targets {
+    margin-bottom: 10px;
+  }
+  /* Elston Single Portfolio (6) Page CSS */
+  .elstn-gallery-wrap {
+    padding-bottom: 5px;
+  }
+  .gallery-item {
+    margin-bottom: 25px;
+  }
+  /* Elston Single Portfolio (7) Page CSS */
+  .elstn-portfolio-detail.version2 .elstn-more-project {
+    padding-top: 40px;
+  }
+  /* Elston Single Portfolio (14) Page CSS */
+  .elstn-detail-wrap.spacer3 {
+    padding-top: 30px
+  }
+  .elstn-portfolio-detail.version2 .container .floatside-left-aligned .elstn-detail-container {padding: 13px 20px 0 0px;}
+  .target-info {padding: 30px 25px !important;}
+}
+
+@media screen and (max-width:960px) {
+  .elstn-project-wrap {width: 90%;}
+}
+
+@media screen and (max-width:899px) {
+  /* Elston Normal CSS */
+  .elstn-top-title h1 {
+    font-size: 40px;
+  }
+  .elstn-more-project {
+    padding: 30px 0;
+  }
+  .elstn-detail-wrap {
+    padding: 20px 0 25px;
+  }
+  .elstn-detail-wrap .elstn-heading-wrap h2 {
+    font-size: 36px;
+  }
+  div.elstn-default-slider div.owl-nav div.owl-prev {
+    left: -15px;
+  }
+  div.elstn-default-slider div.owl-nav div.owl-next {
+    right: -15px;
+  }
+  /* Elston Contact Page CSS */
+  .elstn-contact-info {
+    padding: 40px 0 20px;
+  }
+  .contact-list {
+    padding-bottom: 15px;
+  }
+  .elstn-custom-map {
+    height: 350px;
+  }
+  /* Elston Services Page (2) CSS */
+  .elstn-services.version2 {
+    padding: 30px 0 0;
+  }
+  .elstn-services.version2 .service-item {
+    padding-bottom: 25px;
+  }
+  /* Elston Single Portfolio (1) Page CSS */
+  .elstn-portfolio-detail {
+    padding-top: 30px;
+  }
+  .elstn-detail-container {
+    padding: 10px 0 20px;
+  }
+  .elstn-detail-container h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .elstn-testimonials, .elstn-portfolio-detail .elstn-testimonials {
+    padding: 10px 0 50px;
+  }
+  /* Elston Single Portfolio (4) Page CSS */
+  .elstn-portfolio-detail.spacer2 .elstn-detail-wrap {
+    padding-top: 0;
+  }
+  .elstn-portfolio-detail.spacer2 .elstn-detail-wrap .elstn-heading-wrap span {
+    margin-bottom: 10px;
+  }
+  .elstn-portfolio-detail.spacer2 .elstn-detail-wrap p {
+    margin-bottom: 20px;
+  }
+  .elstn-portfolio-detail.spacer2 .elstn-more-project {
+    padding-top: 25px;
+  }
+  .elstn-products-wrap {
+    padding-bottom: 0;
+  }
+  /* Elston Single Portfolio (5) Page CSS */
+  .elstn-detail-wrap.version2 {
+    padding: 10px 0 20px;
+  }
+  .elstn-detail-wrap.version2 .elstn-heading-wrap h2 {
+    font-size: 36px;
+  }
+  .elstn-detail-wrap.version2 p {
+    margin-bottom: 20px;
+  }
+  .target-info {
+    padding: 30px;
+  }
+  .target-info h4 {
+    margin-bottom: 10px;
+  }
+  /* Elston Single Portfolio (7) Page CSS */
+  .elstn-portfolio-detail.version2 .elstn-portfolio-picture {
+    padding-bottom: 25px;
+  }
+  .elstn-portfolio-detail.version2 .elstn-more-project {
+    padding-top: 30px;
+  }
+  /* Elston Single Portfolio (8) Page CSS */
+  .elstn-portfolio-detail.version2 #primary .elstn-detail-container {
+    padding-top: 55px;
+  }
+  /* Elston Single Portfolio (9) Page CSS */
+  .elstn-portfolio-detail.version2.version3 .elstn-more-project {
+    padding-top: 30px;
+  }
+  /* Elston Single Portfolio (13) Page CSS */
+  .elstn-detail-container.version2 {
+    padding: 10px 0;
+  }
+  .elstn-work-wrap {
+    padding: 10px 0;
+  }
+  /* Elston Single Portfolio (14) Page CSS */
+  .elstn-detail-wrap.spacer3 {
+    padding-top: 10px
+  }
+  .elstn-projects-slider {
+    padding: 45px 0 115px;
+    margin-top: 30px;
+  }
+  .elstn-projects-slider .item {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .admin-bar .elstn-toggle-btn,
+  .admin-bar .elstn-sidebar {top: 46px;}
+  .admin-bar .portfolio-caption {bottom: 97px;}
+  .elstn-portfolio-detail.version2 .container .floatside-left-aligned .elstn-detail-container {padding: 60px 20px 0 20px;}
+}
+
+@media screen and (max-width:767px) {
+  /* Elston Normal CSS */
+  p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  input.elstn-btn-one[type="submit"] {
+    min-width: 100%;
+  }
+  .container {
+    padding: 0;
+    margin: 0 25px;
+  }
+  .wrapper {
+    width: auto !important;
+    padding: 0;
+    margin: 0 25px;
+  }
+  div.owl-dots {
+    padding-top: 25px;
+  }
+  .sidebar-part1 {
+    padding: 20px;
+  }
+  .logo {
+    padding: 0 0 25px;
+    font-size: 30px;
+  }
+  .search-container input[type="text"] {
+    padding: 10px;
+    font-size: 36px;
+  }
+  .banner-caption {
+    padding: 25px;
+  }
+  .elstn-masonry .item {
+    width: 50%;
+  }
+  .elstn-masonry .item.item-half {
+    width: 50%;
+  }
+  .elstn-top-title, .elstn-blogs.version2 .elstn-top-title {
+    padding: 25px;
+  }
+  .elstn-top-title h1 {
+    margin-bottom: 5px;
+    font-size: 36px;
+    line-height: normal;
+  }
+  .elstn-blogs.version2 .elstn-top-title h1 {
+    margin-bottom: 5px;
+  }
+  .elstn-top-title p, .elstn-blogs.version2 .elstn-top-title p {
+    font-size: 15px;
+  }
+  .elstn-load-more, .elstn-load-more.space2 {
+    padding: 30px 0;
+  }
+  .elstn-video-wrap iframe {
+    height: 300px;
+  }
+  .elstn-testimonials p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  /*.elstn-testimonials p {
+    font-size: 14px;
+    line-height: 30px;
+  }*/
+  .elstn-portfolio-picture {
+    padding-bottom: 25px;
+  }
+  .elstn-detail-container ul li {
+    padding-bottom: 8px;
+  }
+  .elstn-more-project {
+    padding: 25px 0;
+    line-height: 20px;
+  }
+  .elstn-more-project.spacer2 {
+    padding: 30px 0 25px;
+  }
+  .elstn-detail-wrap {
+    padding: 10px 0 20px;
+  }
+  .elstn-detail-wrap .wrapper {
+    margin: 0;
+  }
+  .elstn-detail-wrap .elstn-heading-wrap h2 {
+    font-size: 30px;
+  }
+  .elstn-detail-wrap .elstn-heading-wrap span {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .elstn-detail-wrap p {
+    line-height: 26px;
+  }
+  .elstn-footer {
+    padding: 30px 20px;
+    font-size: 12px;
+  }
+  /* Elston About Me Page CSS */
+  .about-wrapper .about-picture {
+    min-height: 450px;
+  }
+  .about-text {
+    padding: 25px;
+  }
+  /* Elston About Studio Page CSS */
+  .elstn-top-banner {
+    text-align: center;
+  }
+  .elstn-wrapper .banner-caption h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .elstn-wrapper .banner-caption h4 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .elstn-about-wrap {
+    padding: 40px 0 5px;
+  }
+  .elstn-about-wrap .nav-tabs li a {
+    padding: 12px 15px;
+  }
+  .elstn-about-wrap .nav-tabs li.active a:after {
+    bottom: 0;
+  }
+  .tab-pane {
+    padding: 20px 0;
+  }
+  .mate-list {
+    width: 50%;
+  }
+  .elstn-services {
+    padding: 30px 0 5px;
+  }
+  .service-item {
+    padding-bottom: 20px;
+  }
+  .service-info h4 {
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  .service-info p {
+    font-size: 14px;
+  }
+  .testimonial-bg {
+    height: auto;
+    padding: 50px 0;
+  }
+  .testimonial-bg .elstn-table-container, .testimonial-bg .elstn-align-container {
+    display: block;
+  }
+  .elstn-testimonials.testimonial-bg {
+    padding: 30px 0;
+  }
+  div.elstn-testimonials.testimonial-bg div.owl-dots {
+    padding-top: 15px;
+  }
+  .testimonial-owner {
+    padding-top: 5px;
+  }
+  .elstn-clients {
+    padding: 30px 0 25px;
+  }
+  .elstn-contact-banner {
+    padding: 40px 0 45px;
+  }
+  .elstn-contact-banner h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 36px;
+  }
+  /* Elston Blog Classic Page CSS */
+  .blog-info {
+    padding: 25px 25px 20px;
+  }
+  .blog-name {
+    padding-bottom: 10px;
+    line-height: 22px;
+    overflow: hidden;
+  }
+  .blog-info p {
+    font-size: 14px;
+  }
+  .blog-info .clearfix {
+    margin: 0;
+  }
+  /* Elston Blog Modern Page CSS */
+  .elstn-blogs.version2 .blog-info {
+    padding: 50px 30px;
+  }
+  .elstn-blogs.version2 .blog-date {
+    padding: 5px 0;
+    font-size: 14px;
+  }
+  .elstn-blogs.version2 .blog-name {
+    font-size: 22px;
+  }
+  /* Elston Blog Single Page CSS */
+  .elstn-blog-banner {
+    height: 100%;
+  }
+  .elstn-blog-detail {
+    padding-top: 25px;
+  }
+  .elstn-blog-detail h4 {
+    padding: 0;
+  }
+  .elstn-blog-detail .blog-name {
+    padding-bottom: 10px;
+    font-size: 22px;
+  }
+  .blog-author {
+    padding-bottom: 20px;
+  }
+  .blog-text, .bullets ul li {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .bullets {
+    padding: 5px 0 10px 20px;
+  }
+  .bullets ul li::before {
+    top: 8px;
+  }
+  .blog-quote {
+    margin: 30px 0 30px 30px;
+    line-height: 30px;
+  }
+  .bp-bottom-meta {
+    padding-top: 5px;
+  }
+  .comments-section {
+    padding: 25px 0 5px;
+    margin-top: 25px;
+  }
+  .elstn-comments-area .elstn-comments-meta {
+    margin-bottom: 5px;
+  }
+  .elstn-comments-area .comment-area p {
+    margin-bottom: 10px;
+  }
+  .elstn-comments-area .comment-main-area {
+    padding-left: 20px;
+    margin-bottom: 25px;
+  }
+  .elstn-comments-area .comments li .children li {
+    padding-left: 55px;
+  }
+  .elstn-comment-form {
+    padding: 25px 0;
+  }
+  .comment-reply-title {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .elstn-form-textarea, .elstn-form-inputs {
+    padding-bottom: 10px;
+  }
+  .elstn-form-textarea textarea {
+    height: 130px;
+  }
+  .elstn-more-post .post-container, .elstn-more-post .post-item.next-post .post-container {
+    padding: 40px 25px;
+  }
+  .elstn-more-post .post-caption {
+    font-size: 16px;
+  }
+  .elstn-more-post .post-item.ishover .post-caption {
+    padding-left: 25px;
+  }
+  .elstn-more-post .post-item.next-post.ishover .post-caption {
+    padding-right: 25px;
+  }
+  /* Elston Blog Single Page (2) CSS */
+  .elstn-blog-detail.version2 .blog-name {
+    font-size: 22px;
+  }
+  .elstn-blog-detail h4.poppins-font {
+    margin-bottom: 5px;
+    line-height: 28px;
+  }
+  .elstn-blog-detail h5 {
+    padding: 2px 0;
+    margin-bottom: 10px;
+    line-height: 26px;
+  }
+  .elstn-video-wrap {
+    padding: 10px 0 20px;
+  }
+  .comments-section.no-comments {
+    padding: 30px 0;
+  }
+  .comments-section.no-comments p {
+    line-height: 24px;
+  }
+  /* Elston Contact Page CSS */
+  .elstn-contact-wrapper .elstn-top-title {
+    padding: 25px;
+  }
+  .elstn-contact-wrapper .elstn-top-title p {
+    font-size: 15px;
+  }
+  .elstn-custom-map {
+    height: 250px;
+  }
+  .elstn-contact-info {
+    padding: 25px 0 15px;
+  }
+  .contact-form h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .contact-list {
+    width: 100%;
+  }
+  .contact-list:last-child {
+    padding-bottom: 5px;
+  }
+  .contact-list h4 {
+    margin-bottom: 8px;
+  }
+  .contact-form .row {
+    margin: 0;
+  }
+  .contact-form .col-md-6, .contact-form .col-md-12 {
+    padding: 0 0 10px;
+  }
+  .contact-form textarea {
+    height: 130px;
+  }
+  .elstn-wrapper .elstn-social-links {
+    padding: 70px 0;
+  }
+  /* Elston Portfolio Wide Page CSS */
+  .banner-caption a {
+    font-size: 14px;
+  }
+  .animation-arrow {
+    margin-top: 25px;
+  }
+  .animation-arrow a:before {
+    height: 20px;
+  }
+  .animation-arrow a:after {
+    left: 20px;
+    height: 20px;
+  }
+  .elstn-wrapper .portfolio-caption {
+    bottom: 25px;
+    left: 25px;
+  }
+  .admin-bar .elstn-wrapper .portfolio-caption {bottom: 65px;}
+  .portfolio-caption h2 {
+    font-size: 24px;
+  }
+  /* Elston Services Page (2) CSS */
+  .elstn-top-banner.white-color .banner-caption h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .elstn-services.version2 {
+    padding: 25px 0 0;
+  }
+  .elstn-services.version2 .service-item {
+    padding-bottom: 25px;
+  }
+  .elstn-services.version2 .service-info p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  /* Elston Single Portfolio (1) Page CSS */
+  .elstn-portfolio-detail {
+    padding-top: 25px;
+  }
+  .elstn-portfolio-detail .elstn-testimonials p {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .elstn-portfolio-detail .elstn-testimonials .testimonial-owner {
+    padding-top: 5px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .elstn-testimonials, .elstn-portfolio-detail .elstn-testimonials {
+    padding: 10px 0 40px;
+  }
+  .elstn-portfolio-detail .elstn-testimonials .wrapper {
+    margin: 0;
+  }
+  .elstn-detail-container ul {
+    margin: 0;
+    padding-bottom: 5px;
+  }
+  .elstn-detail-container h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .deatil-item {
+    padding-bottom: 5px;
+  }
+  .deatil-item p {
+    line-height: 24px;
+  }
+  div.mfp-img-mobile div.mfp-image-holder {
+    padding: 0;
+  }
+  div.mfp-img-mobile div.mfp-close {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  div.mfp-img-mobile div.mfp-close:active {
+    top: 0;
+  }
+  div.mfp-img-mobile div.mfp-close:before {
+    top: 6px;
+    left: 14px;
+  }
+  div.mfp-img-mobile div.mfp-close:after {
+    top: 6px;
+    right: 14px;
+  }
+  /* Elston Single Portfolio (2) Page CSS */
+  .elstn-portfolio-banner {
+    height: 100%;
+  }
+  /* Elston Single Portfolio (3) Page CSS */
+  .project-controls .action-links {
+    padding: 0;
+  }
+  .elstn-wrap-inner div.elstn-project-slider div.owl-dots {
+    bottom: 100px;
+  }
+  .portfolio-title {
+    padding: 10px 15px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .elstn-project-wrap {
+    padding: 45px 35px 35px;
+  }
+  .elstn-project-wrap .action-arrow {top: 10px;left: 15px;}
+  .portfolio-title {bottom: 120px;}
+  .elstn-project-wrap .portfolio-title {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  .elstn-project-wrap ul li {
+    padding-bottom: 8px;
+  }
+  .details-inner {
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  .details-wrapper .action-link {
+    padding: 20px 0 30px;
+  }
+  .details-wrapper p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .elstn-project-wrap .elstn-share-link {
+    padding-top: 5px;
+  }
+  .action-link {
+    font-size: 14px;
+  }
+  /* Elston Single Portfolio (4) Page CSS */
+  .gallery-version2 div.mfp-auto-cursor div.mfp-content {
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .elstn-portfolio-detail.spacer2 .elstn-detail-wrap p {
+    margin-bottom: 15px;
+  }
+  .elstn-products-wrap {
+    padding-top: 20px;
+  }
+  .elstn-products-wrap h3 {
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  .elstn-products-wrap img {
+    margin-bottom: 25px;
+  }
+  .elstn-portfolio-detail.spacer2 .elstn-more-project {
+    padding-top: 20px;
+  }
+  /* Elston Single Portfolio (5) Page CSS */
+  .elstn-portfolio-detail .target-info .elstn-testimonials p {
+    line-height: 26px;
+  }
+  .elstn-detail-wrap.version2 {
+    padding: 10px 0 15px;
+  }
+  .elstn-detail-wrap.version2 .elstn-heading-wrap h2 {
+    font-size: 30px;
+  }
+  .elstn-detail-wrap.version2 p {
+    margin-bottom: 10px;
+  }
+  .elstn-targets {
+    margin-bottom: 0;
+  }
+  .target-list {
+    margin-bottom: 25px;
+  }
+  .target-info p {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  /* Elston Single Portfolio (6) Page CSS */
+  .elstn-detail-wrap.version2.spacer2 {
+    padding-top: 0;
+  }
+  .elstn-gallery-wrap {
+    padding-bottom: 0;
+  }
+  .gallery-item span {
+    bottom: 25px;
+    left: 25px;
+  }
+  /* Elston Single Portfolio (7) Page CSS */
+  .elstn-portfolio-detail.version2 .elstn-detail-container .elstn-heading-wrap h2 {
+    margin-bottom: 2px;
+  }
+  /* Elston Single Portfolio (8) Page CSS */
+  .elstn-portfolio-detail.version2 #primary .elstn-detail-container {
+    padding: 50px 0 20px;
+  }
+  /* Elston Single Portfolio (9) Page CSS */
+  .elstn-portfolio-detail.version2.version3 .elstn-detail-container {
+    padding: 25px 25px 0;
+  }
+  /* Elston Single Portfolio (10) Page CSS */
+  .elstn-portfolio-detail.version2.version3 #primary .elstn-detail-container {
+    padding: 70px 25px 0;
+  }
+  /* Elston Single Portfolio (13) Page CSS */
+  .elstn-detail-container.version2 {
+    padding: 5px 0 0;
+  }
+  .elstn-video-wrap.version2 iframe {
+    height: 300px;
+  }
+  .elstn-work-wrap {
+    padding: 0 0 20px;
+  }
+  .elstn-work-wrap h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .elstn-work-wrap p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .elstn-detail-container ul {
+    margin: 0;
+    font-size: 13px;
+  }
+  /* Elston Single Portfolio (14) Page CSS */
+  .elstn-projects-slider {
+    padding: 35px 0 85px;
+    margin-top: 25px;
+  }
+  div.elstn-projects-slider div.owl-dots {
+    bottom: -52px;
+  }
+  .elstn-portfolio-detail.version2.version3 .elstn-share-link, .elstn-portfolio-detail.version2 .elstn-share-link {margin: 40px 0;}
+  .elstn-portfolio-detail.version2.version3 .elstn-detail-wrap {padding-top: 60px;}
+  .elstn-portfolio-detail.version2 .container .floatside-right-aligned .elstn-detail-container {padding: 13px 30px 0 30px;}
+}
+
+/* Mobile Starts */
+@media screen and (max-width:599px) {
+  /* Elston Normal CSS */
+  .search-container {
+    padding: 20px;
+  }
+  .search-container input[type="text"] {
+    font-size: 24px;
+  }
+  .search-container span {
+    margin-top: 20px;
+  }
+  .elstn-top-title h1 {
+    font-size: 30px;
+  }
+  .elstn-video-wrap iframe {
+    height: 250px;
+  }
+  .elstn-portfolio-picture {
+    padding-bottom: 15px;
+  }
+  .elstn-more-project {
+    padding-top: 15px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .project-grid a {
+    width: 18px;
+  }
+  .project-grid a span {
+    width: 8px;
+    height: 8px;
+  }
+  .elstn-detail-wrap .elstn-heading-wrap h2 {
+    font-size: 20px;
+  }
+  .elstn-detail-wrap .elstn-heading-wrap span {
+    padding: 3px 0 10px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  /* Elston About Me Page CSS */
+  .elstn-heading-wrap h1, .elstn-heading-wrap h2, .elstn-heading-wrap h3 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .contact-button .elstn-btn {
+    display: block;
+  }
+  /* Elston About Studio Page CSS */
+  .elstn-contact-banner h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  /* Elston Blog Modern Page CSS */
+  .elstn-blogs.version2 .blog-info {
+    padding: 40px 20px;
+  }
+  .elstn-blogs.version2 .blog-name {
+    font-size: 18px;
+  }
+
+  /* Elston Blog Single Page CSS */
+  .elstn-blog-detail .blog-date {
+    padding-bottom: 5px;
+    font-size: 14px;
+  }
+  .elstn-blog-detail .blog-name {
+    padding-bottom: 5px;
+    font-size: 20px;
+  }
+  .elstn-blog-detail h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .blog-author {
+    padding-bottom: 15px;
+  }
+  .blog-text, .bullets ul li {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .bullets ul li:before {
+    top: 7px;
+  }
+  .blog-quote {
+    margin: 25px 0 25px 0;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .elstn-comments-area .comment-image img {
+    width: 60px;
+    height: 60px;
+  }
+  .elstn-comments-area .comment-main-area {
+    padding: 10px 0 0;
+    clear: both;
+  }
+  .elstn-comments-area .comments li .children li {
+    padding-left: 20px;
+  }
+  .elstn-form-inputs > input {
+    width: 100%;
+    margin: 0 0 10px;
+  }
+  .elstn-form-inputs > input:last-child {
+    margin: 0;
+  }
+  .elstn-comments-area .comments-title {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .elstn-form-textarea textarea {
+    min-height: 100px;
+  }
+  /* Elston Blog Single Page (2) CSS */
+  .elstn-blog-detail.version2 .blog-name {
+    font-size: 18px;
+  }
+  .elstn-blog-detail h4.poppins-font {
+    font-size: 18px;
+  }
+  /* Elston Contact Page CSS */
+  .elstn-custom-map {
+    height: 200px;
+  }
+  .contact-form textarea {
+    height: 100px;
+  }
+  .elstn-wrapper .elstn-social-links {
+    padding: 60px 0;
+  }
+  .elstn-wrapper .elstn-social-links a {
+    font-size: 30px;
+    padding: 0 10px;
+  }
+  /* Elston Portfolio Wide Page CSS */
+  .portfolio-caption h2 {
+    font-size: 22px;
+  }
+  /* Elston Services Page (2) CSS */
+  .elstn-top-banner.white-color .banner-caption h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .elstn-top-banner.white-color .banner-caption h4 {
+    line-height: 24px;
+  }
+  /* Elston Single Portfolio (1) Page CSS */
+  .elstn-detail-container h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .elstn-testimonials, .elstn-portfolio-detail .elstn-testimonials {
+    padding: 10px 0 30px;
+  }
+  /* Elston Single Portfolio (4) Page CSS */
+  .elstn-products-wrap h3 {
+    font-size: 18px;
+  }
+  .elstn-portfolio-detail.spacer2 .elstn-detail-wrap p {
+    margin-bottom: 10px;
+  }
+  /* Elston Single Portfolio (5) Page CSS */
+  .elstn-portfolio-detail .target-info .elstn-testimonials p {
+    line-height: 24px;
+  }
+  .elstn-detail-wrap.version2 .elstn-heading-wrap h2 {
+    font-size: 24px;
+  }
+  .target-info {
+    padding: 25px;
+  }
+  /* Elston Single Portfolio (7) Page CSS */
+  .elstn-portfolio-detail.version2 .elstn-detail-container .elstn-heading-wrap h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  /* Elston Single Portfolio (13) Page CSS */
+  .elstn-video-wrap.version2 iframe {
+    height: 250px;
+  }
+  .elstn-detail-container.version2 .action-link span {
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  /* Elston Single Portfolio (14) Page CSS */
+  .elstn-projects-slider {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width:508px) {
+  .elstn-masonry .item,
+  .elstn-masonry .item.item-half {
+    width: 100%;
+  }
+  .blog-item {margin: 0 0 20px;}
+}
+
+@media screen and (max-width:479px) {
+  /* Elston About Studio Page CSS */
+  .mate-list {
+    width: 100%;
+  }
+  /* Elston Services Page (2) CSS */
+  .elstn-services.version2 .service-info {
+    padding: 20px;
+  }
+  .elstn-services.version2 .service-info .et-icon {
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+  .elstn-services.version2 .service-info h4 {
+    margin-bottom: 6px;
+    font-size: 16px;
+  }
+  /* Elston Single Portfolio (1) Page CSS */
+  .elstn-detail-container h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .deatil-item h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .elstn-portfolio-detail .elstn-testimonials p {
+    font-size: 13px;
+    line-height: 28px;
+  }
+  /* Elston Single Portfolio (3) Page CSS */
+  .portfolio-title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  /* Elston Single Portfolio (7) Page CSS */
+  .elstn-portfolio-detail.version2 .elstn-detail-container .elstn-heading-wrap h2 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .elstn-project-wrap {width: 100%;height: 100%;}
+  .elstn-project-wrap {padding: 55px 40px 35px;}
+  .elstn-project-wrap .action-arrow {top: 15px;left: 30px;}
+}
+
+@media screen and (max-width:359px) {
+  /* Elston Normal CSS */
+  .elstn-wrapper .banner-caption h1 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .elstn-video-wrap iframe {
+    height: 200px;
+  }
+  /* Elston About Studio Page CSS */
+  .elstn-about-wrap p {
+    font-size: 13px;
+  }
+  .elstn-testimonials p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .elstn-contact-banner h2 {
+    font-size: 22px;
+  }
+  /* Elston Contact Page CSS */
+  .elstn-wrapper .elstn-social-links {
+    padding: 40px 0;
+  }
+  .elstn-wrapper .elstn-social-links a {
+    font-size: 24px;
+  }
+  /* Elston Portfolio Wide Page CSS */
+  .portfolio-caption h2 {
+    font-size: 20px;
+  }
+  /* Elston Services Page (2) CSS */
+  .elstn-top-banner.white-color .banner-caption h1 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .elstn-more-project .pull-left, .elstn-more-project .pull-right {width: 100%;margin: 20px 0;}
+}
