@@ -1,0 +1,27 @@
+<wpml-config>
+  <admin-texts>
+    <key name="_cs_options">
+      <key name="header_address_info"/>
+      <key name="top_left"/>
+      <key name="copyright_text"/>
+      <key name="secondary_text"/>
+      <key name="theme_portfolio_name"/>
+      <key name="theme_portfolio_slug"/>
+      <key name="error_btn_text"/>
+      <key name="custom_sidebar">
+        <key name="1">
+          <key name="sidebar_name"/>
+          <key name="sidebar_desc"/>
+        </key>
+      </key>
+      <key name="read_more_text"/>
+      <key name="view_more_text"/>
+      <key name="share_text"/>
+      <key name="share_on_text"/>
+      <key name="author_text"/>
+      <key name="post_comment_text"/>
+      <key name="add_to_cart_text"/>
+      <key name="details_text"/>
+    </key>
+  </admin-texts>
+</wpml-config>
