@@ -1,0 +1,210 @@
+/*.norebro-acf-typo-field-content .row,
+.norebro-acf-sizes-field-content .row {
+	margin-bottom: 10px;
+	clear: both;
+}
+.norebro-acf-typo-field-content .row:after,
+.norebro-acf-sizes-field-content .row:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.norebro-acf-typo-field-content .xl-col3,
+.norebro-acf-sizes-field-content .xl-col3 {
+ 	float: left;
+ 	padding: 0 2% 0 0;
+ 	width: 32%;
+}
+
+.norebro-acf-typo-field-content .xl-col3:last-child,
+.norebro-acf-sizes-field-content .xl-col3:last-child {
+	padding: 0;
+}
+
+.norebro-acf-typo-field-content .label,
+.norebro-acf-sizes-field-content .label {
+	display: block;
+	margin: 5px 0;
+}
+
+.norebro-acf-typo-field-content .label span,
+.norebro-acf-sizes-field-content .label span {
+	opacity: .5;
+	font-size: 12px;
+}
+
+.norebro-acf-sizes-field-content strong.label {
+	margin-bottom: 0;
+}
+
+.norebro-acf-typo-field-content .font-preview {
+	margin-top: 8px;
+	padding: 10px 8px;
+	border: 1px solid #eaeaea;
+	background: #f8f8f8;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.norebro-acf-typo-field-content .wp-color-result,
+.norebro-color-field-content .wp-color-result {
+	float: left;
+	height: 32px;
+	line-height: 32px;
+	margin-bottom: 0;
+	padding-left: 32px;
+}
+
+.norebro-acf-typo-field-content .wp-color-result::after,
+.norebro-color-field-content .wp-color-result::after {
+	height: 32px;
+	line-height: 32px;
+}
+
+s
+
+.norebro-acf-typo-field-content input[type="text"].cs-wp-color-picker,
+.norebro-color-field-content input[type="text"].cs-wp-color-picker {
+	height: 34px;
+	min-width: 72px;
+}
+
+.norebro-acf-typo-field-content .button.button-small.wp-picker-clear,
+.norebro-color-field-content .button.button-small.wp-picker-clear {
+	height: 34px;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-shadow: none;
+}
+
+.norebro-acf-typo-field-content .iris-picker,
+.norebro-color-field-content .iris-picker {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	box-shadow: 0 10px 20px 0 rgba(0,0,0,.3);
+}
+
+.norebro-acf-typo-field-content .cs-alpha-wrap,
+.norebro-color-field-content .cs-alpha-wrap {
+	position: absolute;
+	top: 230px;
+	left: 0;
+	z-index: 10;
+	box-shadow: 0 10px 20px 0 rgba(0,0,0,.3);
+}
+
+
+.norebro-acf-typo-field-content .cs-alpha-slider,
+.norebro-color-field-content .cs-alpha-slider {
+	width: 170px;
+}
+
+.norebro-acf-typo-field-content .cs-alpha-slider-offset,
+.norebro-color-field-content .cs-alpha-slider-offset {
+	width: 182px;
+}
+
+.norebro-acf-typo-field-content span.no_content {
+	display: block;
+	padding: 8px 0 0 0;
+	color: #aeaeae;
+}
+
+.norebro-acf-typo-field-content .pick_blocker {
+	position: absolute;
+	left: -10px;
+	top: -3px;
+	width: 100%;
+	width: calc( 100% + 20px );
+	height: 100%;
+	height: calc( 100% + 3px );
+	background: rgba(0,0,0,.07);
+	display: none;
+}
+
+.norebro-acf-typo-field-content .row.font-picker {
+	position: relative;
+	padding-bottom: 10px;
+}
+
+.norebro-acf-typo-field-content .checkboxes {
+	font-size: 0;
+}
+
+.norebro-acf-typo-field-content .checkbox_row:first-child {
+	padding-top: 6px;
+}
+
+.norebro-acf-typo-field-content .checkbox_row label {
+	font-size: 13px;
+}
+
+
+
+.norebro-acf-typo-field-content .pick_blocker .preloader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: 5px;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.norebro-acf-typo-field-content .pick_blocker .preloader > div {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background: #fff;
+	display: inline-block;
+
+	-webkit-animation: stretchdelay 0.7s infinite ease-in-out;
+	animation: stretchdelay 0.7s infinite ease-in-out;
+}
+
+.norebro-acf-typo-field-content .pick_blocker .preloader .circ2 {
+	-webkit-animation-delay: -0.6s;
+	animation-delay: -0.6s;
+}
+
+.norebro-acf-typo-field-content .pick_blocker .preloader .circ3 {
+	-webkit-animation-delay: -0.5s;
+	animation-delay: -0.5s;
+}
+
+.norebro-acf-typo-field-content .pick_blocker .preloader .circ4 {
+	-webkit-animation-delay: -0.4s;
+	animation-delay: -0.4s;
+}
+
+.norebro-acf-typo-field-content .pick_blocker .preloader .circ5 {
+	-webkit-animation-delay: -0.3s;
+	animation-delay: -0.3s;
+}
+
+@-webkit-keyframes stretchdelay {
+	0%, 40%, 100% { -webkit-transform: translateY(-10px) }  
+	20% { -webkit-transform: translateY(-20px) }
+}
+
+@keyframes stretchdelay {
+	0%, 40%, 100% { 
+		transform: translateY(-10px);
+		-webkit-transform: translateY(-10px);
+	} 20% {
+		transform: translateY(-20px);
+		-webkit-transform: translateY(-20px);
+	}
+}
+
+@media (max-width: 1200px) {
+	.norebro-acf-typo-field-content .sm-col1,
+	.norebro-acf-sizes-field-content .sm-col1 {
+		width: 100%;
+	}
+}*/
