@@ -1,0 +1,114 @@
+/*----Navigation----*/
+
+.main-navigation {
+  z-index: 3;
+  position: absolute;
+  font-size: 14px;
+  background: fade(@accent, 40%);
+  font-weight: 300;
+  a {
+    /* text-transform: uppercase; */
+    color: @onaccent;
+  }
+  ul {
+    transition: opacity ease-in-out .2s;
+    li {
+      margin: 0px 15px;
+      padding: 15px 0px;
+      display: inline-block;
+      float: none;
+      ul {
+        background: transparent;
+        box-shadow: none;
+        margin-top: 29px;
+        border-top: solid 1px transparent;
+        opacity: 0;
+        li.page_item_has_children > a:after {
+          content: "\f105";
+          font-family: "FontAwesome";
+          margin-left: 10px;
+          color: rgba(255,255,255,.7);
+        }
+        a {
+          width: auto;
+        }
+        li {
+          width: 150px;
+          margin: 0px;
+          padding: 8px 10px;
+          text-align: left;
+          background: rgba(0,0,0,.4);
+          ul {
+            margin-top: -1px;
+            margin-left: 1px;
+          }
+        }
+      }
+    }
+  }
+  ul > li.page_item_has_children > a:after {
+    content: "\f107";
+    font-family: FontAwesome;
+    margin-left: 10px;
+  }
+  li:hover > ul {
+    opacity: 1;
+  }
+}
+
+.main-navigation ul.nav-menu {
+  text-align: center;
+}
+
+.main-navigation ul > li {
+  float: none;
+  display: inline-block;
+}
+
+
+.slicknav_menu {
+  position: absolute;
+  z-index: 999;
+  background: rgba(0,0,0,.5);
+  width: 100%;
+  padding: 10px;
+  a {
+    color: white;
+  }
+  a.slicknav_btn {
+    font-size: 16px;
+    display: inline-block;
+    text-align: right;
+  }
+  a .slicknav_menutxt {
+    background: @accent;
+    color: white;
+    font-weight: 400;
+    padding: 10px 10px;
+  }
+  ul {
+    width:80%;
+  }
+  li {
+    list-style: none;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #site-navigation {
+    display: none;
+  }
+  .slicknav-menu {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #site-navigation {
+    display: block;
+  }
+  .slicknav_menu {
+    display: none;
+  }
+}

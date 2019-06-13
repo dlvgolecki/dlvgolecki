@@ -1,0 +1,123 @@
+/*------Home-------*/
+
+.klean {
+  margin: 0px;
+  padding: 0;
+  .featured-wrapper {
+    overflow: hidden;
+    .featured-image {
+      opacity: 1;
+      transition: opacity ease-in-out .5s;
+      margin: 0 auto;
+      overflow: hidden;
+      z-index: 3;
+      position: relative;
+      background-color: @accent;
+      background-size: cover;
+      img {
+        width: 100%;
+        overflow: hidden;
+        bottom:0px;
+        transition: opacity .2s ease-out;
+        width: 100%;
+        opacity: 1;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: scale(1.15);
+        transform: scale(1.15);
+        bottom:0px;
+      }
+    }
+    .entry-header {
+      position: absolute;
+      overflow: hidden;
+      top: 25%;
+      left: 0px;
+      right: 0px;
+      z-index: 444;
+      width: 60%;
+      margin: auto;
+      opacity: 0;
+      margin-right: -10px;
+      padding-right: 20px;
+      transition: opacity .3s ease-in-out .5s, margin-right .3s ease-in-out .5s;
+      .entry-title {
+        position: relative;
+        text-align: right;
+        font-size: 22px !important;
+        padding: 0px 20%;
+        overflow: hidden;
+        font-weight: 200 !important;
+        margin: 0px;
+        a {
+          text-decoration: none;
+          margin: 0px !important;
+          color: white !important;
+          opacity: 1;
+          font-family: "Source Sans Pro", Helvetica;
+        }
+      }
+    }
+    .featured-bar {
+      content: "";
+      position: absolute;
+      width: 70%;
+      left: 0px;
+      right: 0px;
+      margin: auto;
+      height: 2px;
+      background: white;
+      z-index: 5;
+      bottom: 10%;
+      transition: all .5s;
+    }
+    &:hover {
+      .featured-image img {
+        opacity: .8;
+      }
+      .entry-header {
+        margin-right: 0;
+        opacity: 1;
+      }
+      .featured-bar {
+        content: "";
+        position: absolute;
+        width: 70%;
+        left: 55%;
+        right: 0px;
+        margin: auto;
+        height: 2px;
+        background: white;
+        z-index: 5;
+        bottom: 50%;
+        transform: rotate(-90deg);
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .featured-wrapper {
+      margin-bottom: 30px;
+      .entry-header {
+        position: relative !important;
+        width: auto !important;
+        top: 0% !important;
+        opacity: 1 !important;
+        margin: 10px auto;
+        h1.entry-title {
+          text-align: center !important;
+          a {
+            color: black !important;
+            opacity: 1;
+            transition: none;
+          }
+        }
+      }
+      .featured-image {
+        width: 80%;
+      }
+      .featured-bar {
+        display: none;
+      }
+    }
+  }
+}

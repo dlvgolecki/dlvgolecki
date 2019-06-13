@@ -1,0 +1,36 @@
+#social-icons {
+  position: absolute;
+  bottom: 10%;
+  z-index: 9;
+  text-align: center;
+  display: block;
+  width: 100%;
+  span {
+    font-size: 30px;
+    i.fa-circle {
+      color: @accent;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #social-icons {
+    position: relative;
+    width: 100%;
+    margin: 30px auto;
+  }
+  #page {
+    width: 100%;
+  }
+}
+
+body:not(.blog) {
+  #social-icons {
+    width: 25%;
+    position: fixed;
+    padding: 0px 15px;
+    i {
+      margin: 10px;
+    }
+  }
+}

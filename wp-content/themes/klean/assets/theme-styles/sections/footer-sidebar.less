@@ -1,0 +1,26 @@
+#footer-sidebar {
+  .widget {
+    h1.widget-title {
+      padding: 10px 0 10px 10px;
+      background: @accent;
+      color: @onaccent;
+      font-size: 20px;
+      font-weight: 300;
+      text-transform: uppercase;
+      border-bottom: dotted 2px lighten(@accent, 60%);
+      &:before {
+        content: "\25A0";
+        color: white;
+        margin-right: 12px;
+        top: 3px;
+      }
+    }
+    ul {
+      margin-left: 30px;
+      list-style: none;
+    }
+    li {
+      line-height: 2em;
+    }
+  }
+}

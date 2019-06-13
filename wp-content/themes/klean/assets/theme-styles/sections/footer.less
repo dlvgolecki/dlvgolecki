@@ -1,0 +1,23 @@
+.home, .front-page {
+  .site-info {
+    background: #eee;
+    padding: 20px 10px;
+    border-top: solid 2px @accent;
+    font-weight: 400;
+  }
+  .footer-text {
+    display: inline-block;
+  }
+  .powered-by {
+    display: inline-block;
+    float: right;
+  }
+}
+
+body:not(.home):not(.front-page) {
+  .site-info {
+    padding: 20px 10px;
+    font-weight: 400;
+    text-align: right;
+  }
+}

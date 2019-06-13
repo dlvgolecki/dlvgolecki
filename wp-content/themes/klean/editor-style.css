@@ -1,0 +1,10 @@
+/**
+ *
+ *	All the custom CSS code for TinyMCE Editor
+ *
+**/
+body#tinymce.wp-editor {
+  font-family: "Source Sans Pro", sans-serif !important;
+  color: #ddd;
+  background: #000;
+}

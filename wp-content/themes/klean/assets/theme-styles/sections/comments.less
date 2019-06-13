@@ -1,0 +1,122 @@
+/*----Comments----*/
+#comments {
+  .form-allowed-tags {
+    display: none;
+  }
+  ul {
+    list-style: none;
+
+    li{
+      border-left: solid 1px #ccc;
+      border-top: solid 1px #ccc;
+      border-bottom: solid 1px #ccc;
+      border-right: solid 1px #ccc;
+      margin-bottom: 10px;
+      margin-right: -1px;
+      background: #f5f5f5;
+      &:nth-child(3n) {
+        background: #ddd;
+      }
+      &:nth-child(3n+1) {
+        background: #eee;
+      }
+      &:nth-child(3n+2) {
+        background: #f5f5f5;
+      }
+      .children {
+        margin-left: 10px;
+      }
+    }
+    .comment-body {
+      list-style: none;
+      margin: 20px 0px 20px 10px;
+      .comment-meta {
+        .vcard {
+          display: inline-block;
+          width: 100%;
+          span {
+            display: none;
+          }
+          img {
+            min-height: 50px;
+            width: auto;
+            display:inline-block;
+            border: solid 1px #ccc;
+          }
+          b {
+            display: block;
+            font-weight: 300;
+            padding: 4px 0px;
+          }
+          a {
+          }
+        }
+        .comment-metadata {
+          display: inline-block;
+          float: none;
+          padding: 10px 0px;
+          time {
+            display: inline-block;
+            float: left;
+            background: black;
+            color: white;
+            padding: 5px 8px;
+          }
+          .edit-link {
+            margin-left: 10px;
+            font-weight: 400;
+          }
+        }
+      }
+      .comment-content {
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border: solid 1px #ccc;
+        background: white;
+        border-radius: 3px;
+        ul, ol {
+          li {
+            border: 0px;
+            background: transparent;
+          }
+        }
+      }
+      .reply {
+        display: inline-block;
+        background: @accent;
+        padding: 5px 10px;
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+  #respond {
+    text-align: center;
+    .comment-form-comment {
+      label {
+        text-transform: uppercase;
+      }
+      textarea {
+        border-radius: 0px !important;
+        outline: none;
+      }
+    }
+    .form-submit {
+      input {
+        box-shadow: none !important;
+        border-radius: 0px;
+        text-shadow: none !important;
+        padding: 13px 20px;
+        text-transform: uppercase;
+        font-weight: 400;
+      }
+    }
+  }
+  .comment-form-author, .comment-form-email, .comment-form-url {
+    display: inline-block;
+    margin-right: 46px;
+    padding: 10px 0px;
+  }
+}
