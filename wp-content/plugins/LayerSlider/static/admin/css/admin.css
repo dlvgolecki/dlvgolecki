@@ -314,7 +314,7 @@ body #ls-layers table.noborder td {
 .ls-preview-wrapper {
 	position: relative;
 	margin: 0 auto;
-	background: url(../img/checkerboardpattern.png);
+	background: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/admin/img/checkerboardpattern.png);
 	white-space: nowrap;
 }
 
@@ -394,7 +394,7 @@ body #ls-layers table.noborder td {
 }
 
 #ls-popup-preview {
-	/*background: url(../img/checkerboardpattern.png);*/
+	/*background: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/admin/img/checkerboardpattern.png);*/
 	transform-origin: 0 0;
 }
 

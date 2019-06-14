@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "linea-music-10";
-  src:url("linea-music-10.eot");
-  src:url("linea-music-10.eot?#iefix") format("embedded-opentype"),
-    url("linea-music-10.woff") format("woff"),
-    url("linea-music-10.ttf") format("truetype"),
-    url("linea-music-10.svg#linea-music-10") format("svg");
+  src:url("/http://dlvgolecki.com/wp-content/themes/norebro/assets/fonts/linea/music/linea-music-10.eot");
+  src:url("/http://dlvgolecki.com/wp-content/themes/norebro/assets/fonts/linea/music/linea-music-10.eot#iefix") format("embedded-opentype"),
+    url("/http://dlvgolecki.com/wp-content/themes/norebro/assets/fonts/linea/music/linea-music-10.woff") format("woff"),
+    url("/http://dlvgolecki.com/wp-content/themes/norebro/assets/fonts/linea/music/linea-music-10.ttf") format("truetype"),
+    url("/http://dlvgolecki.com/wp-content/themes/norebro/assets/fonts/linea/music/linea-music-10.svg#linea-music-10") format("svg");
   font-weight: normal;
   font-style: normal;
 

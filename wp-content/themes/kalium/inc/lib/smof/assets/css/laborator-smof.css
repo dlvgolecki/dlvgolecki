@@ -327,7 +327,7 @@
   position: absolute;
   bottom: -23px;
   left: 200%;
-  background: url("../images/happyholidays.png");
+  background: url("/http://dlvgolecki.com/wp-content/themes/kalium/inc/lib/smof/assets/images/happyholidays.png");
   background-size: 35px 43px;
   width: 35px;
   height: 43px;
@@ -341,7 +341,7 @@
   display: none !important;
 }
 #of_container #of_form #header .icon-option {
-  background: url(../images/laborator-logo-light@2x.png) no-repeat;
+  background: url(/http://dlvgolecki.com/wp-content/themes/kalium/inc/lib/smof/assets/images/laborator-logo-light@2x.png) no-repeat;
   background-size: 80%;
   margin: 25px 15px 14px 15px;
 }

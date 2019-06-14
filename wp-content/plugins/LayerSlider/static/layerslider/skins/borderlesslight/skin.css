@@ -18,7 +18,7 @@
 .ls-borderlesslight .ls-nav-stop,
 .ls-borderlesslight .ls-fullscreen,
 .ls-borderlesslight .ls-loading-container {
-	background-image: url(skin.png);
+	background-image: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/layerslider/skins/borderlesslight/skin.png);
 }
 
 .ls-borderlesslight .ls-playvideo {
@@ -196,7 +196,7 @@
 	width: 22px;
 	height: 22px;
 	margin-top: 11px;
-	background-image: url(loading.gif);
+	background-image: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/layerslider/skins/borderlesslight/loading.gif);
 }
 
 

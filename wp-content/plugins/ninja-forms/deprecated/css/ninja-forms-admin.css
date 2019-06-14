@@ -221,7 +221,7 @@ border-bottom-color: transparent;
 	text-align:right;
 }
 #icon-ninja-custom-forms {
-	background-image: url('../images/wpnj-ninja-head.png') !important;
+	background-image: url('/http://dlvgolecki.com/wp-content/plugins/ninja-forms/deprecated/images/wpnj-ninja-head.png') !important;
 }
 
 #poststuff {
@@ -647,7 +647,7 @@ a.tooltip span
 }
 .nf-brand-header .wpn-logo {
 	background: #fff;
-	background-image: url("../images/wpninjas-logo.png");
+	background-image: url("/http://dlvgolecki.com/wp-content/plugins/ninja-forms/deprecated/images/wpninjas-logo.png");
 	background-size: 83px 70px;
 	background-position: 0 10px;
 	background-repeat: no-repeat;

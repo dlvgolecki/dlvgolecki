@@ -61,7 +61,7 @@
 	float:right;
 	margin-left: 2em;
 	z-index: 1;
-	background-image: url(../images/xforwoocommerce.png);
+	background-image: url(/http://dlvgolecki.com/wp-content/plugins/prdctfltr/includes/svx-settings/images/xforwoocommerce.png);
 	background-size: 128px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -255,12 +255,12 @@
 	display: inline-block;
 	width: 75px;
 	height: 41px;
-	background-image: url(../images/nc-off.png);
+	background-image: url(/http://dlvgolecki.com/wp-content/plugins/prdctfltr/includes/svx-settings/images/nc-off.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
 .svx-option-wrapper input[type="checkbox"]:checked + label {
-	background-image: url(../images/nc-on.png);
+	background-image: url(/http://dlvgolecki.com/wp-content/plugins/prdctfltr/includes/svx-settings/images/nc-on.png);
 }
 
 
@@ -319,21 +319,21 @@
 }
 
 .svx-list-customizer-button {
-	background-image: url(../images/svx-icons.svg);
+	background-image: url(/http://dlvgolecki.com/wp-content/plugins/prdctfltr/includes/svx-settings/images/svx-icons.svg);
 	background-position: -12em 0;
 }
 	.svx-list-customizer-button:hover {
 		background-position: -12em -3em;
 	}
 .svx-list-remove-button {
-	background-image: url(../images/svx-icons.svg);
+	background-image: url(/http://dlvgolecki.com/wp-content/plugins/prdctfltr/includes/svx-settings/images/svx-icons.svg);
 	background-position: -9em 0;
 }
 	.svx-list-remove-button:hover {
 		background-position: -9em -3em;
 	}
 .svx-list-move-button {
-	background-image: url(../images/svx-icons.svg);
+	background-image: url(/http://dlvgolecki.com/wp-content/plugins/prdctfltr/includes/svx-settings/images/svx-icons.svg);
 	background-position: -6em 0;
 }
 	.svx-list-move-button:hover {
@@ -344,7 +344,7 @@
 	float: right;
 	margin-right: 0;
 	margin-left: 1em;
-	background-image: url(../images/svx-icons.svg);
+	background-image: url(/http://dlvgolecki.com/wp-content/plugins/prdctfltr/includes/svx-settings/images/svx-icons.svg);
 	background-position: 0 0;
 }
 	.svx-list-expand-button:hover {
@@ -958,7 +958,7 @@
 	background-size: 18em;
 	cursor: pointer;
 	margin-left: 1em;
-	background-image: url(../images/svx-icons.svg);
+	background-image: url(/http://dlvgolecki.com/wp-content/plugins/prdctfltr/includes/svx-settings/images/svx-icons.svg);
 	background-position: -9em 0;
 	margin-top: .125em;
 	margin-bottom: .125em;
@@ -1267,7 +1267,7 @@ span.svx-terms-placeholder-right:before {
 	margin-left: -2em;
 	width: 4em;
 	height: 4em;
-	background-image: url(../images/svx-icons.svg);
+	background-image: url(/http://dlvgolecki.com/wp-content/plugins/prdctfltr/includes/svx-settings/images/svx-icons.svg);
 	background-repeat: no-repeat;
 	background-size: 24em;
 }
@@ -1297,21 +1297,21 @@ span.svx-terms-placeholder-left * {
 }
 
 .svx-term-move-button {
-	background-image: url(../images/svx-icons.svg);
+	background-image: url(/http://dlvgolecki.com/wp-content/plugins/prdctfltr/includes/svx-settings/images/svx-icons.svg);
 	background-position: -3.2em 0;
 }
 	.svx-term-move-button:hover {
-		background-image: url(../images/svx-icons.svg);
+		background-image: url(/http://dlvgolecki.com/wp-content/plugins/prdctfltr/includes/svx-settings/images/svx-icons.svg);
 		background-position: -3.2em -1.6em;
 	}
 
 
 .svx-term-remove-button {
-	background-image: url(../images/svx-icons.svg);
+	background-image: url(/http://dlvgolecki.com/wp-content/plugins/prdctfltr/includes/svx-settings/images/svx-icons.svg);
 	background-position: -4.8em 0;
 }
 	.svx-term-remove-button:hover {
-		background-image: url(../images/svx-icons.svg);
+		background-image: url(/http://dlvgolecki.com/wp-content/plugins/prdctfltr/includes/svx-settings/images/svx-icons.svg);
 		background-position: -4.8em -1.6em;
 	}
 
@@ -1340,7 +1340,7 @@ span.svx-terms-placeholder-left * {
 	margin-left: -2em;
 	width: 4em;
 	height: 4em;
-	background-image: url(../images/svx-icons.svg);
+	background-image: url(/http://dlvgolecki.com/wp-content/plugins/prdctfltr/includes/svx-settings/images/svx-icons.svg);
 	background-repeat: no-repeat;
 	background-size: 24em;
 	background-position: 0 0;
@@ -1436,7 +1436,7 @@ span.svx-terms-placeholder-left * {
 	background-size: 18em;
 	cursor: pointer;
 	margin-left: 1em;
-	background-image: url(../images/svx-icons.svg);
+	background-image: url(/http://dlvgolecki.com/wp-content/plugins/prdctfltr/includes/svx-settings/images/svx-icons.svg);
 	background-position: -9em 0;
 	margin-top: .125em;
 	margin-bottom: .125em;

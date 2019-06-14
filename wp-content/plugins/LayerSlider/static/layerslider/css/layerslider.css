@@ -275,12 +275,12 @@
 	}
 
 	.ls-icon-muted {
-		background-image: url(../img/icon-muted-white.png);
+		background-image: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/layerslider/img/icon-muted-white.png);
 		opacity: 1;
 	}
 
 	.ls-icon-unmuted {
-		background-image: url(../img/icon-unmuted-white.png);
+		background-image: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/layerslider/img/icon-unmuted-white.png);
 		opacity: 0;
 	}
 

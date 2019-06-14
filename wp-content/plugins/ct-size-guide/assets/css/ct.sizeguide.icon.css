@@ -1,30 +1,30 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?8alxhk');
-	src:url('fonts/icomoon.eot?#iefix8alxhk') format('embedded-opentype'),
-		url('fonts/icomoon.woff?8alxhk') format('woff'),
-		url('fonts/icomoon.ttf?8alxhk') format('truetype'),
-		url('fonts/icomoon.svg?8alxhk#icomoon') format('svg');
+	src:url('/http://dlvgolecki.com/wp-content/plugins/ct-size-guide/assets/css/fonts/icomoon.eot?8alxhk');
+	src:url('/http://dlvgolecki.com/wp-content/plugins/ct-size-guide/assets/css/fonts/icomoon.eot#iefix8alxhk') format('embedded-opentype'),
+		url('/http://dlvgolecki.com/wp-content/plugins/ct-size-guide/assets/css/fonts/icomoon.woff?8alxhk') format('woff'),
+		url('/http://dlvgolecki.com/wp-content/plugins/ct-size-guide/assets/css/fonts/icomoon.ttf?8alxhk') format('truetype'),
+		url('/http://dlvgolecki.com/wp-content/plugins/ct-size-guide/assets/css/fonts/icomoon.svg?8alxhk#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'icomoon2';
-	src:  url('fonts/icomoon2.eot?xcoq05');
-	src:  url('fonts/icomoon2.eot?xcoq05#iefix') format('embedded-opentype'),
-	url('fonts/icomoon2.ttf?xcoq05') format('truetype'),
-	url('fonts/icomoon2.woff?xcoq05') format('woff'),
-	url('fonts/icomoon2.svg?xcoq05#icomoon') format('svg');
+	src:  url('/http://dlvgolecki.com/wp-content/plugins/ct-size-guide/assets/css/fonts/icomoon2.eot?xcoq05');
+	src:  url('/http://dlvgolecki.com/wp-content/plugins/ct-size-guide/assets/css/fonts/icomoon2.eot?xcoq05#iefix') format('embedded-opentype'),
+	url('/http://dlvgolecki.com/wp-content/plugins/ct-size-guide/assets/css/fonts/icomoon2.ttf?xcoq05') format('truetype'),
+	url('/http://dlvgolecki.com/wp-content/plugins/ct-size-guide/assets/css/fonts/icomoon2.woff?xcoq05') format('woff'),
+	url('/http://dlvgolecki.com/wp-content/plugins/ct-size-guide/assets/css/fonts/icomoon2.svg?xcoq05#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Glyphicons Halflings';
-	src: url('fonts/glyphicons-halflings-regular.eot');
-	src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
-	url('fonts/glyphicons-halflings-regular.woff') format('woff'),
-	url('fonts/glyphicons-halflings-regular.ttf') format('truetype'),
-	url('fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+	src: url('/http://dlvgolecki.com/wp-content/plugins/ct-size-guide/assets/css/fonts/glyphicons-halflings-regular.eot');
+	src: url('/http://dlvgolecki.com/wp-content/plugins/ct-size-guide/assets/css/fonts/glyphicons-halflings-regular.eot#iefix') format('embedded-opentype'),
+	url('/http://dlvgolecki.com/wp-content/plugins/ct-size-guide/assets/css/fonts/glyphicons-halflings-regular.woff') format('woff'),
+	url('/http://dlvgolecki.com/wp-content/plugins/ct-size-guide/assets/css/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+	url('/http://dlvgolecki.com/wp-content/plugins/ct-size-guide/assets/css/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }
 .ct_single_size_table [class^="icon-"], .ct_single_size_table [class*=" icon-"] {
 	font-family: 'icomoon';

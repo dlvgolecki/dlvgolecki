@@ -5407,7 +5407,7 @@ Message Body:
 [your-message]
 
 --
-This e-mail was sent from a contact form on ARGENTA (http://argenta)
+This e-mail was sent from a contact form on ARGENTA (http://argenta)/
 Reply-To: [your-email]
 
 
@@ -5420,7 +5420,7 @@ Message Body:
 [your-message]
 
 --
-This e-mail was sent from a contact form on ARGENTA (http://argenta)
+This e-mail was sent from a contact form on ARGENTA (http://argenta)/
 Reply-To: test@mail.ua
 
 
@@ -5483,7 +5483,7 @@ Message Body:
 [your-message]
 
 --
-This e-mail was sent from a contact form on ARGENTA (http://argenta)&quot;;s:18:&quot;additional_headers&quot;;s:22:&quot;Reply-To: [your-email]&quot;;s:11:&quot;attachments&quot;;s:0:&quot;&quot;;s:8:&quot;use_html&quot;;b:0;s:13:&quot;exclude_blank&quot;;b:0;}]]&gt;</wp:meta_value>
+This e-mail was sent from a contact form on ARGENTA (http://argenta)&quot;;s:18:&quot;additional_headers&quot;;s:22:&quot;Reply-To:/ [your-email]&quot;;s:11:&quot;attachments&quot;;s:0:&quot;&quot;;s:8:&quot;use_html&quot;;b:0;s:13:&quot;exclude_blank&quot;;b:0;}]]&gt;</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
@@ -5491,7 +5491,7 @@ This e-mail was sent from a contact form on ARGENTA (http://argenta)&quot;;s:18:
 [your-message]
 
 --
-This e-mail was sent from a contact form on ARGENTA (http://argenta)";s:18:"additional_headers";s:22:"Reply-To: test@mail.ua";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+This e-mail was sent from a contact form on ARGENTA (http://argenta)/";s:18:"additional_headers";s:22:"Reply-To: test@mail.ua";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_messages]]></wp:meta_key>

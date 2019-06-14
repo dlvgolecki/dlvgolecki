@@ -1046,7 +1046,7 @@
 			<wp:comment_date_gmt><![CDATA[2017-08-25 12:27:57]]></wp:comment_date_gmt>
 			<wp:comment_content><![CDATA[Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
-Commenter avatars come from <a href="https://gravatar.com" rel="nofollow">Gravatar</a>.]]></wp:comment_content>
+Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow">Gravatar</a>.]]></wp:comment_content>
 			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
 			<wp:comment_type><![CDATA[]]></wp:comment_type>
 			<wp:comment_parent>0</wp:comment_parent>
@@ -1483,7 +1483,7 @@ Commenter avatars come from <a href="https://gravatar.com" rel="nofollow">Gravat
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>
@@ -1950,7 +1950,7 @@ Commenter avatars come from <a href="https://gravatar.com" rel="nofollow">Gravat
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>
@@ -2340,7 +2340,7 @@ Commenter avatars come from <a href="https://gravatar.com" rel="nofollow">Gravat
 			<wp:comment_id>6</wp:comment_id>
 			<wp:comment_author><![CDATA[myname]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[juppydu@yahoo.it]]></wp:comment_author_email>
-			<wp:comment_author_url>http://yahoo.it</wp:comment_author_url>
+			<wp:comment_author_url>http://yahoo.it/</wp:comment_author_url>
 			<wp:comment_author_IP><![CDATA[188.14.16.178]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2018-01-17 07:20:19]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2018-01-17 07:20:19]]></wp:comment_date_gmt>
@@ -2431,7 +2431,7 @@ Commenter avatars come from <a href="https://gravatar.com" rel="nofollow">Gravat
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>
@@ -2968,7 +2968,7 @@ Commenter avatars come from <a href="https://gravatar.com" rel="nofollow">Gravat
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>
@@ -3435,7 +3435,7 @@ Commenter avatars come from <a href="https://gravatar.com" rel="nofollow">Gravat
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>

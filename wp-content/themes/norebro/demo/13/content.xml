@@ -1051,7 +1051,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>
@@ -1486,7 +1486,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>
@@ -1917,7 +1917,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>
@@ -2981,7 +2981,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>

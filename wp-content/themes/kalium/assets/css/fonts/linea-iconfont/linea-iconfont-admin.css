@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "linea";
-  src:url("fonts/linea.eot");
-  src:url("fonts/linea.eot?#iefix") format("embedded-opentype"),
-    url("fonts/linea.woff") format("woff"),
-    url("fonts/linea.ttf") format("truetype"),
-    url("fonts/linea.svg#linea") format("svg");
+  src:url("/http://dlvgolecki.com/wp-content/themes/kalium/assets/css/fonts/linea-iconfont/fonts/linea.eot");
+  src:url("/http://dlvgolecki.com/wp-content/themes/kalium/assets/css/fonts/linea-iconfont/fonts/linea.eot#iefix") format("embedded-opentype"),
+    url("/http://dlvgolecki.com/wp-content/themes/kalium/assets/css/fonts/linea-iconfont/fonts/linea.woff") format("woff"),
+    url("/http://dlvgolecki.com/wp-content/themes/kalium/assets/css/fonts/linea-iconfont/fonts/linea.ttf") format("truetype"),
+    url("/http://dlvgolecki.com/wp-content/themes/kalium/assets/css/fonts/linea-iconfont/fonts/linea.svg#linea") format("svg");
   font-weight: normal;
   font-style: normal;
 

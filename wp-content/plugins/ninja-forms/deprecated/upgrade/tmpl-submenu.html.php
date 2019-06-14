@@ -1,4 +1,4 @@
-<img class="nf-logo" src="<?php echo NF_PLUGIN_URL . 'images/nf-logo.png'; ?>">
+<img class="nf-logo" src="NF_PLUGIN_URLimages/nf-logo.png">
 <div class="nf-upgrade">
     <h1>Ninja Forms THREE is Here!</h1>
 
@@ -6,7 +6,7 @@
 
     <p>Ninja Forms THREE is the most <em>intuitive</em>, <em>powerful</em>, and <em>enjoyable</em> form builder you will ever use.</p>
 
-    <img src="<?php echo NF_PLUGIN_URL; ?>images/ninja-forms-three.png" />
+    <img src="NF_PLUGIN_URLimages/ninja-forms-three.png" />
 
     <h2>Before you update, we want to make you aware of a few <strong>very important points:</strong></h2>
 
@@ -101,10 +101,7 @@
 <!---->
 <!--        <h2>Form Upgrade Compatibility</h2>-->
 <!---->
-<!--        --><?php //$no_issues_detected  = __( 'No Issues Detected', 'ninja-forms' ); ?>
-<!--        --><?php //$will_need_attention = __( 'Will Need Attention', 'ninja-forms' ); ?>
-<!--        <span class="dashicons dashicons-yes"></span> = --><?php //echo $no_issues_detected; ?><!-- &nbsp; <span class="dashicons dashicons-flag"></span> = --><?php //echo $will_need_attention; ?>
-<!---->
+<!--        --><!--        --><!--        <span class="dashicons dashicons-yes"></span> = --><!-- &nbsp; <span class="dashicons dashicons-flag"></span> = --><!---->
 <!--        <table id="nfThreeFormCheckTable">-->
 <!--            <thead>-->
 <!--            <tr>-->
@@ -125,7 +122,7 @@
 <!--            </tbody>-->
 <!--        </table>-->
 <!---->
-<!--        <button id="goNinjaGo" class="button go-ninja-go">--><?php //echo __( 'Upgrade Forms', 'ninja-forms' ); ?><!--</button>-->
+<!--        <button id="goNinjaGo" class="button go-ninja-go">--><!--</button>-->
 <!---->
 <!--    </div>-->
 <!---->
@@ -150,7 +147,7 @@
 <!--            </tbody>-->
 <!--        </table>-->
 <!---->
-<!--        <a href="--><?php //echo admin_url( 'admin.php?page=ninja-forms&nf-switcher=upgrade' ); ?><!--" id="goToThree">Go To Three</a>-->
+<!--        <a href="--><!--" id="goToThree">Go To Three</a>-->
 <!---->
 <!--    </div>-->
 

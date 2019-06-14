@@ -17,7 +17,7 @@
 **/
 .title_line.sub_title 		{background-color:#303E4E!important}
 .title_line.sub_title span 	{font-size: 26px;line-height: 48px;padding: 0;color: #fff;font-weight: 400 !important;margin: 0px;}
-#icon-options-configure		{width: 40px;height: 100%;background: url(../images/addon_icon.png) no-repeat center center;display: inline-block;float: left;margin-right: 20px;}
+#icon-options-configure		{width: 40px;height: 100%;background: url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/addon_icon.png) no-repeat center center;display: inline-block;float: left;margin-right: 20px;}
 .rs-reload-shop				{float: right;margin-top: 11px;text-decoration: none;font-size: 14px;display: inline-block;border:1px solid #3498db;font-weight: 800;text-transform: uppercase;background: transparent;padding: 1px 7px 2px 5px;border-radius: 4px;color: rgba(255,255,255,0.35);line-height: 25px;}
 a.rs-reload-shop,
 .rs-reload-shop i, 

@@ -2,13 +2,13 @@
 
 <channel>
 	<title>Norebro</title>
-	<link>http://norebro10</link>
+	<link>http://norebro10/</link>
 	<description>Just another WordPress site</description>
 	<pubDate>Fri, 24 Nov 2017 15:35:22 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>http://norebro10</wp:base_site_url>
-	<wp:base_blog_url>http://norebro10</wp:base_blog_url>
+	<wp:base_site_url>http://norebro10/</wp:base_site_url>
+	<wp:base_blog_url>http://norebro10/</wp:base_blog_url>
 
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[test@mail.ua]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
@@ -192,7 +192,7 @@ Message Body:
 [your-message]
 
 -- 
-This e-mail was sent from a contact form on Norebro (http://{{this_domain}})
+This e-mail was sent from a contact form on Norebro (http://{{this_domain}})/
 test@mail.ua
 Reply-To: [your-email]
 
@@ -205,7 +205,7 @@ Message Body:
 [your-message]
 
 -- 
-This e-mail was sent from a contact form on Norebro (http://{{this_domain}})
+This e-mail was sent from a contact form on Norebro (http://{{this_domain}})/
 [your-email]
 Reply-To: test@mail.ua
 
@@ -257,7 +257,7 @@ Message Body:
 [your-message]
 
 -- 
-This e-mail was sent from a contact form on Norebro (http://norebro10)";s:9:"recipient";s:12:"test@mail.ua";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}]]></wp:meta_value>
+This e-mail was sent from a contact form on Norebro (http://norebro10)/";s:9:"recipient";s:12:"test@mail.ua";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
@@ -265,7 +265,7 @@ This e-mail was sent from a contact form on Norebro (http://norebro10)";s:9:"rec
 [your-message]
 
 -- 
-This e-mail was sent from a contact form on Norebro (http://norebro10)";s:9:"recipient";s:12:"[your-email]";s:18:"additional_headers";s:22:"Reply-To: test@mail.ua";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}]]></wp:meta_value>
+This e-mail was sent from a contact form on Norebro (http://norebro10)/";s:9:"recipient";s:12:"[your-email]";s:18:"additional_headers";s:22:"Reply-To: test@mail.ua";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_messages]]></wp:meta_key>

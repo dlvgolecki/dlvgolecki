@@ -91,32 +91,32 @@
   color: white; }
 
 #ls-addon-templates .ls-addon-bg {
-  background-image: url(../img/ao-tpl.jpg); }
+  background-image: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/admin/img/ao-tpl.jpg); }
 
 #ls-addon-templates .button {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.75); }
 
 #ls-addon-popups .ls-addon-bg {
-  background-image: url(../img/ao-pop.jpg); }
+  background-image: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/admin/img/ao-pop.jpg); }
 
 #ls-addon-revisions .ls-addon-bg {
-  background-image: url(../img/ao-rev.jpg); }
+  background-image: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/admin/img/ao-rev.jpg); }
 
 #ls-addon-origami .ls-addon-bg {
-  background-image: url(../img/ao-ori.jpg); }
+  background-image: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/admin/img/ao-ori.jpg); }
 
 #ls-addon-play-by-scroll .ls-addon-bg {
-  background-image: url(../img/ao-pbs.jpg); }
+  background-image: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/admin/img/ao-pbs.jpg); }
 
 #ls-addon-blend-mode .ls-addon-bg {
-  background-image: url(../img/ao-bm.jpg); }
+  background-image: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/admin/img/ao-bm.jpg); }
 
 #ls-addon-blend-mode .ls-addon-extras {
   background: white;
   mix-blend-mode: multiply; }
 
 #ls-addon-blend-mode .ls-addon-e1 {
-  background-image: url(../img/ao-bm-text.png); }
+  background-image: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/admin/img/ao-bm-text.png); }
 
 @-webkit-keyframes ls-addon-extras {
   0% {
@@ -152,7 +152,7 @@
 
 #ls-addon-blend-mode .ls-addon-e2 {
   transform: translateX(-20px);
-  background-image: url(../img/ao-bm-blend.jpg);
+  background-image: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/admin/img/ao-bm-blend.jpg);
   mix-blend-mode: lighten; }
 
 #ls-addon-blend-mode .ls-addon-e2 {
@@ -162,4 +162,4 @@
   animation: ls-addon-extras 5s infinite; }
 
 #ls-addon-filters .ls-addon-bg {
-  background-image: url(../img/ao-fil.jpg); }
+  background-image: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/admin/img/ao-fil.jpg); }

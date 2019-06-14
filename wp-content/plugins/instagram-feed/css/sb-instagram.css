@@ -406,7 +406,7 @@
   width: 24px;
   height: 24px;
   overflow: hidden;
-  background: url('../img/small-logo.png') no-repeat 0 0;
+  background: url('/http://dlvgolecki.com/wp-content/plugins/instagram-feed/img/small-logo.png') no-repeat 0 0;
 }
 #sb_instagram .sbi_header_img_hover{
   transition: opacity 0.4s ease-in-out;

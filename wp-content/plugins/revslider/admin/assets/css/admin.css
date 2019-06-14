@@ -193,7 +193,7 @@ text-transform: capitalize;
 #viewWrapper .title_line							{	background-color:#fff; padding:15px;}
 #viewWrapper .title_line.nobgnopd					{	 padding:15px 15px;margin-bottom:0px !important; height:50px;}
 
-#viewWrapper .title_line #icon-options-general		{	width:215px;height:100%; background:url(../images/logo_small.png) no-repeat center center; display:inline-block; float:left;margin-right:25px; }
+#viewWrapper .title_line #icon-options-general		{	width:215px;height:100%; background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/logo_small.png) no-repeat center center; display:inline-block; float:left;margin-right:25px; }
 #viewWrapper .title_line .button-primary			{	margin-top:10px !important}
 #viewWrapper .title_line.nobgnopd .button-primary 	{	margin-top:0px !important}
 
@@ -294,26 +294,26 @@ text-transform: capitalize;
 
 .rs-size-image,
 .rs-preset-image,
-.rs-source-image							{	width:100%;height:75px;display:block;  background-position:top center; background-image:url(../images/trans_tile.png); background-repeat: no-repeat;}
+.rs-source-image							{	width:100%;height:75px;display:block;  background-position:top center; background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/trans_tile.png); background-repeat: no-repeat;}
 
 .rs-preset-noimage							{	display: block; height:92px;}
 
 .rs-size-image								{	height:36px;}
 .rs-preset-image							{	height:92px;}
 
-.rs-source-image.rssi-default					{	background-image:url(../images/slidersources/tp_source_defa.png);}
-.rs-source-image.rssi-flickr					{	background-image:url(../images/slidersources/tp_source_flic.png);}
-.rs-source-image.rssi-post						{	background-image:url(../images/slidersources/tp_source_post.png);}
-.rs-source-image.rssi-instagram					{	background-image:url(../images/slidersources/tp_source_inst.png);}
-.rs-source-image.rssi-facebook					{	background-image:url(../images/slidersources/tp_source_face.png);}
-.rs-source-image.rssi-twitter					{	background-image:url(../images/slidersources/tp_source_twit.png);}
-.rs-source-image.rssi-woo						{	background-image:url(../images/slidersources/tp_source_wooc.png);}
-.rs-source-image.rssi-youtube					{	background-image:url(../images/slidersources/tp_source_yout.png);}
-.rs-source-image.rssi-vimeo						{	background-image:url(../images/slidersources/tp_source_vime.png);}
+.rs-source-image.rssi-default					{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_defa.png);}
+.rs-source-image.rssi-flickr					{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_flic.png);}
+.rs-source-image.rssi-post						{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_post.png);}
+.rs-source-image.rssi-instagram					{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_inst.png);}
+.rs-source-image.rssi-facebook					{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_face.png);}
+.rs-source-image.rssi-twitter					{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_twit.png);}
+.rs-source-image.rssi-woo						{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_wooc.png);}
+.rs-source-image.rssi-youtube					{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_yout.png);}
+.rs-source-image.rssi-vimeo						{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/slidersources/tp_source_vime.png);}
 
-.rs-size-image.autosized						{	background-image:url(../images/mainoptions/auto.png);}
-.rs-size-image.fullwidthsized					{	background-image:url(../images/mainoptions/fullwidth.png);}
-.rs-size-image.fullscreensized					{	background-image:url(../images/mainoptions/fullscreen.png);}
+.rs-size-image.autosized						{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/mainoptions/auto.png);}
+.rs-size-image.fullwidthsized					{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/mainoptions/fullwidth.png);}
+.rs-size-image.fullscreensized					{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/mainoptions/fullscreen.png);}
 
 
 .rs-slidertype:hover .rs-preset-label,
@@ -325,9 +325,9 @@ text-transform: capitalize;
 
 .rs-preset-image								{	height:90px;}
 
-.rs-preset-image.standardslider					{	background-image:url(../images/sliderselector/type_slider.png);	}
-.rs-preset-image.heroscene						{	background-image:url(../images/sliderselector/type_hero.png);	}
-.rs-preset-image.carouselslider					{	background-image:url(../images/sliderselector/type_carousel.png);	}
+.rs-preset-image.standardslider					{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/sliderselector/type_slider.png);	}
+.rs-preset-image.heroscene						{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/sliderselector/type_hero.png);	}
+.rs-preset-image.carouselslider					{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/sliderselector/type_carousel.png);	}
 
 .preset-selector-wrapper.ps-container.ps-active-x .ps-scrollbar-x-rail .ps-scrollbar-x
  {	background-color:#36485F !important;}
@@ -349,7 +349,7 @@ text-transform: capitalize;
 .setting_box h4 		{	font-size: 14px;color:#34495E;font-weight: 600;padding:0px;margin-top:25px;margin-bottom:5px;}
 .setting_box h3 span 	{	display: block;padding-top: 5px;padding-left: 10px;color: #34495E;max-width: 250px;display: inline-block;line-height: 18px;}
 
-.setting_box h3 .setting_box-arrow 				{	width:25px;height:25px;float:right;background-image:url('../images/wp-arrows.png');background-repeat:no-repeat;background-position:right 5px;margin-right:4px;}
+.setting_box h3 .setting_box-arrow 				{	width:25px;height:25px;float:right;background-image:url('/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/wp-arrows.png');background-repeat:no-repeat;background-position:right 5px;margin-right:4px;}
 .setting_box .inputCheckbox 					{	margin-top:7px;}
 .setting_box h3.box_closed .setting_box-arrow	{	background-position:right -66px;}
 
@@ -468,11 +468,11 @@ input[type=text].ads-input:focus	{	background:#ccc;}
 													top: 3px;
 													width: 33px;
 													height: 33px;
-													background: url(../images/toolbar/icon-edit_dark.png);
+													background: url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-edit_dark.png);
 													background-repeat: no-repeat;
 													background-position: center center;
 													}
-.input-shortcode-icon							{	background-image: url(../images/toolbar/icon-shortcode.png);}													
+.input-shortcode-icon							{	background-image: url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-shortcode.png);}													
 
 
 /* PLACEHOLDER STYLING IN SLIDER SETTINGS */
@@ -555,16 +555,16 @@ span.description 					{	font-size: 13px;font-style: italic;color: #999;font-weig
 .toolbar-slider 		{	width:270px; height:135px; position:absolute; top:0px;left:0px;background:transparent; border:3px solid #808080;position:relative; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;}
 
 .toolbar-slider-image			{	background:#555;  width:100%;height:100%;z-index:0;}
-.toolbar-slider-image.shownowbg {	background:url(../images/tooltips/slide_placeholder_cut.png); }
+.toolbar-slider-image.shownowbg {	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/tooltips/slide_placeholder_cut.png); }
 
 
 .toolbar-progressbar	{	width:75%;height:4px; background:rgba(0,0,0,0.5); position:absolute;top:0px;left:0px;}
 .toolbar-dottedoverlay	{	width:100%;height:100%; background: transparent;; position:absolute; top:0px; left:0px;background-repeat:repeat;width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:3}
 
-.toolbar-dottedoverlay.twoxtwo				{	background:url(../images/gridtile.png)}
-.toolbar-dottedoverlay.twoxtwowhite			{	background:url(../images/gridtile_white.png)}
-.toolbar-dottedoverlay.threexthree			{	background:url(../images/gridtile_3x3.png)}
-.toolbar-dottedoverlay.threexthreewhite		{	background:url(../images/gridtile_3x3_white.png)}
+.toolbar-dottedoverlay.twoxtwo				{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/gridtile.png)}
+.toolbar-dottedoverlay.twoxtwowhite			{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/gridtile_white.png)}
+.toolbar-dottedoverlay.threexthree			{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/gridtile_3x3.png)}
+.toolbar-dottedoverlay.threexthreewhite		{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/gridtile_3x3_white.png)}
 
 .toolbar-navigation-left:after	{	content: '\e819'; font-family: "eg-font"; color:#fff; font-size:12px; position:absolute; left:6px;top:2px;}
 .toolbar-navigation-right:after	{	content: '\e81a'; font-family: "eg-font"; color:#fff; font-size:12px; position:absolute; left:6px; top:2px;}
@@ -869,25 +869,25 @@ span.description 					{	font-size: 13px;font-style: italic;color: #999;font-weig
 .rsp-layer							{	background:#3498db;color:#fff; padding:3px 5px; font-size:14px; position:absolute; top:50%;left:50%; -webkit-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%);}
 
 /* GRAPHIC OVERLAYS */
-.rsp-device-imac-bg 				{	background:url(../images/imac.png);background-position:50% 50%;width:400px;height:400px;margin-top:-200px;margin-left:-200px;}
-.rsp-device-macbook-bg 				{	background:url(../images/macbook.png);background-position:50% 50%;width:400px;height:400px;margin-top:-200px;margin-left:-200px;}
-.rsp-device-ipad-bg					{	background:url(../images/ipadair.png);background-position:50% 50%;width:400px;height:400px;margin-top:-200px;margin-left:-200px;}
-.rsp-device-iphone-bg				{	background:url(../images/iphone.png);background-position:50% 50%;width:400px;height:400px;margin-top:-200px;margin-left:-200px;}
+.rsp-device-imac-bg 				{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/imac.png);background-position:50% 50%;width:400px;height:400px;margin-top:-200px;margin-left:-200px;}
+.rsp-device-macbook-bg 				{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/macbook.png);background-position:50% 50%;width:400px;height:400px;margin-top:-200px;margin-left:-200px;}
+.rsp-device-ipad-bg					{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/ipadair.png);background-position:50% 50%;width:400px;height:400px;margin-top:-200px;margin-left:-200px;}
+.rsp-device-iphone-bg				{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/iphone.png);background-position:50% 50%;width:400px;height:400px;margin-top:-200px;margin-left:-200px;}
 
 
 /* IMAC PREVIEW */
-.rsp-imac-topbar					{	background:url(../images/topbar.png); width:187px;height:7px; position:absolute;top:9px;left:9px;}
+.rsp-imac-topbar					{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/topbar.png); width:187px;height:7px; position:absolute;top:9px;left:9px;}
 .rsp-bg								{	background:#bdc3c7; width:187px;height:100px;position:absolute;top:16px;left:9px;}
 .rsp-browser						{	background:#fff;position:absolute;top:16px;width:140px;height:99px;left:32px;}
-.rsp-slide-bg						{	background:url(../images/slidebg.jpg); background-size:cover; background-position:50% 50%;width:100%;
+.rsp-slide-bg						{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/slidebg.jpg); background-size:cover; background-position:50% 50%;width:100%;
 										height:70px; top:0px;left:0px; position:absolute;}
 .rsp-grid							{	width:140px; }
 
 /* IMAC PREVIEW */
-.rsp-macbook-topbar					{	background:url(../images/topbar.png); width:160px;height:7px; position:absolute;top:9px;left:9px;}
+.rsp-macbook-topbar					{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/topbar.png); width:160px;height:7px; position:absolute;top:9px;left:9px;}
 .rsp-device-macbook .rsp-bg			{	background:#bdc3c7; width:160px;height:92px;position:absolute;top:16px;left:9px;}
 .rsp-device-macbook .rsp-browser	{	background:#fff;position:absolute;top:16px;width:140px;height:92px;left:20px;}
-.rsp-device-macbook .rsp-slide-bg	{	background:url(../images/slidebg.jpg); background-size:cover; background-position:50% 50%;width:100%;
+.rsp-device-macbook .rsp-slide-bg	{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/slidebg.jpg); background-size:cover; background-position:50% 50%;width:100%;
 										height:70px; top:0px;left:0px; position:absolute;}
 .rsp-device-macbook .rsp-grid		{	 width:140px;}
 
@@ -907,11 +907,11 @@ span.description 					{	font-size: 13px;font-style: italic;color: #999;font-weig
 
 
 .rsp-dotted-line-hr-left,
-.rsp-dotted-line-hr-right			{	background:url(../images/dotted_vertical.png); width:1px; height:290px; top:50%; margin-top:-145px; left:5px; position:absolute; -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; -ms-transition: all 0.2s ease-out; }
+.rsp-dotted-line-hr-right			{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/dotted_vertical.png); width:1px; height:290px; top:50%; margin-top:-145px; left:5px; position:absolute; -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; -ms-transition: all 0.2s ease-out; }
 .rsp-dotted-line-hr-right			{	left:auto;right:5px;}
 
 .rsp-dotted-line-vr-top,
-.rsp-dotted-line-vr-bottom			{	background:url(../images/dotted_horizontal.png); width:230px; height:1px; left:50%;margin-left:-115px; top:2px; position:absolute; -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; -ms-transition: all 0.2s ease-out; }
+.rsp-dotted-line-vr-bottom			{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/dotted_horizontal.png); width:230px; height:1px; left:50%;margin-left:-115px; top:2px; position:absolute; -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; -ms-transition: all 0.2s ease-out; }
 .rsp-dotted-line-vr-bottom			{	top:auto;bottom:2px;}
 
 .rs-fullaligned .rsp-dotted-line-hr-left	{	left:0px;}
@@ -928,10 +928,10 @@ span.description 					{	font-size: 13px;font-style: italic;color: #999;font-weig
 .mo_thumbs_icon,
 .mo_tabs_icon		{	vertical-align:top;margin-right:10px;width:24px;height:25px; line-height: 25px; background-position:center center; background-repeat: no-repeat;display: inline-block;}	 
 
-.mo_arrows_icon		{	background-image:url(../images/mainoptions/arrows.png); }
-.mo_bullets_icon	{	background-image:url(../images/mainoptions/bullets.png); }
-.mo_thumbs_icon		{	background-image:url(../images/mainoptions/thumbnails.png); }	
-.mo_tabs_icon		{	background-image:url(../images/mainoptions/tabs.png); }
+.mo_arrows_icon		{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/mainoptions/arrows.png); }
+.mo_bullets_icon	{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/mainoptions/bullets.png); }
+.mo_thumbs_icon		{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/mainoptions/thumbnails.png); }	
+.mo_tabs_icon		{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/mainoptions/tabs.png); }
 
 .mo-navigation-wrapper .label-medium	{	margin-right:15px; }
 
@@ -1014,7 +1014,7 @@ div.bugfix:before 	  {  content: '\f308'; font-family: "dashicons"; color:#fff; 
 	-webkit-border-radius:0px;
 	position:relative;
 	overflow:hidden;
-	background:url(../images/tp_newsletter_bg.png) no-repeat 75px 10px #FFFFFF;
+	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/tp_newsletter_bg.png) no-repeat 75px 10px #FFFFFF;
 }
 
 div.star_red { font-size:13px; font-weight:600 !important; color:#000;line-height:18px;margin-top:30px;margin-bottom:10px;font-family: "Open Sans",sans; text-transform: uppercase;}
@@ -1059,7 +1059,7 @@ div.star_red:before { content: '\f155'; font-family: "dashicons"; color:#e03301;
 	-	TEMPLATE AREA FOR SLIDER	-
 *************************************/
 
-#close-template		{	position:absolute; cursor:pointer; top:25px;right:35px; font-size:15px;  text-align:center;   font-size:25px;line-height:35px;width:35px;  height:35px; background:url(../images/toolbar/icon-close-big.png) center center no-repeat;  }
+#close-template		{	position:absolute; cursor:pointer; top:25px;right:35px; font-size:15px;  text-align:center;   font-size:25px;line-height:35px;width:35px;  height:35px; background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-close-big.png) center center no-repeat;  }
 
 #close-template:hover {	color:#fff;}
 #template_area		{	position: fixed;
@@ -1189,7 +1189,7 @@ div.star_red:before { content: '\f155'; font-family: "dashicons"; color:#e03301;
 
 #viewWrapper					{	font-family: "Open Sans",sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
 
-.revlogo-mini					{	background:url(../images/logo.png); width:46px;height:46px; display:inline-block; background-position: left center; background-repeat: no-repeat;}
+.revlogo-mini					{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/logo.png); width:46px;height:46px; display:inline-block; background-position: left center; background-repeat: no-repeat;}
 #template_area .revlogo-mini	{	height:80px; vertical-align: middle;margin-right:5px;}
 
 .revolution-template-switcher	{	background:#fff;  cursor:pointer; line-height: 41px;vertical-align: middle; padding:7px 40px; display: table;width: 100%;box-sizing: border-box;}
@@ -1331,7 +1331,7 @@ span.template_filter_button.template_local_filter.selected {
 }
 
 
-.rs-visit-store	{	background:url(../images/visitstore.png); width:267px; height:50px; display:inline-block;}
+.rs-visit-store	{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/visitstore.png); width:267px; height:50px; display:inline-block;}
 
 .template_meta_line {	background:#fff; line-height:18px; padding:6px 6px; box-sizing: border-box; display: block; position: relative; z-index: 2;}
 .template_meta_line .template_new,
@@ -1438,23 +1438,23 @@ z-index: 10000;
 .rs-premium-benefits-dialogtitle 		{ 	font-size:30px; line-height:35px; font-weight:600; color:#00263b;display: block}
 .rs-premium-benefits-dialogsubtitle		{	font-size:14px; font-weight: 600; color:#00263b;opacity:0.4; display:block;}
 
-.rs-premium-benefits-dialogtitles .oppps-icon { vertical-align: top; background:url(../images/oops/oopps_blue.png); width:60px;height:60px; display: inline-block; }
-.rs-premium-benefits-dialogtitles .oppps-icon-red { vertical-align: top; background:url(../images/oops/oopps.png); width:60px;height:60px; display: inline-block; }
+.rs-premium-benefits-dialogtitles .oppps-icon { vertical-align: top; background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/oops/oopps_blue.png); width:60px;height:60px; display: inline-block; }
+.rs-premium-benefits-dialogtitles .oppps-icon-red { vertical-align: top; background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/oops/oopps.png); width:60px;height:60px; display: inline-block; }
 
-.rs-open-premium-benefits-dialog-container .ui-dialog-titlebar-close { height:22px; width:20px; background:url(../images/oops/close_cross_x.png); top:30px; right:30px; }
+.rs-open-premium-benefits-dialog-container .ui-dialog-titlebar-close { height:22px; width:20px; background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/oops/close_cross_x.png); top:30px; right:30px; }
 .rs-open-premium-benefits-dialog-container .ui-dialog-titlebar-close:before { display:none; }
 
 .rs-open-premium-benefits-dialog-container .ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix { height:auto; padding:30px 30px 20px; border-bottom:1px solid #9fadb4 !important; background: #e5e5e5}
-#rs-premium-benefits-dialog 			{	min-height:715px !important; padding:0px; background: #f5f5f5;  background-image:url(../images/oops/getpurchasecode_deko.png);background-position: bottom -50px center; background-repeat: no-repeat;}
+#rs-premium-benefits-dialog 			{	min-height:715px !important; padding:0px; background: #f5f5f5;  background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/oops/getpurchasecode_deko.png);background-position: bottom -50px center; background-repeat: no-repeat;}
 
 #rs-premium-benefits-dialog.nomainbg 	{	background:#fff !important;}
-#rs-premium-benefits-dialog.cachbg 		{	background: url(../images/oops/cachemodalbg.jpg) center bottom;   background-repeat: no-repeat; max-height: 650px !important; min-height: 650px !important;  }
+#rs-premium-benefits-dialog.cachbg 		{	background: url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/oops/cachemodalbg.jpg) center bottom;   background-repeat: no-repeat; max-height: 650px !important; min-height: 650px !important;  }
 
 
 .rs-premium-benefits-block  			{	padding: 20px 30px 30px; }
-.rs-premium-benefits-block .big_present { 	vertical-align: top; background:url(../images/oops/gift_big.png); width:48px;height:52px; display: inline-block; margin-right: 25px; } 
-.rs-premium-benefits-block .big_diamond { 	vertical-align: top; background:url(../images/oops/diamond_big.png); width:52px;height:48px; display: inline-block; margin-right: 25px; } 
-.rs-premium-benefits-block .big_light { 	vertical-align: top; background:url(../images/oops/light_big.png); width:40px;height:58px; display: inline-block; margin-right: 25px; } 
+.rs-premium-benefits-block .big_present { 	vertical-align: top; background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/oops/gift_big.png); width:48px;height:52px; display: inline-block; margin-right: 25px; } 
+.rs-premium-benefits-block .big_diamond { 	vertical-align: top; background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/oops/diamond_big.png); width:52px;height:48px; display: inline-block; margin-right: 25px; } 
+.rs-premium-benefits-block .big_light { 	vertical-align: top; background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/oops/light_big.png); width:40px;height:58px; display: inline-block; margin-right: 25px; } 
 .rs-premium-benefits-block h3 			{	font-size:20px; line-height:52px; font-weight:600; color:#00263b; margin-top:10px;margin-bottom:10px;}
 
 
@@ -1468,7 +1468,7 @@ z-index: 10000;
 .rs-premium-benefits-block ul li 		{	font-size:18px; color:#00263b; font-weight: 400; line-height: 32px; padding-left:75px; position: relative; margin:0px;}
 
 #basic_objectlibrary_license_block ul li:before,
-.rs-premium-benefits-block ul li:before { 	content:"";position:absolute; left:35px;top:10px; background:url(../images/oops/right-bold-arrow.png); width:15px;height:16px; }
+.rs-premium-benefits-block ul li:before { 	content:"";position:absolute; left:35px;top:10px; background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/oops/right-bold-arrow.png); width:15px;height:16px; }
 
 .rspb-withborder 						{	border-bottom:1px solid #9fadb4 !important;}
 
@@ -1490,7 +1490,7 @@ z-index: 10000;
 #basic_objectlibrary_license_block a.rspb_darklink:hover,
 .rs-premium-benefits-block a.rspb_darklink:hover 	{	text-decoration: none;}
 
-.instant_access 						{	width:168px; height:30px; background:url(../images/oops/instantaccess.png); display: inline-block; vertical-align: middle;margin-top:9px;}
+.instant_access 						{	width:168px; height:30px; background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/oops/instantaccess.png); display: inline-block; vertical-align: middle;margin-top:9px;}
 
 a.get_purchase_code 					{	letter-spacing:1px;text-decoration:none; margin:auto;display: block; width:700px; border-radius: 6px; background: #009aee; color:#fff; text-align: center; font-size:17px; text-transform: uppercase;; line-height: 60px; font-weight: 700;  box-shadow: none !important; text-shadow: none !important}
 a.get_purchase_code:hover 				{	background:#2980b9;}
@@ -1693,22 +1693,22 @@ a.get_purchase_code:hover 				{	background:#2980b9;}
 .tp-monitor-neutral				{	background-color: #95a5a6}
 
 .tp-monitor-showimage,
-.tp-monitor-linktoslide			{	background:url(../images/mainoptions/linktoslide.png) center center no-repeat; display:inline-block; width:25px; height:25px; opacity:0.5;cursor: pointer; vertical-align: top;line-height: 25px;}
+.tp-monitor-linktoslide			{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/mainoptions/linktoslide.png) center center no-repeat; display:inline-block; width:25px; height:25px; opacity:0.5;cursor: pointer; vertical-align: top;line-height: 25px;}
 
-.tp-monitor-showimage			{	background-image:url(../images/mainoptions/showimage.png);}
+.tp-monitor-showimage			{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/mainoptions/showimage.png);}
 
 .tp-monitor-showimage:hover,
 .tp-monitor-linktoslide:hover	{	opacity: 1}
 
 .tp-monitor-smalllabel			{	font-weight:400; color:#555; line-height:15px; font-size: 11px; display: block}
 .tp-monitor-total-subsize		{	font-size:20px; color:#555; line-height:30px; font-weight: 600; margin-bottom:15px;}
-.tp-monitor-imageicon			{	background:url(../images/mainoptions/imageicon.png) left center no-repeat; display:inline-block; width:25px; height:30px;  vertical-align: top;line-height: 30px;}
-.tp-monitor-cssicon				{	background:url(../images/mainoptions/cssicon.png) left center no-repeat; display:inline-block; width:25px; height:30px;  vertical-align: top;line-height: 30px;}
-.tp-monitor-jsicon				{	background:url(../images/mainoptions/jqueryicon.png) left center no-repeat; display:inline-block; width:25px; height:30px;  vertical-align: top;line-height: 30px;}
+.tp-monitor-imageicon			{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/mainoptions/imageicon.png) left center no-repeat; display:inline-block; width:25px; height:30px;  vertical-align: top;line-height: 30px;}
+.tp-monitor-cssicon				{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/mainoptions/cssicon.png) left center no-repeat; display:inline-block; width:25px; height:30px;  vertical-align: top;line-height: 30px;}
+.tp-monitor-jsicon				{	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/mainoptions/jqueryicon.png) left center no-repeat; display:inline-block; width:25px; height:30px;  vertical-align: top;line-height: 30px;}
 
 
 .tp-monitor-showdetails			{	margin-top:13px;cursor:pointer; position:top left; border:1px solid #ddd; padding:0px 10px; color:#777; line-height:25px; display:inline-block; box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;}
-.tp-monitor-openclose			{	opacity:0.5;width:20px;height:20px; display:inline-block; line-height:30px; background:url(../images/mainoptions/openclose.png); background-position: bottom left; vertical-align: middle; margin-right:10px;}
+.tp-monitor-openclose			{	opacity:0.5;width:20px;height:20px; display:inline-block; line-height:30px; background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/mainoptions/openclose.png); background-position: bottom left; vertical-align: middle; margin-right:10px;}
 
 .tp-monitor-showdetails:hover	{	color:#3398DB; border-color:#3398DB;}
 
@@ -1743,7 +1743,7 @@ a.get_purchase_code:hover 				{	background:#2980b9;}
 .tp-monitor-smart-speed,
 .tp-monitor-all-speed				{	display: none;}
 
-.overwrite-arrow					{	background: url(../images/mainoptions/tp_uparrow.png) center top no-repeat; background-size:12px 19px;display: inline-block;width: 12px;height: 19px;vertical-align: top;line-height: 30px;}
+.overwrite-arrow					{	background: url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/mainoptions/tp_uparrow.png) center top no-repeat; background-size:12px 19px;display: inline-block;width: 12px;height: 19px;vertical-align: top;line-height: 30px;}
 /******************************
 	-  WAIT A MINUTE  -
 ******************************/
@@ -1771,11 +1771,11 @@ a.get_purchase_code:hover 				{	background:#2980b9;}
 
 @font-face {
  font-family: 'eg-font';
-  src: url('font/egfont.eot?85610117');
-  src: url('font/egfont.eot?85610117#iefix') format('embedded-opentype'),
-       url('font/egfont.woff?85610117') format('woff'),
-       url('font/egfont.ttf?85610117') format('truetype'),
-       url('font/egfont.svg?85610117#egfont') format('svg');
+  src: url('/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/css/font/egfont.eot?85610117');
+  src: url('/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/css/font/egfont.eot?85610117#iefix') format('embedded-opentype'),
+       url('/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/css/font/egfont.woff?85610117') format('woff'),
+       url('/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/css/font/egfont.ttf?85610117') format('truetype'),
+       url('/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/css/font/egfont.svg?85610117#egfont') format('svg');
   font-weight: normal;
   font-style: normal;
 
@@ -2123,22 +2123,22 @@ a.get_purchase_code:hover 				{	background:#2980b9;}
 
 
 
-.rs-preview-ds-desktop                                             { 	display:inline-block;background-image:url(../images/toolbar/icon-mode-desktop-dark.png);	background-size:22px 20px;}
+.rs-preview-ds-desktop                                             { 	display:inline-block;background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-desktop-dark.png);	background-size:22px 20px;}
 .rs-preview-ds-desktop.selected,
-.rs-preview-ds-desktop:hover                                       { 	background-image:url(../images/toolbar/icon-mode-desktop-light.png);}
+.rs-preview-ds-desktop:hover                                       { 	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-desktop-light.png);}
 
-.rs-preview-ds-notebook                                            { 	display:inline-block;background-image:url(../images/toolbar/icon-mode-laptop-dark.png);	background-size:24px 16px;}
+.rs-preview-ds-notebook                                            { 	display:inline-block;background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-laptop-dark.png);	background-size:24px 16px;}
 .rs-preview-ds-notebook.selected,
-.rs-preview-ds-notebook:hover                                      { 	background-image:url(../images/toolbar/icon-mode-laptop-light.png);}
+.rs-preview-ds-notebook:hover                                      { 	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-laptop-light.png);}
 
 
-.rs-preview-ds-tablet                                              { 	display:inline-block;background-image:url(../images/toolbar/icon-mode-tablet-dark.png);	background-size:18px 24px;}
+.rs-preview-ds-tablet                                              { 	display:inline-block;background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-tablet-dark.png);	background-size:18px 24px;}
 .rs-preview-ds-tablet.selected,
-.rs-preview-ds-tablet:hover                                        { 	background-image:url(../images/toolbar/icon-mode-tablet-light.png);}
+.rs-preview-ds-tablet:hover                                        { 	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-tablet-light.png);}
 
-.rs-preview-ds-mobile                                              { 	display:inline-block;background-image:url(../images/toolbar/icon-mode-phone-dark.png); background-size:14px 22px;}
+.rs-preview-ds-mobile                                              { 	display:inline-block;background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-phone-dark.png); background-size:14px 22px;}
 .rs-preview-ds-mobile.selected,
-.rs-preview-ds-mobile:hover                                        { 	background-image:url(../images/toolbar/icon-mode-phone-light.png);}
+.rs-preview-ds-mobile:hover                                        { 	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/toolbar/icon-mode-phone-light.png);}
 
 
 .rs-close-preview i:before											{	color:#000;}
@@ -2205,7 +2205,7 @@ input[name="rs-css-include[]"]											{	margin-right:17px;}
 
 
 .rs-editing-markups-wrap					{	float: left; width: 60%; }
-.rs-editing-preview-wrap					{	float: right; width: 40%; background-image: url("../images/trans_tile2.png"); height: 100%; position: relative;}
+.rs-editing-preview-wrap					{	float: right; width: 40%; background-image: url("/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/trans_tile2.png"); height: 100%; position: relative;}
 
 
 .rs-css-wrapper .CodeMirror,
@@ -2287,7 +2287,7 @@ input[name="rs-css-include[]"]											{	margin-right:17px;}
 .rs-thumbs-preview .tp-thumb-image,
 .rs-arrows-preview .tp-arr-imgholder,
 .rs-tabs-preview .tp-tab-image,
-.rs-bullets-preview .tp-bullet-image		{	background-image:url(../images/navigationeditor/tp_thumb.jpg) !important;}
+.rs-bullets-preview .tp-bullet-image		{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/navigationeditor/tp_thumb.jpg) !important;}
 
 
 .rs-nav-fullrow					{	display:table-row;height:50px; position:relative;width:100%; }
@@ -2321,7 +2321,7 @@ input[name="rs-css-include[]"]											{	margin-right:17px;}
 
 
 
-#preview-nav-wrapper											{	width:400px;height:200px;position:absolute; visibility:hidden; background:url(../images/trans_tile2.png);	background-repeat:repeat;}
+#preview-nav-wrapper											{	width:400px;height:200px;position:absolute; visibility:hidden; background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/trans_tile2.png);	background-repeat:repeat;}
 
 #form_toolbar #preview-nav-wrapper								{	display:none;position:relative;margin-top:15px;}
 #preview-nav-wrapper .rs-thumbs-preview							{	position: absolute;width:100%;height:100%;}
@@ -2430,7 +2430,7 @@ input[name="rs-css-include[]"]											{	margin-right:17px;}
 .tls-slide:hover .tls-title 		{	 color:#fff;}
 .tls-id 				{	font-size:11px; line-height:20px;vertical-align:bottom;color:#555; display: inline-block;}
 .tls-firstslideimage	{	position:absolute; top:0px: left:0px; width:100%;height:100%;}
-.mini-transparent       { 	background:url(../images/trans_tile.png);	background-repeat:repeat;}
+.mini-transparent       { 	background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/trans_tile.png);	background-repeat:repeat;}
 .mini-as-bg				{	position:absolute;top:0px;left:0px;width:100%;height:100%;}
 
 .tls-hover-metas .button-primary {	display:block !important; margin:0px !important; 
@@ -2730,10 +2730,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00252525', e
 
 /********** TEMPLATE / NEW SLIDER / IMPORT SLIDER MODIFICATIONS *************/
 .slider_list_add_buttons		{	display: block; position: absolute; left:0px,top:0px;width:100%;height:100%; background-position:center center; background-repeat: no-repeat;background-size:40px 40px; margin-top:-10px;}
-.add_new_template_icon_wrapper	{	background-image:url(../images/add_template_bg.jpg); background-size: cover;background-position: center center; }
-.add_new_slider_icon			{	background-image:url(../images/new_slider.png); }
-.add_new_template_icon			{	background-image:url(../images/add_template.png); }
-.add_new_import_icon			{	background-image:url(../images/import_slider.png); }
+.add_new_template_icon_wrapper	{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/add_template_bg.jpg); background-size: cover;background-position: center center; }
+.add_new_slider_icon			{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/new_slider.png); }
+.add_new_template_icon			{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/add_template.png); }
+.add_new_import_icon			{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/import_slider.png); }
 
 .rs-listview .slider_list_add_buttons	{	margin-top:0px;}
 .rs-listview .add_new_template_icon_wrapper	{	background-image:none;}
@@ -2854,19 +2854,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00252525', e
 /* DASHOBARD CONTENT WITH ICON */
 .rs-dash-content-with-icon 					{	display:inline-block;}
 .rs-dash-icon 								{	width:40px;height:35px; display:inline-block; background-repeat: no-repeat;; background-position: left center;  vertical-align: top; }
-.rs-dash-copy 								{	background-image:url(../images/dash-copy.png); height:36px;}
-.rs-dash-buket 								{	background-image:url(../images/dash-buket.png); height:32px;}
-.rs-dash-diamond 							{	background-image:url(../images/dash-diamond.png); height:28px;}
-.rs-dash-download 							{	background-image:url(../images/dash-download.png);height:32px;}
-.rs-dash-gift 								{	background-image:url(../images/dash-gift.png);height:34px;}
-.rs-dash-light 								{	background-image:url(../images/dash-light.png); height:38px;}
-.rs-dash-plugin 							{	background-image:url(../images/dash-plugin.png); height:26px;}
-.rs-dash-smile 								{	background-image:url(../images/dash-smile.png); height:30px;}
-.rs-dash-speaker 							{	background-image:url(../images/dash-speaker.png); height:20px;margin-top:4px;}
-.rs-dash-ticket 							{	background-image:url(../images/dash-ticket.png);height:30px;}
-.rs-dash-refresh 							{	background-image:url(../images/dash-refresh.png);height:31px;}
-.rs-dash-credit 							{	background-image:url(../images/dash-credit.png);height:20px;}
-.rs-dash-notregistered 						{	background-image:url(../images/dash-notregistered.png);height:27px; margin-top:4px;}
+.rs-dash-copy 								{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/dash-copy.png); height:36px;}
+.rs-dash-buket 								{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/dash-buket.png); height:32px;}
+.rs-dash-diamond 							{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/dash-diamond.png); height:28px;}
+.rs-dash-download 							{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/dash-download.png);height:32px;}
+.rs-dash-gift 								{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/dash-gift.png);height:34px;}
+.rs-dash-light 								{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/dash-light.png); height:38px;}
+.rs-dash-plugin 							{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/dash-plugin.png); height:26px;}
+.rs-dash-smile 								{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/dash-smile.png); height:30px;}
+.rs-dash-speaker 							{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/dash-speaker.png); height:20px;margin-top:4px;}
+.rs-dash-ticket 							{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/dash-ticket.png);height:30px;}
+.rs-dash-refresh 							{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/dash-refresh.png);height:31px;}
+.rs-dash-credit 							{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/dash-credit.png);height:20px;}
+.rs-dash-notregistered 						{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/dash-notregistered.png);height:27px; margin-top:4px;}
 
 
 /* DASHBOARD OK/CANCEL */
@@ -2883,10 +2883,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00252525', e
 .icon-no-problem-found,
 .icon-problem-found 	{	margin-right:10px; display:inline-block; line-height:20px;width:20px;height:20px; background-position: center center; vertical-align: middle; background-repeat: no-repeat;}
 
-.icon-update-refresh 	{	background-image:url(../images/icon-update-refresh.png); margin-top:-2px;}
-.icon-problem-found 	{	background-image:url(../images/icon-problem-found.png); }
-.icon-no-problem-found  { 	background-image:url(../images/icon-no-problem-found.png); width:14px;height:14px; margin-top:-2px;}
-.icon-not-registered	{ 	background-image:url(../images/icon-not-registered.png); width:16px;height:16px; margin-top:-2px;}
+.icon-update-refresh 	{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/icon-update-refresh.png); margin-top:-2px;}
+.icon-problem-found 	{	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/icon-problem-found.png); }
+.icon-no-problem-found  { 	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/icon-no-problem-found.png); width:14px;height:14px; margin-top:-2px;}
+.icon-not-registered	{ 	background-image:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/icon-not-registered.png); width:16px;height:16px; margin-top:-2px;}
 
 /* DASHBOARD INFO PANEL TRIGGER */
 .rs-dash-more-info 		{	display: inline-block; cursor: pointer;vertical-align: top}
@@ -2896,8 +2896,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00252525', e
 
 /* SPECIAL WIDGET SETTINGS */
 
-.newsletter-bg 		{	position:absolute; top:31px;right:15px; background:url(../images/newsletter-figure.png); width:206px;height:90px;}
-.templatestore-bg	{	position:absolute; top:-75px;right:-140px; background:url(../images/dash-template-bg.jpg); width:343px;height:464px;z-index:0;}
+.newsletter-bg 		{	position:absolute; top:31px;right:15px; background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/newsletter-figure.png); width:206px;height:90px;}
+.templatestore-bg	{	position:absolute; top:-75px;right:-140px; background:url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/dash-template-bg.jpg); width:343px;height:464px;z-index:0;}
 
 
 .rs-dash-widget-default-view-wrap	{	position: relative;}
@@ -3011,7 +3011,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00252525', e
 
 .revslidercycle {
  position: absolute;
- background: url(../images/cycle.png);
+ background: url(/http://dlvgolecki.com/wp-content/plugins/revslider/admin/assets/images/cycle.png);
  background-position: center center;
  background-repeat: no-repeat;
  height: 100px;

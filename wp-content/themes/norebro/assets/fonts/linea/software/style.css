@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "linea-software-10";
-  src:url("linea-software-10.eot");
-  src:url("linea-software-10.eot?#iefix") format("embedded-opentype"),
-    url("linea-software-10.woff") format("woff"),
-    url("linea-software-10.ttf") format("truetype"),
-    url("linea-software-10.svg#linea-software-10") format("svg");
+  src:url("/http://dlvgolecki.com/wp-content/themes/norebro/assets/fonts/linea/software/linea-software-10.eot");
+  src:url("/http://dlvgolecki.com/wp-content/themes/norebro/assets/fonts/linea/software/linea-software-10.eot#iefix") format("embedded-opentype"),
+    url("/http://dlvgolecki.com/wp-content/themes/norebro/assets/fonts/linea/software/linea-software-10.woff") format("woff"),
+    url("/http://dlvgolecki.com/wp-content/themes/norebro/assets/fonts/linea/software/linea-software-10.ttf") format("truetype"),
+    url("/http://dlvgolecki.com/wp-content/themes/norebro/assets/fonts/linea/software/linea-software-10.svg#linea-software-10") format("svg");
   font-weight: normal;
   font-style: normal;
 

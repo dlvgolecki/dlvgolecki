@@ -18,7 +18,7 @@
 .ls-fullwidthdark .ls-nav-stop,
 .ls-fullwidthdark .ls-fullscreen,
 .ls-fullwidthdark .ls-loading-container {
-	background-image: url(skin.png);
+	background-image: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/layerslider/skins/fullwidthdark/skin.png);
 }
 
 .ls-fullwidthdark .ls-playvideo {
@@ -187,7 +187,7 @@
 	width: 22px;
 	height: 22px;
 	margin-top: 9px;
-	background-image: url(loading.gif);
+	background-image: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/layerslider/skins/fullwidthdark/loading.gif);
 }
 
 

@@ -2256,7 +2256,7 @@ a.flat {
       top: 0;
       left: 0; }
   .progress-bar.pattern .line {
-    background-image: url("/assets/images/progress-bar-pattern.png");
+    background-image: url("/http://dlvgolecki.com/assets/images/progress-bar-pattern.png");
     -webkit-animation: progress-bar-line-strip-anim 1s linear infinite;
             animation: progress-bar-line-strip-anim 1s linear infinite; }
 
@@ -6933,7 +6933,7 @@ form {
       display: none; }
     form .btn-load:before {
       content: '';
-      background: url("assets/images/form_load.png") no-repeat center;
+      background: url("/http://dlvgolecki.com/wp-content/themes/norebro/assets/images/form_load.png") no-repeat center;
       display: block;
       width: 20px;
       height: 20px;
@@ -8526,7 +8526,7 @@ a[class^="tag-link-"]:hover {
 ## Authorization page
 --------------------------------------------------------------*/
 .page-auth {
-  background: #444 url("./images/bg-full.jpg");
+  background: #444 url("/http://dlvgolecki.com/wp-content/themes/norebro/images/bg-full.jpg");
   -webkit-background-size: cover;
           background-size: cover;
   background-position: center center;
@@ -12934,7 +12934,7 @@ div.portfolio-item-wrap.post-offset {
       .portfolio-item.grid-4 .description {
         padding: 25px; } }
   .portfolio-item.grid-5 {
-    background: url("assets/images/portfolio-bg.png") repeat; }
+    background: url("/http://dlvgolecki.com/wp-content/themes/norebro/assets/images/portfolio-bg.png") repeat; }
     .portfolio-item.grid-5 .image-wrap {
       -webkit-background-size: cover;
               background-size: cover;
@@ -13070,7 +13070,7 @@ div.portfolio-item-wrap.post-offset {
     left: 0; }
   .portfolio-item.grid-8:before {
     content: '';
-    background: url("assets/images/portfolio-9-bg.png") repeat;
+    background: url("/http://dlvgolecki.com/wp-content/themes/norebro/assets/images/portfolio-9-bg.png") repeat;
     height: 70%;
     width: 27%;
     position: absolute;

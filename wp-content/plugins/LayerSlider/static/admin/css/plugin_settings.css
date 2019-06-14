@@ -193,13 +193,13 @@ ul.ls-font-list {
   padding: 0 0 0 22px;
   margin: 0 15px 0 0;
   float: left;
-  background: url(../img/tag.png) no-repeat left top;
+  background: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/admin/img/tag.png) no-repeat left top;
   cursor: pointer; }
 
 .ls-google-font-scripts li span {
   padding: 0 25px 0 0;
   margin: 0 -20px 0 0;
-  background: url(../img/tag.png) no-repeat right top;
+  background: url(/http://dlvgolecki.com/wp-content/plugins/LayerSlider/static/admin/img/tag.png) no-repeat right top;
   font: normal normal normal 13px/23px Arial, sans-serif;
   color: #996633;
   text-shadow: 0px 1px 1px #ffeac1;

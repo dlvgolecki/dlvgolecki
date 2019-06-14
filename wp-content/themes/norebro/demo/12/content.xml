@@ -1624,7 +1624,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>
@@ -2103,7 +2103,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>
@@ -2582,7 +2582,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>
@@ -3061,7 +3061,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>
@@ -3540,7 +3540,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>
@@ -4146,7 +4146,7 @@
 			<wp:comment_date_gmt><![CDATA[2017-08-25 12:27:57]]></wp:comment_date_gmt>
 			<wp:comment_content><![CDATA[Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
-Commenter avatars come from <a href="https://gravatar.com" rel="nofollow">Gravatar</a>.]]></wp:comment_content>
+Commenter avatars come from <a href="https://gravatar.com/" rel="nofollow">Gravatar</a>.]]></wp:comment_content>
 			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
 			<wp:comment_type><![CDATA[]]></wp:comment_type>
 			<wp:comment_parent>0</wp:comment_parent>

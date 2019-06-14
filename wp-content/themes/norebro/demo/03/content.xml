@@ -1375,7 +1375,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>
@@ -1850,7 +1850,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>
@@ -2313,7 +2313,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>
@@ -2771,7 +2771,7 @@
 			<wp:comment_id>9</wp:comment_id>
 			<wp:comment_author><![CDATA[WillaChief]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[maiknull@t-online.de]]></wp:comment_author_email>
-			<wp:comment_author_url>https://CoreySee.wix.com</wp:comment_author_url>
+			<wp:comment_author_url>https://CoreySee.wix.com/</wp:comment_author_url>
 			<wp:comment_author_IP><![CDATA[189.103.75.194]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2018-03-24 22:10:53]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2018-03-24 22:10:53]]></wp:comment_date_gmt>
@@ -2865,7 +2865,7 @@ unique articles, search for: boorfe's tips unlimited content]]></wp:comment_cont
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>
@@ -3328,7 +3328,7 @@ unique articles, search for: boorfe's tips unlimited content]]></wp:comment_cont
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[project_link]]></wp:meta_key>
-			<wp:meta_value><![CDATA[http://colabr.io]]></wp:meta_value>
+			<wp:meta_value><![CDATA[http://colabr.io]]>/</wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_project_link]]></wp:meta_key>

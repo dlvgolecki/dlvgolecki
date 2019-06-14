@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "linea-ecommerce-10";
-  src:url("linea-ecommerce-10.eot");
-  src:url("linea-ecommerce-10.eot?#iefix") format("embedded-opentype"),
-    url("linea-ecommerce-10.woff") format("woff"),
-    url("linea-ecommerce-10.ttf") format("truetype"),
-    url("linea-ecommerce-10.svg#linea-ecommerce-10") format("svg");
+  src:url("/http://dlvgolecki.com/wp-content/themes/norebro/assets/fonts/linea/ecommerce/linea-ecommerce-10.eot");
+  src:url("/http://dlvgolecki.com/wp-content/themes/norebro/assets/fonts/linea/ecommerce/linea-ecommerce-10.eot#iefix") format("embedded-opentype"),
+    url("/http://dlvgolecki.com/wp-content/themes/norebro/assets/fonts/linea/ecommerce/linea-ecommerce-10.woff") format("woff"),
+    url("/http://dlvgolecki.com/wp-content/themes/norebro/assets/fonts/linea/ecommerce/linea-ecommerce-10.ttf") format("truetype"),
+    url("/http://dlvgolecki.com/wp-content/themes/norebro/assets/fonts/linea/ecommerce/linea-ecommerce-10.svg#linea-ecommerce-10") format("svg");
   font-weight: normal;
   font-style: normal;
 
