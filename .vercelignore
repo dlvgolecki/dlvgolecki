@@ -1,0 +1,5 @@
+# Deploy only the standalone Knicks page — ignore the WordPress site files
+*
+!knicks/
+!knicks/**
+!vercel.json
