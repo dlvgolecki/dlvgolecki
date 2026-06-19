@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Building an Empire on the Back of Substack — A Strategic Report</title>
+<style>
+  :root{
+    --bg:#0d0e12; --panel:#15171e; --panel-2:#1b1e27; --ink:#e9e8e3; --muted:#9a9ba4;
+    --line:#2a2d38; --accent:#e8b04b; --accent-2:#6ea8fe; --good:#5cc98a; --bad:#e8745b;
+    --maxw:920px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:17px; -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent-2); text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 22px}
+  header.cover{
+    padding:84px 22px 56px; text-align:center;
+    background:radial-gradient(900px 420px at 50% -10%, rgba(232,176,75,.18), transparent 60%);
+    border-bottom:1px solid var(--line);
+  }
+  .kicker{letter-spacing:.22em; text-transform:uppercase; font-size:12px; color:var(--accent); font-weight:700}
+  h1{font-size:clamp(30px,5vw,50px); line-height:1.08; margin:14px auto 10px; max-width:760px; font-weight:800; letter-spacing:-.02em}
+  .sub{color:var(--muted); max-width:640px; margin:0 auto; font-size:18px}
+  .meta{margin-top:22px; color:var(--muted); font-size:13px}
+  .meta span{margin:0 8px}
+  h2{font-size:clamp(23px,3.4vw,32px); letter-spacing:-.01em; margin:6px 0 6px; font-weight:800}
+  h3{font-size:20px; margin:26px 0 6px; font-weight:700}
+  h4{font-size:16px; margin:18px 0 4px; font-weight:700; color:var(--ink)}
+  section{padding:48px 0; border-bottom:1px solid var(--line)}
+  .sec-num{color:var(--accent); font-weight:800; font-size:14px; letter-spacing:.15em; text-transform:uppercase}
+  p{margin:12px 0}
+  .lead{font-size:19px}
+  .muted{color:var(--muted)}
+  ul,ol{margin:12px 0; padding-left:22px}
+  li{margin:7px 0}
+  strong{color:#fff}
+  .toc{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:22px 26px; margin:30px 0}
+  .toc ol{columns:2; column-gap:34px; margin:8px 0 0}
+  .toc a{color:var(--ink)}
+  @media(max-width:640px){.toc ol{columns:1}}
+  .card{background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:24px 26px; margin:22px 0; position:relative; overflow:hidden}
+  .card::before{content:""; position:absolute; left:0; top:0; bottom:0; width:4px; background:var(--accent)}
+  .card.win::before{background:var(--good)}
+  .card.warn::before{background:var(--bad)}
+  .tag{display:inline-block; font-size:11px; letter-spacing:.12em; text-transform:uppercase; font-weight:700; padding:3px 10px; border-radius:999px; border:1px solid var(--line); color:var(--muted); margin-right:6px}
+  .tag.win{color:var(--good); border-color:rgba(92,201,138,.4)}
+  .tag.warn{color:var(--bad); border-color:rgba(232,116,91,.4)}
+  .tag.neutral{color:var(--accent-2); border-color:rgba(110,168,254,.4)}
+  .stat-row{display:flex; flex-wrap:wrap; gap:14px; margin:18px 0}
+  .stat{flex:1 1 150px; background:var(--panel-2); border:1px solid var(--line); border-radius:12px; padding:14px 16px}
+  .stat .n{font-size:24px; font-weight:800; color:#fff; letter-spacing:-.01em}
+  .stat .l{font-size:12.5px; color:var(--muted); margin-top:2px}
+  .grid2{display:grid; grid-template-columns:1fr 1fr; gap:18px}
+  @media(max-width:680px){.grid2{grid-template-columns:1fr}}
+  .box{border:1px solid var(--line); border-radius:12px; padding:16px 18px; background:var(--panel-2)}
+  .box.good{border-color:rgba(92,201,138,.35)}
+  .box.bad{border-color:rgba(232,116,91,.35)}
+  .box h4{margin-top:0}
+  .box.good h4{color:var(--good)} .box.bad h4{color:var(--bad)}
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px}
+  th,td{text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top}
+  th{color:var(--muted); font-weight:600; font-size:12.5px; text-transform:uppercase; letter-spacing:.06em}
+  tr:hover td{background:rgba(255,255,255,.02)}
+  blockquote{margin:18px 0; padding:14px 20px; border-left:3px solid var(--accent); background:var(--panel); border-radius:0 10px 10px 0; color:#dcdbd4; font-style:italic}
+  .callout{background:linear-gradient(180deg,rgba(232,176,75,.10),rgba(232,176,75,.03)); border:1px solid rgba(232,176,75,.3); border-radius:14px; padding:20px 24px; margin:22px 0}
+  .callout h3{margin-top:0; color:var(--accent)}
+  .pill{display:inline-block; background:var(--panel-2); border:1px solid var(--line); border-radius:8px; padding:2px 9px; font-size:13px; margin:2px 3px; color:var(--muted)}
+  .step{display:flex; gap:18px; margin:20px 0; align-items:flex-start}
+  .step .num{flex:0 0 44px; height:44px; width:44px; border-radius:50%; background:var(--accent); color:#1a1300; font-weight:800; display:flex; align-items:center; justify-content:center; font-size:18px}
+  .step .body{flex:1}
+  .step .body h4{margin-top:6px}
+  .conf{font-size:11px; font-weight:700; padding:2px 8px; border-radius:6px; letter-spacing:.04em}
+  .conf.high{background:rgba(92,201,138,.16); color:var(--good)}
+  .conf.med{background:rgba(232,176,75,.16); color:var(--accent)}
+  .conf.low{background:rgba(232,116,91,.16); color:var(--bad)}
+  .src{font-size:13px; color:var(--muted)}
+  .footnote{font-size:13.5px; color:var(--muted); border-top:1px solid var(--line); margin-top:10px; padding-top:10px}
+  details{border:1px solid var(--line); border-radius:12px; padding:6px 18px; margin:14px 0; background:var(--panel)}
+  summary{cursor:pointer; font-weight:700; padding:10px 0}
+  footer{padding:50px 22px 70px; text-align:center; color:var(--muted); font-size:14px}
+  .divider-quote{font-size:21px; text-align:center; color:#cfcec7; max-width:640px; margin:10px auto; font-weight:600; line-height:1.4}
+  .legend{display:flex; gap:18px; flex-wrap:wrap; margin:10px 0 0; font-size:13px; color:var(--muted)}
+  .legend span{display:inline-flex; align-items:center; gap:6px}
+  .dot{height:10px;width:10px;border-radius:50%;display:inline-block}
+</style>
+</head>
+<body>
+
+<header class="cover">
+  <div class="kicker">Strategic Report · Creator-Economy Land Grabs</div>
+  <h1>Building an Empire on the Back of Substack</h1>
+  <p class="sub">What every platform-shift winner did right, what killed the ones who flamed out, and a concrete playbook for owning the Substack wave before anyone else figures out it's a wave.</p>
+  <div class="meta">
+    <span>Prepared June 2026</span>·
+    <span>7 case studies</span>·
+    <span>~60 sourced data points</span>
+  </div>
+</header>
+
+<div class="wrap">
+
+<!-- ===================== INTRO ===================== -->
+<section id="thesis">
+  <div class="sec-num">The Thesis</div>
+  <h2>Every platform shift mints a few empires. The window is short and it's open now.</h2>
+  <p class="lead">You're right that almost no one is thinking about Substack the way operators thought about Instagram in 2012, YouTube in 2013, or email newsletters in 2016. That's the opportunity. But "no precedent on Substack" doesn't mean no precedent — there's a <em>very</em> consistent pattern across every prior wave for who wins the land grab and who gets washed out when the platform's favor changes.</p>
+
+  <p>This report reverse-engineers that pattern from seven empires (and a graveyard of cautionary tales), then translates it into a Substack-specific plan. The single most important finding, stated up front so everything else hangs off it:</p>
+
+  <div class="callout">
+    <h3>The one rule that separates empires from flameouts</h3>
+    <p style="margin-bottom:0"><strong>Borrowed attention is only valuable if you convert it into something you own — an email list you can port, IP/brands that live off-platform, and multiple revenue lines.</strong> Every durable empire did this. Every collapse — the MCNs, the TikTok houses, the VC-funded digital-media roll-ups — failed precisely because they scaled attention on a platform they didn't control and never converted it into owned, margin-bearing assets.</p>
+  </div>
+
+  <p class="muted">Substack is unusually good for this strategy for one structural reason: <strong>you own and can export your email list</strong>. That makes it closer to the newsletter empires (Morning Brew, Axios) than to Instagram or TikTok — but it carries its own platform risks, covered in §8.</p>
+
+  <div class="toc">
+    <strong>Contents</strong>
+    <ol>
+      <li><a href="#pattern">The land-grab pattern</a></li>
+      <li><a href="#fuckjerry">Case: FuckJerry / Instagram</a></li>
+      <li><a href="#barstool">Case: Barstool Sports</a></li>
+      <li><a href="#newsletters">Case: Newsletter empires</a></li>
+      <li><a href="#video">Case: MrBeast vs. the MCN graveyard</a></li>
+      <li><a href="#tiktok">Case: TikTok houses vs. brand-builders</a></li>
+      <li><a href="#blogging">Case: The digital-media roll-up bust</a></li>
+      <li><a href="#playbook">The winning playbook</a></li>
+      <li><a href="#avoid">Failure modes to avoid</a></li>
+      <li><a href="#substack-risk">Substack-specific platform risk</a></li>
+      <li><a href="#scene">Your actual portfolio</a></li>
+      <li><a href="#plan">Your sequenced action plan</a></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===================== PATTERN ===================== -->
+<section id="pattern">
+  <div class="sec-num">01 · The Pattern</div>
+  <h2>How platform-shift empires actually get built</h2>
+  <p>Strip away the specifics and the same six-move sequence recurs across Instagram, YouTube, newsletters, and TikTok:</p>
+
+  <table>
+    <tr><th>Move</th><th>What the winners did</th><th>What the losers did</th></tr>
+    <tr><td><strong>1. Arrive early</strong></td><td>Built audience while the platform was underpriced and crediting/competition norms were weak (FuckJerry 2011, Barstool's 2007 web pivot, Morning Brew 2015).</td><td>Arrived after the land was claimed and paid retail for attention.</td></tr>
+    <tr><td><strong>2. Aggregate attention cheaply</strong></td><td>A scalable, low-cost content engine — repackaging, a daily format, a repeatable show.</td><td>Expensive bespoke content with no compounding loop.</td></tr>
+    <tr><td><strong>3. Convert to <em>owned</em> audience</strong></td><td>Email lists, logged-in subscribers, first-party data they could port off-platform.</td><td>Rented audiences that lived inside Facebook/YouTube/TikTok's graph.</td></tr>
+    <tr><td><strong>4. Diversify revenue</strong></td><td>Ads + subscriptions + commerce/CPG + events + licensing — no single point of failure.</td><td>One revenue line (usually programmatic ads or platform payouts).</td></tr>
+    <tr><td><strong>5. Roll up or incubate adjacency</strong></td><td>A network of niche brands/talent under one umbrella, cross-promoting cheaply.</td><td>Rolled up creators as a pure middleman, adding no value (MCNs).</td></tr>
+    <tr><td><strong>6. Build a brand bigger than the platform</strong></td><td>Owned IP and products that would survive if the platform vanished (Feastables, What Do You Meme?, Chamberlain Coffee).</td><td>A brand that <em>was</em> the platform presence and died with the algorithm.</td></tr>
+  </table>
+
+  <p class="muted">The rest of this report is just this table, proven out case by case — and then applied to Substack.</p>
+</section>
+
+<!-- ===================== FUCKJERRY ===================== -->
+<section id="fuckjerry">
+  <div class="sec-num">02 · Case Study</div>
+  <h2>FuckJerry &amp; Jerry Media — the Instagram land grab (and its landmines)</h2>
+  <p class="muted">The purest example of arriving early and aggregating attention — and the purest cautionary tale about <em>how</em> you aggregate it.</p>
+
+  <div class="stat-row">
+    <div class="stat"><div class="n">2011</div><div class="l">Elliot Tebele starts @fuckjerry</div></div>
+    <div class="stat"><div class="n">~14M</div><div class="l">IG followers by 2018–19</div></div>
+    <div class="stat"><div class="n">~$30K</div><div class="l">per sponsored post (Adweek)</div></div>
+    <div class="stat"><div class="n">$100M+</div><div class="l">annual revenue of the products arm (Relatable)</div></div>
+  </div>
+
+  <h3>What they built</h3>
+  <p>Tebele grew one of Instagram's largest accounts by <strong>reposting/aggregating other people's memes and jokes</strong> — a near-zero-cost content engine exploiting an underpriced 2011–2015 attention window. He then converted the audience three ways: a premium <strong>branded-content agency</strong> (Jerry Media, ~$30K/post, clients incl. Coca-Cola, Subway, Bud Light), <strong>account-takeover services</strong>, and — crucially — <strong>owned products</strong>.</p>
+  <p>The owned products are the part worth studying. <strong>What Do You Meme?</strong> (2016) launched on Kickstarter, hit its goal in ~4 hours, raised ~$230K, and became a top-selling Amazon party game. Its parent company, <strong>Relatable</strong>, now reportedly does <strong>$100M+ in annual revenue across 45M+ units</strong> and 100+ products. They also launched <strong>JAJA Tequila</strong> (2018). These are platform-independent, margin-bearing assets — the durable value was built <em>off</em> Instagram.</p>
+
+  <div class="grid2">
+    <div class="box good">
+      <h4>✓ What to copy</h4>
+      <ul>
+        <li><strong>Early-mover aggregation</strong> of an underpriced attention surface.</li>
+        <li><strong>Productize the audience</strong> into owned IP (a card game, a spirit brand) — not just brand-deal fees.</li>
+        <li>Use the audience as a <strong>launch channel</strong> (sold out Kickstarter in hours).</li>
+        <li>Stack revenue: agency + services + products.</li>
+      </ul>
+    </div>
+    <div class="box bad">
+      <h4>✕ The landmines</h4>
+      <ul>
+        <li><strong>IP/plagiarism as the engine.</strong> Reposting uncredited work drew lawsuits and the viral <strong>#FuckFuckJerry</strong> boycott (2019) led by John Mulaney, Patton Oswalt et al. <strong>Comedy Central pulled its ads.</strong></li>
+        <li><strong>Reputation debt compounds</strong> — tolerated for years, then detonated the moment they were a big enough target.</li>
+        <li><strong>Reactive apologies ring hollow</strong> — the "we'll get permission" pledge came only after ad money was threatened, and pointedly didn't mention <em>paying</em> creators.</li>
+        <li><strong>Toxic association</strong> — marketing <strong>Fyre Festival</strong>, then co-producing the Netflix doc about it.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="footnote"><strong>Substack lesson:</strong> aggregation works, but on Substack do it as <em>curation with credit and revenue-share</em> — a network that lifts writers, not one that strip-mines them. The "build owned products off the audience" move is directly portable. Sources: <a href="https://www.adweek.com/performance-marketing/how-instagram-star-fuckjerry-makes-35000-one-piece-sponsored-content-174990/">Adweek</a>, <a href="https://en.wikipedia.org/wiki/What_Do_You_Meme">Wikipedia</a>, <a href="https://www.aol.com/finance/meme-company-acquires-top-murder-150000269.html">AOL/Finance</a>, <a href="https://knowyourmeme.com/memes/events/fuckfuckjerry">KnowYourMeme</a>.</p>
+</section>
+
+<!-- ===================== BARSTOOL ===================== -->
+<section id="barstool">
+  <div class="sec-num">03 · Case Study</div>
+  <h2>Barstool Sports — the personality-network empire</h2>
+  <p class="muted">The closest structural model for what you're describing: turn one media brand into a constellation of personality-led properties. Also a masterclass in talent leverage and founder risk.</p>
+
+  <div class="stat-row">
+    <div class="stat"><div class="n">2003</div><div class="l">Founded as a print gambling sheet</div></div>
+    <div class="stat"><div class="n">~$450M</div><div class="l">Valuation at PENN's 2020 entry</div></div>
+    <div class="stat"><div class="n">~$551M → $1</div><div class="l">PENN bought in, then sold back to Portnoy</div></div>
+    <div class="stat"><div class="n">100M+</div><div class="l">monthly uniques (2024–25)</div></div>
+  </div>
+
+  <h3>The model</h3>
+  <p>Portnoy rode every platform shift — <strong>print → blog (~2007) → podcasts → social → streaming</strong> — without losing the core voice, and built a <strong>network of niche personality brands under one umbrella</strong>: <em>Pardon My Take</em>, <em>KFC Radio</em>, <em>Call Her Daddy</em>, Rough N' Rowdy PPV boxing, the One Bite pizza app, Barstool Gold subscriptions, merch (~$60–80M/yr), and gambling. Each show owns a distinct niche; the in-house ad network monetizes the whole portfolio; the "Stoolies" community drives commerce that ad-only media can't.</p>
+
+  <h3>The two lessons that matter most for you</h3>
+  <div class="grid2">
+    <div class="box bad">
+      <h4>✕ Talent will outgrow you — own the IP early</h4>
+      <p>Barstool <em>launched</em> Call Her Daddy but didn't lock the talent or own durable IP. Alex Cooper walked to <strong>Spotify (~$60M)</strong>, then <strong>SiriusXM (up to ~$125M)</strong>, and built her own <strong>Unwell Network</strong>. The platform captured the launch; the individual captured the empire.</p>
+    </div>
+    <div class="box bad">
+      <h4>✕ Founder/brand-safety risk caps your ceiling</h4>
+      <p>Portnoy <em>is</em> the brand and the liability. Persistent controversy suppressed blue-chip advertiser revenue, and the edgy brand proved <strong>regulatorily incompatible with gambling</strong> — forcing PENN to write off <strong>$800M+</strong> and hand Barstool back for $1.</p>
+    </div>
+  </div>
+  <div class="box good" style="margin-top:18px">
+    <h4>✓ What to copy</h4>
+    <p style="margin-bottom:0">A <strong>portfolio of personality brands</strong> de-risks any single one. A <strong>tribal community</strong> (not just an audience) unlocks commerce, PPV, subscriptions, and apps. <strong>Diversify revenue aggressively</strong> so no single channel is a point of failure. But if you incubate stars: <em>own durable IP or accept you're a launchpad, not the destination.</em></p>
+  </div>
+  <p class="footnote">Sources: <a href="https://www.cnbc.com/2020/01/29/penn-national-stock-soars-on-gaming-partnership-with-barstool-sports.html">CNBC</a>, <a href="https://variety.com/2023/digital/news/dave-portnoy-barstool-sports-paid-one-dollar-penn-entertainment-1235692418/">Variety</a>, <a href="https://variety.com/2024/digital/news/alex-cooper-deal-siriusxm-call-her-daddy-exclusive-content-1236112140/">Variety (Cooper/SiriusXM)</a>.</p>
+</section>
+
+<!-- ===================== NEWSLETTERS ===================== -->
+<section id="newsletters">
+  <div class="sec-num">04 · Case Study</div>
+  <h2>The newsletter empires — your closest analog</h2>
+  <p class="muted">Email-native media is the most direct precedent for a Substack empire, because the asset being built (and later bought) is <strong>an owned, addressable list</strong> — exactly what Substack gives you.</p>
+
+  <table>
+    <tr><th>Company</th><th>Built</th><th>Exit</th></tr>
+    <tr><td><strong>Morning Brew</strong> (2015)</td><td>2.5M→4M+ subs; B2B "Brew" verticals (Marketing, Tech, Retail, HR, CFO…); podcasts, events, courses. Profitable since 2018.</td><td>Majority to Insider/Axel Springer (2020) at <strong>~$75M</strong>; Axel Springer took the rest in 2025. On track for ~$70M+ revenue in 2025.</td></tr>
+    <tr><td><strong>Axios</strong> (2016)</td><td>"Smart Brevity"; national + 24-city <strong>Axios Local</strong> network; spun out Axios HQ SaaS.</td><td>Sold to <strong>Cox Enterprises</strong> (2022) at <strong>~$525M</strong>.</td></tr>
+    <tr><td><strong>Industry Dive</strong></td><td>B2B roll-up: ~13M audience, 70+ newsletters, 27 publications, ~$110M rev at ~30% margin.</td><td>Sold to <strong>Informa</strong> (2022): $389M cash, up to ~$525M with earn-out.</td></tr>
+    <tr><td><strong>The Hustle</strong> (2016)</td><td>1.5M daily subs; <em>Trends</em> premium community; <em>My First Million</em> podcast.</td><td>Sold to <strong>HubSpot</strong> (2021), reported <strong>~$27M</strong> (undisclosed).</td></tr>
+    <tr><td><strong>theSkimm</strong> (2012)</td><td>~5–7M subs across 6 newsletters; Skimm Money/Well; ambassador program; raised ~$29M.</td><td>Sold to <strong>Ziff Davis / Everyday Health</strong> (2025), terms undisclosed — <em>read as a soft outcome after years of shopping it</em>.</td></tr>
+  </table>
+
+  <div class="grid2">
+    <div class="box good">
+      <h4>✓ The repeatable playbook</h4>
+      <ul>
+        <li><strong>Own the list</strong> — that's literally the asset acquirers buy (audience + first-party data, no algorithm gatekeeper).</li>
+        <li><strong>A portfolio of titles</strong>, not one newsletter — cross-promote off the flagship, sell niche audiences at higher CPMs, de-risk any single title.</li>
+        <li><strong>Stack revenue</strong>: ads + premium subs + events + courses + podcasts + SaaS spinouts.</li>
+        <li><strong>Be profitable</strong> — it's what turns a newsletter into an acquisition.</li>
+        <li><strong>Sell to a strategic</strong> whose core business is amplified by your list.</li>
+      </ul>
+    </div>
+    <div class="box bad">
+      <h4>✕ What to avoid</h4>
+      <ul>
+        <li><strong>Sell from strength, not after the plateau</strong> — theSkimm shopped itself for years as subs slid from ~7M to ~5M.</li>
+        <li><strong>One list + ads only</strong> (the 1440 model) is a great cash business but caps optionality and exit multiple — thin first-party data, nothing to upsell.</li>
+        <li><strong>Reach ≠ revenue.</strong> Acquirers diligence <em>engaged, deliverable, monetizable</em> subscribers, not headline counts.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="footnote">The strategic-buyer logic is the punchline: <strong>HubSpot</strong> bought a top-of-funnel audience for its software; <strong>Informa</strong> bought a B2B audience to feed events; <strong>Ziff Davis</strong> bought a female health/wellness audience. A Substack network with a defined, valuable audience is an acquisition target for exactly these reasons. Sources: <a href="https://www.axios.com/2020/10/29/insider-inc-buys-majority-stake-morning-brew">Axios</a>, <a href="https://www.cnbc.com/2022/08/08/axios-to-sell-itself-to-cox-enterprises-for-525-million.html">CNBC</a>, <a href="https://www.axios.com/2022/07/19/industry-dive-informa-acquisition">Axios</a>, <a href="https://www.niemanlab.org/2025/03/after-years-of-exploring-a-sale-the-skimm-is-acquired-by-ziff-davis/">Nieman Lab</a>.</p>
+</section>
+
+<!-- ===================== VIDEO ===================== -->
+<section id="video">
+  <div class="sec-num">05 · Case Study</div>
+  <h2>MrBeast vs. the MCN graveyard — own the product, or be the middleman</h2>
+  <p class="muted">The clearest "do this / never do that" pair in the whole report.</p>
+
+  <div class="grid2">
+    <div class="card win" style="margin:0">
+      <span class="tag win">Do this</span>
+      <h3 style="margin-top:10px">MrBeast / Beast Industries</h3>
+      <p>Optimized obsessively for retention, reinvested everything for years, hit <strong>500M+ YouTube subscribers (2026)</strong>. The key move: he didn't just take brand-deal fees — he built <strong>fully-owned, vertically-integrated CPG brands</strong>.</p>
+      <ul>
+        <li><strong>Feastables</strong> (chocolate, 2022): ~$250M revenue and <strong>~$20M profit</strong> in 2024; projected ~$520M in 2025. This is the engine.</li>
+        <li>The <strong>media arm loses money</strong> (~$250M revenue, ~$80M net loss in 2024). Content is the flywheel; the owned product is the margin.</li>
+        <li>2024 raise: <strong>~$5.2B valuation</strong> (Alpha Wave).</li>
+      </ul>
+      <p style="margin-bottom:0"><strong>Counter-example inside the example:</strong> <em>MrBeast Burger</em> — he licensed his name into someone else's operation (Virtual Dining Concepts), <strong>didn't own it</strong>, called the food "inedible," and ended up in litigation. The lesson he internalized and you should too: <strong>own the IP and the product.</strong></p>
+    </div>
+    <div class="card warn" style="margin:0">
+      <span class="tag warn">Never do this</span>
+      <h3 style="margin-top:10px">Maker Studios &amp; the MCNs</h3>
+      <p>Disney bought <strong>Maker Studios</strong> (2014) for ~$500M (up to ~$950M w/ earnouts); it aggregated tens of thousands of YouTube channels. By 2017 Disney had <strong>written off ~$100M</strong> and gutted it. <strong>Machinima, Fullscreen, Defy Media</strong> (collapsed 2018, owing creators) — the whole category died.</p>
+      <h4>Why MCNs failed — the roll-up trap</h4>
+      <ul>
+        <li>Took a <strong>cut of creator revenue</strong> while adding little value.</li>
+        <li><strong>No leverage / no lock-in</strong> — creators owned their audiences and could leave.</li>
+        <li><strong>No owned IP</strong> — scale without ownership.</li>
+        <li><strong>Platform controlled the economics</strong> — the 2017 "Adpocalypse" crushed thin margins overnight.</li>
+      </ul>
+      <p style="margin-bottom:0"><strong>This is the single biggest trap for your idea.</strong> "Rolling up Substack writers" as a middleman who takes a cut and adds nothing is the Maker Studios model. It fails every time.</p>
+    </div>
+  </div>
+  <p class="footnote">Sources: <a href="https://fortune.com/2025/09/26/mrbeast-jimmy-donaldson-beast-industries-philanthropy-profit/">Fortune</a>, <a href="https://variety.com/2023/digital/news/mr-beast-sued-burger-company-100-million-1235689127/">Variety</a>, <a href="https://techcrunch.com/2014/03/24/disney-maker-studios/">TechCrunch</a>, <a href="https://digiday.com/marketing/deconstruction-mcn-youtube-matures-middlemen-lose-ground/">Digiday</a>.</p>
+</section>
+
+<!-- ===================== TIKTOK ===================== -->
+<section id="tiktok">
+  <div class="sec-num">06 · Case Study</div>
+  <h2>TikTok houses vs. brand-builders — collectives collapse, owned brands endure</h2>
+  <p class="muted">The most recent wave, and the one whose mistakes are freshest.</p>
+
+  <div class="grid2">
+    <div class="box bad">
+      <h4>✕ The collab houses (fast rise, fast collapse)</h4>
+      <p><strong>Hype House</strong> (Dec 2019 — Charli &amp; Dixie D'Amelio, Addison Rae) got a Netflix show in Jan 2022 <em>after the stars had already left</em>, and dissolved. <strong>Sway House</strong> disbanded Feb 2021 amid arrests and chaos. <strong>Clubhouse</strong>: dead by late 2021.</p>
+      <p style="margin-bottom:0"><strong>Why:</strong> no real business model, no owned product, internal conflict, and — the structural killer — <strong>individual stars outgrew the collective and left</strong>. Same defect as the MCNs: no lock-in, no owned IP.</p>
+    </div>
+    <div class="box good">
+      <h4>✓ The brand-builders (durable)</h4>
+      <ul>
+        <li><strong>The D'Amelios</strong>: a Dunkin' drink that spiked sales 45%, a Hulu show, and <strong>D'Amelio Brands</strong> (equity, not fees) — footwear, skincare, fragrance. Stated thesis: <em>"Fame comes and goes"</em> → build ownable equity.</li>
+        <li><strong>Emma Chamberlain</strong>: <strong>Chamberlain Coffee</strong> (~$22M rev in 2024) — an owned CPG brand, not a brand deal.</li>
+        <li><strong>Alix Earle</strong>: even her network deal (Alex Cooper's Unwell) ended with Unwell <em>renouncing all rights so Earle could own the show</em> — the creator kept the durable asset.</li>
+      </ul>
+    </div>
+  </div>
+  <blockquote>The one-line synthesis across YouTube and TikTok: <strong>Own the IP and the product, or be the disposable middleman.</strong> MrBeast's media arm loses ~$80M/year — what makes Beast Industries a $5.2B company is the chocolate he owns outright.</blockquote>
+  <p class="footnote">Sources: <a href="https://www.dazeddigital.com/life-culture/article/55421/1/hype-house-and-the-failed-promise-of-creator-collectives-netflix-tiktok">Dazed</a>, <a href="https://www.foxbusiness.com/technology/damelio-familys-brand-providing-equity-business-opportunity-for-tiktok-sisters-fame-comes-and-goes">Fox Business</a>, <a href="https://variety.com/2025/digital/news/alix-earle-hot-mess-podcast-dropped-alex-cooper-1236320220/">Variety</a>.</p>
+</section>
+
+<!-- ===================== BLOGGING ===================== -->
+<section id="blogging">
+  <div class="sec-num">07 · Case Study</div>
+  <h2>The digital-media roll-up bust — the "network of verticals" cautionary tale</h2>
+  <p class="muted">An entire generation tried exactly the "empire of many properties" model you're describing — and most of it was written down to zero. Understanding why is how you avoid repeating it.</p>
+
+  <div class="stat-row">
+    <div class="stat"><div class="n">$5.7B → bankrupt</div><div class="l">Vice Media (2017 peak → 2023 Ch.11, sold for ~$225–350M)</div></div>
+    <div class="stat"><div class="n">$1.7B → ~$30M</div><div class="l">BuzzFeed (peak private valuation → 2024 market cap)</div></div>
+    <div class="stat"><div class="n">$140M</div><div class="l">judgment that bankrupted Gawker Media (2016)</div></div>
+  </div>
+
+  <p><strong>Gawker</strong> pioneered the network-of-verticals model (Gizmodo, Deadspin, Jezebel, Kotaku, Lifehacker) — and a single Thiel-funded lawsuit killed the whole company. <strong>BuzzFeed</strong> built on Facebook's algorithm and cratered when Facebook changed it. <strong>Vice</strong> rode a $5.7B valuation into bankruptcy. <strong>Group Nine</strong> (NowThis, The Dodo, Thrillist, Seeker) rolled up verticals and got absorbed into Vox. The "pivot to video" (2017) wiped out Mashable, Mic, Refinery29.</p>
+
+  <h3>Why nearly all of them failed</h3>
+  <ul>
+    <li><strong>Platform dependency for traffic.</strong> Audiences belonged to Facebook/Google. When the algorithm changed, the traffic — and the business — vanished. No owned distribution.</li>
+    <li><strong>Commodity programmatic ad revenue.</strong> Low, falling CPMs in a market the duopoly priced.</li>
+    <li><strong>No direct audience relationship</strong> — no email, no logins, no subscriptions, no first-party data, no recurring revenue. Vice's bankruptcy filing literally blamed having "no consumer revenue stream."</li>
+    <li><strong>Diversifying <em>content</em> verticals didn't diversify <em>revenue</em></strong> — every brand fed off the same ad/traffic pipe.</li>
+    <li><strong>Concentrated legal/founder risk</strong> across one balance sheet (Gawker).</li>
+  </ul>
+  <div class="box good">
+    <h4>✓ What the survivors did differently</h4>
+    <p style="margin-bottom:0">The Atlantic (1M+ subscribers, profitable 2024) and the NYT (games, cooking, audio bundles) <strong>owned their audiences and charged them directly</strong>. Owned relationships + diversified revenue beyond programmatic ads is the entire difference between the survivors and the write-downs.</p>
+  </div>
+  <p class="footnote"><strong>The warning for you, in one sentence:</strong> "many brands on someone else's pipe, monetized by commodity ads" is the exact failure pattern of 2002–2023 digital media. A Substack empire must be the opposite — owned lists, direct subscription revenue, diversified income. Sources: <a href="https://www.pbs.org/newshour/amp/nation/gawker-media-files-for-bankruptcy-plans-sale-of-company">PBS</a>, <a href="https://www.hollywoodreporter.com/business/business-news/vice-media-shane-smith-1235837714/">THR</a>, <a href="https://fortune.com/2021/06/24/buzzfeed-to-go-public-with-1-5-billion-spac-deal">Fortune</a>.</p>
+</section>
+
+<!-- ===================== PLAYBOOK ===================== -->
+<section id="playbook">
+  <div class="sec-num">08 · Synthesis</div>
+  <h2>The winning playbook, distilled</h2>
+  <p class="lead">Across all seven cases, the empires that lasted did the same things. Here's the synthesis as a checklist you can hold every decision against.</p>
+
+  <div class="grid2">
+    <div class="box good">
+      <h4>✓ DO</h4>
+      <ul>
+        <li><strong>Arrive early and aggregate</strong> while attention is underpriced. <em>(You're here on Substack.)</em></li>
+        <li><strong>Own a portable audience</strong> — the email list you can export — as the non-negotiable core asset.</li>
+        <li><strong>Build a portfolio of niche brands/voices</strong> that cross-promote off a flagship.</li>
+        <li><strong>Add real value</strong> to any talent you bring in — distribution, production, monetization, audience — never just take a cut.</li>
+        <li><strong>Diversify revenue early</strong>: subscriptions + ads/sponsorship + commerce/CPG + events + courses + licensing.</li>
+        <li><strong>Build owned IP/products off-platform</strong> (a brand, a product, an event franchise) that survives the platform.</li>
+        <li><strong>Reach profitability</strong> — it's leverage, optionality, and the thing that makes you acquirable.</li>
+        <li><strong>Keep off-platform optionality</strong> — be able to leave on your terms.</li>
+      </ul>
+    </div>
+    <div class="box bad">
+      <h4>✕ DON'T</h4>
+      <ul>
+        <li><strong>Don't roll up creators as a value-less middleman</strong> (the MCN/collab-house death).</li>
+        <li><strong>Don't depend on one platform's algorithm</strong> for distribution or one channel for revenue.</li>
+        <li><strong>Don't strip-mine others' IP</strong> — credit and pay; reputation debt detonates at scale (FuckJerry).</li>
+        <li><strong>Don't let talent build leverage you don't share in</strong> — own IP or accept you're a launchpad (Call Her Daddy).</li>
+        <li><strong>Don't tie the empire to one founder's controversy</strong> — it caps your advertiser ceiling (Barstool).</li>
+        <li><strong>Don't confuse reach with revenue</strong>, or vanity subs with engaged ones.</li>
+        <li><strong>Don't sell/raise from weakness</strong> after the audience plateaus (theSkimm).</li>
+        <li><strong>Don't over-raise against hype</strong> and inflate a valuation you can't grow into (Vice/BuzzFeed).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SUBSTACK RISK ===================== -->
+<section id="substack-risk">
+  <div class="sec-num">09 · Platform Risk</div>
+  <h2>Substack specifically — the economics and the risks you're building on</h2>
+
+  <h3>The economics</h3>
+  <div class="stat-row">
+    <div class="stat"><div class="n">10%</div><div class="l">Substack's cut of paid subs (+ ~2.9% + 30¢ Stripe). You net ~83–87%.</div></div>
+    <div class="stat"><div class="n">$1.1B</div><div class="l">Substack valuation (Series C, July 2025, $100M led by BOND + Chernin)</div></div>
+    <div class="stat"><div class="n">5M+</div><div class="l">paid subscriptions platform-wide (Mar 2025); ~$450M writer gross revenue</div></div>
+    <div class="stat"><div class="n">50+</div><div class="l">authors earning $1M+/yr from subs alone</div></div>
+  </div>
+  <p>Substack only reached <strong>positive cash flow in Q1 2025</strong>, on ~$45M annualized revenue. The top 10 accounts earn ~$40M/year combined. The platform's <strong>Notes feed (2023), recommendations engine, and bestseller leaderboards</strong> are the discovery loop you can exploit — they're explicitly designed to drive cross-subscriptions, which is rocket fuel for a multi-property strategy.</p>
+
+  <div class="callout">
+    <h3>The decisive structural advantage</h3>
+    <p style="margin-bottom:0">Unlike Instagram, YouTube, or TikTok, <strong>Substack lets you export your full subscriber list</strong> (emails, signup dates, engagement, payment data). That makes a Substack audience closer to the <em>owned</em> newsletter empires than to the rented social-platform audiences that died with their algorithms. <strong>This is why the strategy is viable here and wasn't for the TikTok houses.</strong></p>
+  </div>
+
+  <h3>The risks — eyes open</h3>
+  <ul>
+    <li><strong>Platform was unprofitable until 2025</strong> and failed to raise a round in 2022. It's better now, but it's a VC-backed company that needs to keep growing into a $1.1B valuation.</li>
+    <li><strong>Content-moderation blowups.</strong> The 2023–24 "Substackers Against Nazis" controversy (~250 authors) saw Substack defend a hands-off free-speech stance and only narrowly remove five publications. <strong>Casey Newton's Platformer left.</strong> Reputational contagion is a real risk for anyone whose brand sits on the platform.</li>
+    <li><strong>Non-portable discovery.</strong> Your email list is yours — but the recommendations graph, Notes reach, and leaderboard placement are <em>not</em>. If you leave, you keep the list and lose the discovery engine. Networks that outgrew Substack (the Everything Bundle → <strong>Every</strong>) rebuilt their own tech.</li>
+    <li><strong>Credible competitors for your exit ramp:</strong> <strong>Ghost</strong> (open-source, 0% rev share, full ownership), <strong>beehiiv</strong> (built by ex–Morning Brew people, 0% rev share), <strong>Patreon</strong>. Keep these as live options.</li>
+  </ul>
+  <p class="footnote">Sources: <a href="https://support.substack.com">Substack support (fees, export)</a>, Axios/Hollywood Reporter (Series C $100M/$1.1B), <a href="https://www.niemanlab.org">Nieman Lab</a>, The Atlantic / Washington Post (moderation), <a href="https://www.axios.com">Axios (Everything Bundle → Every)</a>.</p>
+</section>
+
+<!-- ===================== SCENE ===================== -->
+<section id="scene">
+  <div class="sec-num">10 · Your Empire</div>
+  <h2>Your actual portfolio — mapped to the playbook</h2>
+  <p class="muted">Clarified: these aren't other people's accounts — they're <strong>your</strong> brands. That changes everything, and for the better. You already have the <em>shape</em> of an empire most operators never assemble: a flagship voice, an owned product, a talent property, community layers, and a personal holding brand. The strategic question isn't "what to build" — it's <strong>focus, sequencing, and how the pieces reinforce each other.</strong></p>
+
+  <table>
+    <tr><th>Property</th><th>What it is</th><th>Its role &amp; the lesson that applies</th></tr>
+    <tr>
+      <td><strong>Gallop</strong></td>
+      <td>"Letterboxd for galleries" — a product/platform</td>
+      <td><span class="tag win">Crown jewel</span> Your <strong>owned, off-platform IP</strong> — the equivalent of Feastables / What Do You Meme? This is the asset that survives if Substack vanishes (§5, §7). Everything else should funnel audience and first-party data <em>into</em> it. <strong>Prioritize it above the newsletters.</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Francis Sable</strong></td>
+      <td>Pseudonym — candid, insider art-world commentary</td>
+      <td><span class="tag neutral">Flagship voice</span> Your <strong>attention engine</strong>. The pseudonym is the <em>anti-Barstool</em> move (§3): candor without personal founder/reputation risk. Trade-off — it's firewalled from your real-name brands (can't openly cross-promote them without linking identities) and can't carry a face-led product. Plan now for unmasking risk.</td>
+    </tr>
+    <tr>
+      <td><strong>Maja's account</strong></td>
+      <td>An artist's personal brand you operate for her</td>
+      <td><span class="tag warn">Talent property</span> The <strong>Call Her Daddy lesson</strong> (§3) applies directly: agree IP ownership, revenue split, and what happens if Maja leaves — <em>in writing, now, while it's friendly.</em> You're the launchpad; make sure you share the upside you're creating.</td>
+    </tr>
+    <tr>
+      <td><strong>Lobster Club</strong></td>
+      <td>Community / club <span class="muted">(assumed: art-world IRL / dinner / collector club — confirm)</span></td>
+      <td><span class="tag neutral">Community layer</span> Events and tribal community are <strong>high-margin, diversified revenue and the deepest moat</strong> (Barstool "Stoolies," Morning Brew summits). IRL is very on-thesis for an art audience and hard for a platform to disintermediate.</td>
+    </tr>
+    <tr>
+      <td><strong>Alaya: New Gods</strong></td>
+      <td>"Spiritual AA" — a spiritual/recovery community</td>
+      <td><span class="tag">Adjacent bet</span> A <strong>different audience</strong> from the art world. That's fine — but it won't cross-promote cleanly, and the portfolio logic in §4 depends on a shared audience. Treat it as its own venture, or be deliberate about the bridge.</td>
+    </tr>
+    <tr>
+      <td><strong>T's New Thing</strong></td>
+      <td>Your personal brand — products &amp; invention</td>
+      <td><span class="tag">Holding brand</span> Your <strong>MrBeast-style umbrella</strong> for launching owned products — the public-facing operator identity that ties the (non-pseudonymous) pieces together.</td>
+    </tr>
+  </table>
+
+  <h3>Five things to internalize about <em>your</em> setup</h3>
+  <ol>
+    <li><strong>You have the shape; the risk is focus.</strong> Six properties, one operator, is the spreading-thin failure mode — it's what killed the collab houses and stretched the roll-ups (§5, §6). The winners built teams behind the brands. <strong>Sequence them; don't run all six at full tilt.</strong></li>
+    <li><strong>Your through-line is the art world.</strong> Francis Sable, Maja, Gallop, and (likely) Lobster Club share one audience — and that coherence is exactly the acquirable asset the newsletter empires had (§4). Alaya and T's New Thing sit outside it; decide <em>consciously</em> whether they're in the empire or separate bets.</li>
+    <li><strong>Gallop is your Feastables — prioritize it.</strong> A product you own outright beats any number of newsletters you rent on Substack. Use the art-world Substacks as the cheap top-of-funnel that feeds Gallop's users and first-party data.</li>
+    <li><strong>You are your own network — so bundle.</strong> Your properties can cross-recommend via Substack's recommendations engine for free (§9), and you can literally offer a paid bundle. The one caveat: Francis Sable's pseudonymity firewalls it from the rest.</li>
+    <li><strong>Lock the Maja terms now.</strong> The single most predictable future conflict in your portfolio is the talent relationship. Define ownership and splits while it's friendly — not after the account takes off.</li>
+  </ol>
+  <p class="footnote"><strong>Assumption flagged:</strong> Lobster Club's exact nature is my inference (art-world community/events). Tell me what it actually is — and the current size/stage of each property — and I'll tighten this section and the sequencing in §11 accordingly.</p>
+</section>
+
+<!-- ===================== PLAN ===================== -->
+<section id="plan">
+  <div class="sec-num">11 · The Plan</div>
+  <h2>A sequenced action plan for your Substack empire</h2>
+  <p class="lead">Synthesizing every lesson above into a build order. The sequencing matters: own the asset first, diversify second, expand the network third, build off-platform IP fourth.</p>
+
+  <div class="step">
+    <div class="num">1</div>
+    <div class="body">
+      <h4>Win one flagship and define the audience</h4>
+      <p>Before any "empire," you need one publication with a <strong>coherent, valuable, namable audience</strong> (the thing Morning Brew, Axios, and The Hustle all had). "Young NYC culture/fashion/lifestyle" is a strong, advertiser-legible, acquirer-legible niche. Get the flagship to clear product-market fit and a real paid-conversion rate before expanding — don't spread thin.</p>
+    </div>
+  </div>
+  <div class="step">
+    <div class="num">2</div>
+    <div class="body">
+      <h4>Lock down ownership of the asset from day one</h4>
+      <p><strong>Export your subscriber list monthly</strong> and keep it off-platform. Treat the email list — not your Substack follower count — as the company. Stand up a lightweight off-platform backup (your own domain, an ESP you control, or beehiiv/Ghost as a hedge) so leaving is always a real option, not a threat you can't execute. This is the single move that separates you from every TikTok house that died.</p>
+    </div>
+  </div>
+  <div class="step">
+    <div class="num">3</div>
+    <div class="body">
+      <h4>Diversify revenue beyond the 90/10 sub before you scale headcount</h4>
+      <p>Stack at minimum three lines early: <strong>paid subscriptions</strong> (the base), <strong>sponsorships</strong> (native, audience-fit — higher CPM than programmatic because the niche is defined), and one of <strong>events / commerce / a paid community</strong>. Profitability is leverage; reach it before raising anything.</p>
+    </div>
+  </div>
+  <div class="step">
+    <div class="num">4</div>
+    <div class="body">
+      <h4>Build the network as a value-add collective, not a tax</h4>
+      <p>This is where you either become Morning Brew or become Maker Studios. As you bring other voices under the umbrella (starting with Maja, and any writers you add), win them by <strong>giving them something they can't get alone</strong> — cross-promotion off your flagship, shared sponsorship sales at rates they can't command solo, production/editing, a bundle. <strong>Use Substack's recommendations engine and Notes</strong> as the cheap cross-promotion loop. Share revenue transparently. The moment you're just taking a cut and adding nothing, you've built an MCN and it will collapse.</p>
+      <p class="muted">Structure options, lightest to heaviest: (a) a <strong>recommendation alliance</strong> (no economics, pure cross-promo); (b) a <strong>shared sponsorship/ad network</strong> across independent titles; (c) a true <strong>bundle</strong> (one price, many titles); (d) an <strong>equity collective</strong> where writers own a piece of the umbrella. Start light, earn the right to go heavier.</p>
+    </div>
+  </div>
+  <div class="step">
+    <div class="num">5</div>
+    <div class="body">
+      <h4>Build owned IP that survives the platform</h4>
+      <p>The durable value in <em>every</em> case study lived off-platform: What Do You Meme?, Feastables, Chamberlain Coffee, D'Amelio Brands, Axios HQ. Turn your audience into <strong>something you own outright</strong> — an event/IRL franchise (very on-brand for an NYC culture scene), a product/CPG line, a paid community, a media/IP property, or a SaaS-y tool. This is your Feastables: the thing that makes the whole enterprise worth more than its newsletter revenue, and that can't be taken away by an algorithm change.</p>
+    </div>
+  </div>
+  <div class="step">
+    <div class="num">6</div>
+    <div class="body">
+      <h4>Protect against the known failure modes — deliberately</h4>
+      <ul>
+        <li><strong>Talent leverage:</strong> if you incubate stars, agree on IP ownership and revenue splits up front (learn from Call Her Daddy).</li>
+        <li><strong>Reputation:</strong> credit and pay everyone whose work you feature (learn from FuckJerry); don't tie the whole brand to one person's controversy (learn from Barstool).</li>
+        <li><strong>Platform contagion:</strong> have your exit ramp built and tested, given Substack's moderation history.</li>
+        <li><strong>Don't over-raise:</strong> grow into any valuation; sell or raise from strength, never after a plateau.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="callout">
+    <h3>The empire in one sentence</h3>
+    <p class="divider-quote" style="margin:6px auto">Use Substack to cheaply aggregate a defined, valuable audience you can <em>own and export</em>; lift a network of adjacent voices by genuinely adding value; diversify revenue early; and convert all of it into off-platform IP that would survive if Substack disappeared tomorrow.</p>
+    <p class="muted" style="text-align:center; margin-bottom:0">Do that, and you're Morning Brew. Skip the "own and export" or the "add real value" parts, and you're a TikTok house with a newsletter.</p>
+  </div>
+</section>
+
+<!-- ===================== APPENDIX ===================== -->
+<section id="appendix">
+  <div class="sec-num">Appendix</div>
+  <h2>Confidence notes &amp; key sources</h2>
+  <details>
+    <summary>Figures flagged as approximate or contested</summary>
+    <ul>
+      <li><strong>The Hustle's ~$27M</strong> sale price is reported (Axios); officially undisclosed.</li>
+      <li><strong>theSkimm's 2025 sale price</strong> is undisclosed; "soft outcome" is interpretation.</li>
+      <li><strong>Industry Dive:</strong> $389M cash upfront; ~$525M total is earn-out-contingent.</li>
+      <li><strong>Beast Industries revenue:</strong> ~$500M is segment-summed; Donaldson has claimed $600–700M. Round figures evolved ($200M@$5B vs. $300M@$5.2B).</li>
+      <li><strong>Barstool current revenue/valuation</strong> is private; segment figures are estimates.</li>
+      <li><strong>Maker Studios</strong> price reported as ~$500M up to ~$675–950M with earnouts.</li>
+      <li><strong>"Jukebox"</strong> (from your brief) — no Jerry Media division by that name was verifiable; the products arm is What Do You Meme?/Relatable + JAJA Tequila. "Dilly Dilly" was a Bud Light campaign (a client), not a FuckJerry product.</li>
+    </ul>
+  </details>
+  <details>
+    <summary>Primary sources by case</summary>
+    <p class="src"><strong>FuckJerry:</strong> Adweek, Inc., TechCrunch, KnowYourMeme, Rolling Stone, AOL/Finance, Quartz (Fyre/Emmy).<br>
+    <strong>Barstool:</strong> CNBC, Axios, Variety, PENN IR, Fox Business, Moneywise, Bustle (Cooper).<br>
+    <strong>Newsletters:</strong> Axios, CNBC, TechCrunch, Variety, Nieman Lab, A Media Operator, Press Gazette.<br>
+    <strong>MrBeast/MCNs:</strong> Fortune, Bloomberg (via Fortune), Variety, NBC News, TechCrunch, Digiday, Justia.<br>
+    <strong>TikTok:</strong> Dazed, Variety, Fox Business, Dunkin' newsroom, Deadline, Femfounded.<br>
+    <strong>Blogging roll-ups:</strong> PBS, CNBC, First Amendment Watch, Fortune, Hollywood Reporter, Semafor, CJR, Digiday.<br>
+    <strong>Substack:</strong> Substack support &amp; features pages, Axios, Hollywood Reporter, TechCrunch, The Atlantic/Washington Post (moderation), Press Gazette, beehiiv blog.</p>
+  </details>
+  <p class="muted" style="margin-top:18px">Research compiled from six parallel source-verification passes. Where sources disagreed, figures were flagged rather than averaged. Creator identifications in §10 are labeled by confidence and were not fabricated where unverifiable.</p>
+</section>
+
+</div>
+
+<footer>
+  <div class="divider-quote" style="font-size:18px">"No one is thinking about this with Substack" — which is exactly what they said about Instagram in 2012 and newsletters in 2015.</div>
+  <p style="margin-top:20px">Strategic report · prepared June 2026 · for internal strategy use</p>
+</footer>
+
+</body>
+</html>
